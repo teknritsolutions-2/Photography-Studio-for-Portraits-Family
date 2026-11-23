@@ -10,6 +10,9 @@
     />
     <link rel="icon" href="../assets/icons/mark.svg" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
+    <link rel="stylesheet" href="../assets/css/inner-pages.css" />
+    <link rel="stylesheet" href="../assets/css/refinement.css" />
     <script src="../assets/js/prefs.js"></script>
   </head>
   <body data-page="packages">
@@ -169,8 +172,61 @@
           enquire.
         </p>
       </section>
+      <section class="wrap package-context">
+        <div>
+          <div class="eyebrow"><b></b>TIME IN FRONT OF THE LENS</div>
+          <h2>A session shaped<br />around <em>you.</em></h2>
+          <p>
+            Choose enough time for the photographs you want to make. Each option
+            includes a proof gallery to help you select your edited digital
+            photographs, with prints available to consider afterward.
+          </p>
+        </div>
+        <div class="package-photo-strip">
+          <img
+            src="../assets/images/maternity/m-flowers.jpg"
+            alt="Maternity portrait among flowers"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              ../assets/images/maternity/m-flowers-small.jpg  640w,
+              ../assets/images/maternity/m-flowers.jpg       1400w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1400"
+            height="2097"
+          /><img
+            src="../assets/images/maternity/m-studio.jpg"
+            alt="Maternity portrait in the studio"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              ../assets/images/maternity/m-studio-small.jpg  640w,
+              ../assets/images/maternity/m-studio.jpg       1400w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1400"
+            height="2100"
+          /><img
+            src="../assets/images/maternity/m-waiting.jpg"
+            alt="A quiet maternity portrait"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              ../assets/images/maternity/m-waiting-small.jpg  640w,
+              ../assets/images/maternity/m-waiting.jpg       1400w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1400"
+            height="2100"
+          />
+        </div>
+      </section>
       <div class="wrap packages">
-        <article id="essential">
+        <article id="essential" data-package="essential">
           <div class="meta">Portraits · 30 minutes</div>
           <h2>Essential Portrait</h2>
           <p>One look in soft, directional light.</p>
@@ -187,7 +243,7 @@
             >
           </div>
         </article>
-        <article id="signature">
+        <article id="signature" data-package="signature">
           <div class="meta">Portraits · 60 minutes</div>
           <h2>Signature Portrait</h2>
           <p>Time for a change of look and a second lighting setup.</p>
@@ -204,7 +260,7 @@
             >
           </div>
         </article>
-        <article id="family">
+        <article id="family" data-package="family">
           <div class="meta">Family · 60 minutes</div>
           <h2>Family Story</h2>
           <p>Group portraits, smaller pairings and moments of play.</p>
@@ -221,7 +277,7 @@
             >
           </div>
         </article>
-        <article id="maternity">
+        <article id="maternity" data-package="maternity">
           <div class="meta">Maternity · 60 minutes</div>
           <h2>Maternity Collection</h2>
           <p>Individual frames with room for a partner to join.</p>
@@ -239,6 +295,39 @@
           </div>
         </article>
       </div>
+      <section class="wrap package-comparison">
+        <div class="eyebrow"><b></b>AT A GLANCE</div>
+        <h2>The session <em>details.</em></h2>
+        <div
+          class="comparison-scroll"
+          tabindex="0"
+          aria-label="Scrollable package comparison"
+        >
+          <table>
+            <caption>
+              Indicative session catalogue in INR
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Session</th>
+                <th scope="col">Time</th>
+                <th scope="col">Edited photographs</th>
+                <th scope="col">Proof gallery</th>
+                <th scope="col">Prints</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody data-package-comparison></tbody>
+          </table>
+        </div>
+        <p class="notice">
+          Optional print prices depend on size and finish. Session details and
+          pricing can be confirmed with the studio when you enquire.
+        </p>
+        <a class="textlink" href="../pages/contact.html"
+          >Prepare a session enquiry</a
+        >
+      </section>
     </main>
     <footer>
       <a class="brand" href="../index.html"
@@ -327,7 +416,10 @@
         </button>
       </div>
     </dialog>
+    <script defer src="../assets/js/site-config.js"></script>
     <script defer src="../assets/js/catalog.js"></script>
     <script defer src="../assets/js/main.js"></script>
+    <script defer src="../assets/js/gallery.js"></script>
+    <script defer src="../assets/js/package-display.js"></script>
   </body>
 </html>

@@ -1,0 +1,175 @@
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.proof-grid img {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  background: var(--card);
+}
+.dash-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 18px;
+}
+.dash {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  min-height: 100dvh;
+}
+.dash aside {
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  overflow: auto;
+  padding: 32px 22px;
+  background: #0b0c0f;
+  color: #f5f5f6;
+}
+.dash aside .brand {
+  font-size: 28px;
+  gap: 7px;
+}
+.dash aside .brand svg {
+  width: 26px;
+}
+.dash aside nav {
+  display: grid;
+  gap: 4px;
+  margin: 40px 0 25px;
+}
+.dash aside nav a {
+  padding: 10px;
+  border-radius: 2px;
+}
+.dash aside .active {
+  background: #303139;
+}
+.dash aside .tools {
+  margin-top: 25px;
+}
+.dash > header {
+  display: none;
+}
+.dash main {
+  padding: clamp(24px, 4vw, 75px);
+  max-width: 1450px;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+.dash h1 {
+  font-size: clamp(42px, 5vw, 78px);
+  margin: 14px 0;
+}
+.dash h2 {
+  font-size: clamp(26px, 3vw, 40px);
+  margin: 20px 0;
+}
+.dash h3 {
+  font-size: 25px;
+}
+.dash .panel {
+  padding: 24px;
+  background: var(--card);
+  margin: 20px 0;
+}
+.dash .panel > :first-child {
+  margin-top: 0;
+}
+.dash .proof-grid {
+  gap: 18px;
+}
+.proof-actions,
+.orderrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.orderrow {
+  border-bottom: 1px solid var(--line);
+}
+.orderrow input {
+  width: 75px;
+}
+.orderrow img {
+  width: 64px;
+  height: 72px;
+  object-fit: cover;
+}
+.dash label {
+  max-width: 600px;
+}
+.dash .stats {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.stats strong {
+  font:
+    36px Georgia,
+    serif;
+  display: block;
+}
+.dash .bannerphoto {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center 35%;
+}
+.dash form {
+  max-width: 760px;
+}
+.dash form .panel {
+  border-inline-start: 2px solid var(--accent);
+}
+@media (max-width: 1180px) {
+  .dash > header {
+    display: flex;
+  }
+  .dash {
+    display: block;
+  }
+  .dash aside {
+    display: none;
+  }
+  .dash > header {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 740px) {
+  .dash-split {
+    grid-template-columns: 1fr;
+  }
+  .proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .dash .panel {
+    padding: 16px;
+  }
+  .dash main {
+    padding: 25px var(--pad);
+  }
+}
+@media (max-width: 380px) {
+  .proof-grid {
+    grid-template-columns: 1fr;
+  }
+}
+#booking-review {
+  padding: 28px;
+  width: min(520px, 90vw);
+}
+.dash details summary {
+  font-size: 16px;
+  padding: 12px 0;
+}
+.dash .bannerphoto + h3 {
+  margin-top: 16px;
+}

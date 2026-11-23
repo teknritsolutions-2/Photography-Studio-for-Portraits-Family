@@ -10,24 +10,26 @@
     />
     <link rel="icon" href="../assets/icons/mark.svg" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
+    <link rel="stylesheet" href="../assets/css/auth.css" />
+    <link rel="stylesheet" href="../assets/css/refinement.css" />
     <script src="../assets/js/prefs.js"></script>
   </head>
   <body data-page="login">
     <main class="login">
       <div class="login-image">
         <img
-          width="1100"
-          height="734"
-          src="../assets/images/portrait-2.jpg"
-          srcset="
-            ../assets/images/portrait-2-small.jpg  640w,
-            ../assets/images/portrait-2.jpg       1100w
-          "
-          sizes="(max-width: 740px) 100vw, 50vw"
-          alt="Portrait study"
-          class=""
+          src="../assets/images/portraits/p-print.jpg"
+          alt="Portrait study in soft light"
           loading="eager"
           decoding="async"
+          srcset="
+            ../assets/images/portraits/p-print-small.jpg  640w,
+            ../assets/images/portraits/p-print.jpg       1400w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
+          width="1400"
+          height="1750"
         />
       </div>
       <section>
@@ -126,7 +128,10 @@
         </button>
       </div>
     </dialog>
+    <script defer src="../assets/js/site-config.js"></script>
     <script defer src="../assets/js/catalog.js"></script>
     <script defer src="../assets/js/main.js"></script>
+    <script defer src="../assets/js/gallery.js"></script>
+    <script defer src="../assets/js/auth.js"></script>
   </body>
 </html>

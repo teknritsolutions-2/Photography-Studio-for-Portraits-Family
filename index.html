@@ -10,6 +10,9 @@
     />
     <link rel="icon" href="assets/icons/mark.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/homepages.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <link rel="stylesheet" href="assets/css/refinement.css" />
     <script src="assets/js/prefs.js"></script>
   </head>
   <body data-page="home">
@@ -163,18 +166,18 @@
     <main>
       <section class="hero">
         <img
-          width="2000"
-          height="1183"
-          src="assets/images/hero.jpg"
+          src="assets/images/portraits/hero.jpg"
           srcset="
-            assets/images/hero-small.jpg  640w,
-            assets/images/hero.jpg       2000w
+            assets/images/portraits/hero-small.jpg  640w,
+            assets/images/portraits/hero.jpg       2000w
           "
           sizes="(max-width: 740px) 100vw, 76vw"
           alt="Black-and-white portrait"
           class="hero-photo"
           loading="eager"
           decoding="async"
+          width="2000"
+          height="1183"
         />
         <div class="shade"></div>
         <div class="hero-copy">
@@ -198,7 +201,12 @@
           data-hero="1"
           aria-label="Focus next photographic print"
         >
-          <img src="assets/images/family-small.jpg" alt="" />
+          <img
+            src="assets/images/family/family-small.jpg"
+            alt=""
+            width="640"
+            height="427"
+          />
         </button>
         <div class="hero-bottom">
           <span class="hero-index">01 <b></b> 03</span>
@@ -258,50 +266,50 @@
         <div class="film" tabindex="0" aria-label="Selected moments gallery">
           <a href="pages/gallery.html?category=Family"
             ><img
-              width="1600"
-              height="1067"
-              src="assets/images/family.jpg"
+              src="assets/images/family/family.jpg"
               srcset="
-                assets/images/family-small.jpg  640w,
-                assets/images/family.jpg       1600w
+                assets/images/family/family-small.jpg  640w,
+                assets/images/family/family.jpg       1600w
               "
               sizes="(max-width: 740px) 100vw, 50vw"
               alt="Held close"
               class=""
               loading="lazy"
               decoding="async"
+              width="1600"
+              height="1067"
             /><small>Family</small>
             <h3>Held close</h3></a
           ><a href="pages/gallery.html?category=Portraits"
             ><img
-              width="1100"
-              height="734"
-              src="assets/images/portrait.jpg"
+              src="assets/images/portraits/p-character.jpg"
               srcset="
-                assets/images/portrait-small.jpg  640w,
-                assets/images/portrait.jpg       1100w
+                assets/images/portraits/p-character-small.jpg  640w,
+                assets/images/portraits/p-character.jpg       1100w
               "
               sizes="(max-width: 740px) 100vw, 50vw"
-              alt="In soft light"
+              alt="Character in light"
               class=""
               loading="lazy"
               decoding="async"
+              width="1400"
+              height="2100"
             /><small>Portraits</small>
-            <h3>In soft light</h3></a
+            <h3>Character in light</h3></a
           ><a href="pages/gallery.html?category=Maternity"
             ><img
-              width="1100"
-              height="1375"
-              src="assets/images/maternity.jpg"
+              src="assets/images/maternity/maternity.jpg"
               srcset="
-                assets/images/maternity-small.jpg  640w,
-                assets/images/maternity.jpg       1100w
+                assets/images/maternity/maternity-small.jpg  640w,
+                assets/images/maternity/maternity.jpg       1100w
               "
               sizes="(max-width: 740px) 100vw, 50vw"
               alt="In anticipation"
               class=""
               loading="lazy"
               decoding="async"
+              width="1100"
+              height="1375"
             /><small>Maternity</small>
             <h3>In anticipation</h3></a
           >
@@ -333,6 +341,85 @@
             </svg>
           </button>
         </div>
+      </section>
+      <section class="wrap portrait-edit">
+        <div class="collection-intro">
+          <div class="eyebrow"><b></b>THE PORTRAIT EDIT</div>
+          <h2>A face. A gesture.<br /><em>A point of view.</em></h2>
+          <p>
+            Different faces, different ways of meeting the lens. A contact sheet
+            of direct gazes, soft light and considered expression.
+          </p>
+        </div>
+        <div class="contact-sheet">
+          <figure>
+            <img
+              src="assets/images/portraits/p-light.jpg"
+              srcset="
+                assets/images/portraits/p-light-small.jpg  640w,
+                assets/images/portraits/p-light.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 45vw"
+              alt="Woman framed in soft light"
+              loading="lazy"
+              decoding="async"
+              width="1400"
+              height="1153"
+            />
+            <figcaption>Light, gently held</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/portraits/p-gaze.jpg"
+              srcset="
+                assets/images/portraits/p-gaze-small.jpg  640w,
+                assets/images/portraits/p-gaze.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 45vw"
+              alt="Portrait of a woman with long hair"
+              loading="lazy"
+              decoding="async"
+              width="1400"
+              height="1742"
+            />
+            <figcaption>A direct gaze</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/portraits/p-mono.jpg"
+              srcset="
+                assets/images/portraits/p-mono-small.jpg  640w,
+                assets/images/portraits/p-mono.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 45vw"
+              alt="Monochrome studio portrait of a man"
+              loading="lazy"
+              decoding="async"
+              width="1400"
+              height="2100"
+            />
+            <figcaption>In monochrome</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/portraits/p-heritage.jpg"
+              srcset="
+                assets/images/portraits/p-heritage-small.jpg  640w,
+                assets/images/portraits/p-heritage.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 45vw"
+              alt="Portrait of an older woman wearing a cap"
+              loading="lazy"
+              decoding="async"
+              width="1400"
+              height="2179"
+            />
+            <figcaption>Presence, in detail</figcaption>
+          </figure>
+        </div>
+        <a class="textlink" href="pages/gallery.html?category=Portraits"
+          >See the portrait collection</a
+        >
       </section>
       <section class="wrap editorial">
         <div class="eyebrow"><b></b>OUR PHOTOGRAPHY</div>
@@ -378,20 +465,20 @@
             <path d="m10 6 6 6-6 6" /></svg
         ></a>
       </section>
-      <section class="wrap story">
+      <section class="wrap story featured-story">
         <img
-          width="1100"
-          height="734"
-          src="assets/images/portrait-2.jpg"
+          src="assets/images/portraits/portrait-2.jpg"
           srcset="
-            assets/images/portrait-2-small.jpg  640w,
-            assets/images/portrait-2.jpg       1100w
+            assets/images/portraits/portrait-2-small.jpg  640w,
+            assets/images/portraits/portrait-2.jpg       1100w
           "
           sizes="(max-width: 740px) 100vw, 50vw"
           alt="A portrait study in available light"
           class=""
           loading="lazy"
           decoding="async"
+          width="1100"
+          height="734"
         />
         <div>
           <div class="eyebrow"><b></b>FEATURED PORTRAIT STORY</div>
@@ -421,31 +508,31 @@
         <div>
           <div class="compare">
             <img
-              width="1100"
-              height="734"
-              src="assets/images/portrait.jpg"
+              src="assets/images/portraits/portrait.jpg"
               srcset="
-                assets/images/portrait-small.jpg  640w,
-                assets/images/portrait.jpg       1100w
+                assets/images/portraits/portrait-small.jpg  640w,
+                assets/images/portraits/portrait.jpg       1100w
               "
               sizes="(max-width: 740px) 100vw, 50vw"
               alt="Portrait in color"
               class=""
               loading="lazy"
               decoding="async"
-            /><img
               width="1100"
               height="734"
-              src="assets/images/portrait.jpg"
+            /><img
+              src="assets/images/portraits/portrait.jpg"
               srcset="
-                assets/images/portrait-small.jpg  640w,
-                assets/images/portrait.jpg       1100w
+                assets/images/portraits/portrait-small.jpg  640w,
+                assets/images/portraits/portrait.jpg       1100w
               "
               sizes="(max-width: 740px) 100vw, 50vw"
               alt=""
               class="mono"
               loading="lazy"
               decoding="async"
+              width="1100"
+              height="734"
             /><i></i>
           </div>
           <label class="range"
@@ -454,6 +541,106 @@
               value="50"
               aria-label="Color and monochrome comparison"
           /></label>
+        </div>
+      </section>
+      <section class="wrap craft">
+        <div class="collection-intro">
+          <div class="eyebrow"><b></b>BEHIND THE FRAME</div>
+          <h2>Small changes.<br /><em>Different feelings.</em></h2>
+          <p>
+            A portrait takes shape in the conversation between light, movement
+            and expression.
+          </p>
+        </div>
+        <div class="craft-spread">
+          <img
+            src="assets/images/studio/session-wide.jpg"
+            srcset="
+              assets/images/studio/session-wide-small.jpg  640w,
+              assets/images/studio/session-wide.jpg       1400w
+            "
+            sizes="(max-width:740px) 100vw, 45vw"
+            alt="Photographer working with a model during a portrait session"
+            loading="lazy"
+            decoding="async"
+            width="1400"
+            height="933"
+          />
+          <div>
+            <img
+              src="assets/images/studio/session-light.jpg"
+              srcset="
+                assets/images/studio/session-light-small.jpg  640w,
+                assets/images/studio/session-light.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 45vw"
+              alt="A model during a studio photography session"
+              loading="lazy"
+              decoding="async"
+              width="1400"
+              height="933"
+            />
+            <h3>Watch the light.</h3>
+            <p>
+              Turning toward a window softens the shadows. Moving away adds
+              definition. We use those small changes to find a frame that feels
+              considered and comfortable.
+            </p>
+            <h3>Leave room to move.</h3>
+            <p>
+              A relaxed hand, a shift of weight, a breath between poses. Simple
+              direction gives you something to do without holding a rigid
+              expression.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="wrap print-feature">
+        <div class="collection-intro">
+          <div class="eyebrow"><b></b>FROM PORTRAIT TO PRINT</div>
+          <h2>Something to <em>hold on to.</em></h2>
+          <p>
+            A photograph finds another life on paper. Start with a favorite
+            frame, then consider how its size and finish will feel in your
+            space.
+          </p>
+        </div>
+        <div class="print-spread">
+          <figure class="physical-print">
+            <img
+              src="assets/images/studio/print-table.jpg"
+              alt="Hands reviewing photographic prints on a desk"
+              loading="lazy"
+              decoding="async"
+              srcset="
+                assets/images/studio/print-table-small.jpg  640w,
+                assets/images/studio/print-table.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1400"
+              height="2100"
+            />
+            <figcaption>Taking time with a photographic print</figcaption>
+          </figure>
+          <div>
+            <h3>The frame, the paper,<br />the place it belongs.</h3>
+            <p>
+              Small prints invite a closer look. A larger format gives the light
+              and texture room to unfold. Matte and gloss options are available
+              in the client print selection.
+            </p>
+            <p>
+              Review indicative sizes and prices in the client portal, or
+              include your print ideas with a session enquiry.
+            </p>
+            <div class="actions">
+              <a class="button outline" href="pages/packages.html"
+                >Explore packages</a
+              ><a class="textlink" href="pages/login.html"
+                >Client print selections</a
+              >
+            </div>
+          </div>
         </div>
       </section>
       <section class="invite wrap">
@@ -549,7 +736,10 @@
         </button>
       </div>
     </dialog>
+    <script defer src="assets/js/site-config.js"></script>
     <script defer src="assets/js/catalog.js"></script>
     <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/gallery.js"></script>
+    <script defer src="assets/js/homepages.js"></script>
   </body>
 </html>

@@ -10,6 +10,9 @@
     />
     <link rel="icon" href="../assets/icons/mark.svg" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
+    <link rel="stylesheet" href="../assets/css/inner-pages.css" />
+    <link rel="stylesheet" href="../assets/css/refinement.css" />
     <script src="../assets/js/prefs.js"></script>
   </head>
   <body data-page="about">
@@ -171,18 +174,18 @@
       </section>
       <section class="wrap story">
         <img
-          width="1100"
-          height="1661"
-          src="../assets/images/studio.jpg"
-          srcset="
-            ../assets/images/studio-small.jpg  640w,
-            ../assets/images/studio.jpg       1100w
-          "
-          sizes="(max-width: 740px) 100vw, 50vw"
-          alt="Photography studio environment"
+          src="../assets/images/portraits/p-about.jpg"
+          alt="A portrait in soft, directional light"
           class=""
-          loading="eager"
+          loading="lazy"
           decoding="async"
+          srcset="
+            ../assets/images/portraits/p-about-small.jpg  640w,
+            ../assets/images/portraits/p-about.jpg       1400w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
+          width="1400"
+          height="2100"
         />
         <div>
           <h2>Working with <em>light.</em></h2>
@@ -197,6 +200,107 @@
             from the proofs.
           </p>
           <a class="textlink" href="../pages/gallery.html">View the gallery</a>
+        </div>
+      </section>
+      <section class="wrap process-feature">
+        <div class="eyebrow"><b></b>THE PORTRAIT PROCESS</div>
+        <div class="process-heading">
+          <h2>A little direction.<br /><em>Room to be yourself.</em></h2>
+          <p>
+            Posing starts with something simple. Turn toward the light, find a
+            comfortable place for your hands, and let your expression settle.
+          </p>
+        </div>
+        <div class="process-grid">
+          <figure>
+            <img
+              src="../assets/images/studio/session-light.jpg"
+              alt="A model being photographed during a portrait session"
+              class=""
+              loading="lazy"
+              decoding="async"
+              srcset="
+                ../assets/images/studio/session-light-small.jpg  640w,
+                ../assets/images/studio/session-light.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1400"
+              height="933"
+            />
+            <figcaption>Light shapes the frame.</figcaption>
+          </figure>
+          <div>
+            <article>
+              <h3>Find the light</h3>
+              <p>
+                Soft window light creates gentle transitions across the face. A
+                more directional studio setup brings shape and definition. We
+                choose the approach to suit the portrait.
+              </p>
+            </article>
+            <article>
+              <h3>Build the photograph</h3>
+              <p>
+                Small changes in shoulder position, eye line and distance from
+                the background can change a frame. We guide each adjustment,
+                leaving time to get comfortable.
+              </p>
+            </article>
+            <article>
+              <h3>Choose what feels right</h3>
+              <p>
+                Use the proof gallery to compare expressions and mark the frames
+                you connect with. Those choices guide the final edit and any
+                print selections.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="wrap portrait-notes">
+        <div class="eyebrow"><b></b>A FEW WAYS OF SEEING</div>
+        <h2>Expression, light,<br /><em>and everything between.</em></h2>
+        <div class="portrait-notes-grid">
+          <figure>
+            <img
+              src="../assets/images/family/family-2.jpg"
+              alt="Family embracing in outdoor light"
+              class=""
+              loading="lazy"
+              decoding="async"
+              srcset="
+                ../assets/images/family/family-2-small.jpg  640w,
+                ../assets/images/family/family-2.jpg       1100w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1100"
+              height="1650"
+            />
+            <figcaption>Connection in natural light.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="../assets/images/maternity/maternity-2.jpg"
+              alt="A family maternity portrait"
+              class=""
+              loading="lazy"
+              decoding="async"
+              srcset="
+                ../assets/images/maternity/maternity-2-small.jpg  640w,
+                ../assets/images/maternity/maternity-2.jpg       1100w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1100"
+              height="1650"
+            />
+            <figcaption>A shared moment in the studio.</figcaption>
+          </figure>
+          <p>
+            Some portraits feel open and spontaneous. Others are still and
+            considered. Our approach makes space for both, with a consistent
+            attention to skin tone, detail and the person in front of the
+            camera.
+          </p>
         </div>
       </section>
       <section class="wrap textblock">
@@ -301,7 +405,9 @@
         </button>
       </div>
     </dialog>
+    <script defer src="../assets/js/site-config.js"></script>
     <script defer src="../assets/js/catalog.js"></script>
     <script defer src="../assets/js/main.js"></script>
+    <script defer src="../assets/js/gallery.js"></script>
   </body>
 </html>
