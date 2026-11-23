@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Client dashboard | Lumen &amp; Kin</title>
+    <meta
+      name="description"
+      content="Portrait, family and maternity photography at Lumen &amp; Kin."
+    />
+    <link rel="icon" href="../assets/icons/mark.svg" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/prefs.js"></script>
+  </head>
+  <body data-page="dashboard">
+    <div class="dash">
+      <aside>
+        <a class="brand" href="../index.html"
+          ><svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+            <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
+          ><span>Lumen <i>&amp;</i> Kin</span></a
+        >
+        <nav>
+          <a href="#overview">Overview</a><a href="#book">Book a session</a
+          ><a href="#sessions">My sessions</a
+          ><a href="#proofs">Proof galleries</a
+          ><a href="#favorites">Favorites</a><a href="#prints">Print orders</a
+          ><a href="#profile">Profile</a>
+        </nav>
+        <a class="textlink" href="../index.html">Return to studio</a>
+        <div class="tools">
+          <button class="icon" data-theme aria-label="Switch theme">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"
+              />
+            </svg></button
+          ><button class="dir" data-dir>RTL</button>
+        </div>
+      </aside>
+      <header>
+        <a class="brand" href="../index.html"
+          ><svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+            <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
+          ><span>Lumen <i>&amp;</i> Kin</span></a
+        ><button class="icon" data-menu aria-label="Open dashboard navigation">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M3 6h18M3 12h18M3 18h18" />
+          </svg>
+        </button>
+      </header>
+      <dialog class="drawer">
+        <div class="drawer-head">
+          <a class="brand" href="../index.html"
+            ><svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+              <path
+                d="m7 17 5-10 5 10Z"
+                fill="currentColor"
+                stroke="none"
+              /></svg
+            ><span>Lumen <i>&amp;</i> Kin</span></a
+          ><button class="icon" data-close aria-label="Close navigation">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m5 5 14 14M19 5 5 19" />
+            </svg>
+          </button>
+        </div>
+        <nav class="drawer-links">
+          <a href="#overview">Overview</a><a href="#book">Book a session</a
+          ><a href="#sessions">My sessions</a
+          ><a href="#proofs">Proof galleries</a
+          ><a href="#favorites">Favorites</a><a href="#prints">Print orders</a
+          ><a href="#profile">Profile</a>
+        </nav>
+        <div class="tools">
+          <button class="icon" data-theme aria-label="Switch theme">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"
+              />
+            </svg></button
+          ><button class="dir" data-dir>RTL</button>
+        </div>
+      </dialog>
+      <main id="dashboard">
+        <noscript>Enable JavaScript for the interactive client demo.</noscript>
+      </main>
+    </div>
+    <dialog id="viewer">
+      <div class="viewerbar">
+        <span></span
+        ><button class="icon" data-close aria-label="Close viewer">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m5 5 14 14M19 5 5 19" />
+          </svg>
+        </button>
+      </div>
+      <img alt="" />
+      <div class="viewerbar">
+        <button class="round" data-viewer="-1" aria-label="Previous photograph">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m14 6-6 6 6 6" />
+          </svg></button
+        ><button class="textlink" data-viewfav hidden></button
+        ><button class="round" data-viewer="1" aria-label="Next photograph">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m10 6 6 6-6 6" />
+          </svg>
+        </button>
+      </div>
+    </dialog>
+    <script defer src="../assets/js/catalog.js"></script>
+    <script defer src="../assets/js/main.js"></script>
+    <script defer src="../assets/js/dashboard.js"></script>
+  </body>
+</html>

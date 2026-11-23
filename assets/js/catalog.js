@@ -1,0 +1,38 @@
+const catalogue = [
+  {
+    id: "essential",
+    name: "Essential Portrait",
+    category: "Portraits",
+    duration: 30,
+    photos: 6,
+    price: 4500,
+    detail: "One look in soft, directional light.",
+  },
+  {
+    id: "signature",
+    name: "Signature Portrait",
+    category: "Portraits",
+    duration: 60,
+    photos: 14,
+    price: 8500,
+    detail: "Time for a change of look and a second lighting setup.",
+  },
+  {
+    id: "family",
+    name: "Family Story",
+    category: "Family",
+    duration: 60,
+    photos: 18,
+    price: 10500,
+    detail: "Group portraits, smaller pairings and moments of play.",
+  },
+  {
+    id: "maternity",
+    name: "Maternity Collection",
+    category: "Maternity",
+    duration: 60,
+    photos: 14,
+    price: 9000,
+    detail: "Individual frames with room for a partner to join.",
+  },
+];

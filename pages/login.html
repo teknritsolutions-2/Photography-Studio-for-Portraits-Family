@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Client login | Lumen &amp; Kin</title>
+    <meta
+      name="description"
+      content="Portrait, family and maternity photography at Lumen &amp; Kin."
+    />
+    <link rel="icon" href="../assets/icons/mark.svg" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/prefs.js"></script>
+  </head>
+  <body data-page="login">
+    <main class="login">
+      <div class="login-image">
+        <img
+          width="1100"
+          height="734"
+          src="../assets/images/portrait-2.jpg"
+          srcset="
+            ../assets/images/portrait-2-small.jpg  640w,
+            ../assets/images/portrait-2.jpg       1100w
+          "
+          sizes="(max-width: 740px) 100vw, 50vw"
+          alt="Portrait study"
+          class=""
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+      <section>
+        <a class="brand" href="../index.html"
+          ><svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+            <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
+          ><span>Lumen <i>&amp;</i> Kin</span></a
+        >
+        <div class="eyebrow"><b></b>CLIENT PORTAL</div>
+        <h1>Welcome <em>back.</em></h1>
+        <p>
+          Explore the client dashboard with a local demo profile. Use sample
+          credentials or enter the demo directly.
+        </p>
+        <form id="login">
+          <label>Demo email<input name="email" type="email" required /></label
+          ><label
+            >Demo password
+            <div class="password">
+              <input
+                name="password"
+                type="password"
+                minlength="4"
+                required
+                autocomplete="off"
+              /><button type="button" data-show>Show</button>
+            </div></label
+          ><label class="check"
+            ><input name="remember" type="checkbox" /> Remember me on this
+            browser</label
+          ><button class="button">Enter client portal</button>
+        </form>
+        <button class="textlink" data-forgot>Forgot password?</button>
+        <p hidden id="reset">
+          This local demonstration has no password reset service. Use direct
+          demo entry below.
+        </p>
+        <a class="button outline" href="../pages/dashboard.html"
+          >Open demo dashboard</a
+        ><a class="textlink" href="../index.html">Return to home</a>
+      </section>
+    </main>
+    <dialog id="viewer">
+      <div class="viewerbar">
+        <span></span
+        ><button class="icon" data-close aria-label="Close viewer">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m5 5 14 14M19 5 5 19" />
+          </svg>
+        </button>
+      </div>
+      <img alt="" />
+      <div class="viewerbar">
+        <button class="round" data-viewer="-1" aria-label="Previous photograph">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m14 6-6 6 6 6" />
+          </svg></button
+        ><button class="textlink" data-viewfav hidden></button
+        ><button class="round" data-viewer="1" aria-label="Next photograph">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 25 25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m10 6 6 6-6 6" />
+          </svg>
+        </button>
+      </div>
+    </dialog>
+    <script defer src="../assets/js/catalog.js"></script>
+    <script defer src="../assets/js/main.js"></script>
+  </body>
+</html>
