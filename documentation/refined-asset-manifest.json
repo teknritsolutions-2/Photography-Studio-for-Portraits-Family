@@ -1,0 +1,839 @@
+{
+  "reviewed_date": "2026-11-24",
+  "license": "Pexels License",
+  "photographic_source_note": "Source pages identify the photographs and contributors. Geographic evidence distinguishes image location from a contributor statement. No subject nationality or exact age is inferred.",
+  "assets": [
+    {
+      "file": "assets/images/refined/r-portrait01.jpg",
+      "responsive_file": "assets/images/refined/r-portrait01-small.jpg",
+      "source_id": 10220532,
+      "photographer": "Svetlana",
+      "title": "Close-up portrait",
+      "source_url": "https://www.pexels.com/photo/10220532/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/10220532/pexels-photo-10220532.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2142
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Moscow, Russia",
+        "source_url": "https://www.pexels.com/photo/10220532/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait02.jpg",
+      "responsive_file": "assets/images/refined/r-portrait02-small.jpg",
+      "source_id": 11105705,
+      "photographer": "Ahmed Abouelhassan",
+      "title": "Portrait with hand on head",
+      "source_url": "https://www.pexels.com/photo/11105705/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/11105705/pexels-photo-11105705.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Moscow, Russia",
+        "source_url": "https://www.pexels.com/photo/11105705/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait03.jpg",
+      "responsive_file": "assets/images/refined/r-portrait03-small.jpg",
+      "source_id": 7289073,
+      "photographer": "mahdi chaghari",
+      "title": "Contemporary brunette portrait",
+      "source_url": "https://www.pexels.com/photo/7289073/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/7289073/pexels-photo-7289073.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2001
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Moscow, Russia",
+        "source_url": "https://www.pexels.com/photo/7289073/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait04.jpg",
+      "responsive_file": "assets/images/refined/r-portrait04-small.jpg",
+      "source_id": 4655004,
+      "photographer": "Janko Ferlic",
+      "title": "Short-haired woman portrait",
+      "source_url": "https://www.pexels.com/photo/4655004/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/4655004/pexels-photo-4655004.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1658
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Gothenburg, Sweden",
+        "source_url": "https://www.pexels.com/photo/4655004/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait05.jpg",
+      "responsive_file": "assets/images/refined/r-portrait05-small.jpg",
+      "source_id": 35404621,
+      "photographer": "Alexandra Dziundzia",
+      "title": "White dress studio portrait",
+      "source_url": "https://www.pexels.com/photo/35404621/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/35404621/pexels-photo-35404621.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2416
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Moscow, Russia",
+        "source_url": "https://www.pexels.com/photo/35404621/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait06.jpg",
+      "responsive_file": "assets/images/refined/r-portrait06-small.jpg",
+      "source_id": 6512422,
+      "photographer": "mahdi chaghari",
+      "title": "Portrait through glass",
+      "source_url": "https://www.pexels.com/photo/6512422/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/6512422/pexels-photo-6512422.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Moscow, Russia",
+        "source_url": "https://www.pexels.com/photo/6512422/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait07.jpg",
+      "responsive_file": "assets/images/refined/r-portrait07-small.jpg",
+      "source_id": 31514715,
+      "photographer": "Nikita Pishchugin",
+      "title": "Classic studio portrait",
+      "source_url": "https://www.pexels.com/photo/31514715/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31514715/pexels-photo-31514715.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31514715/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait09.jpg",
+      "responsive_file": "assets/images/refined/r-portrait09-small.jpg",
+      "source_id": 31780282,
+      "photographer": "George Frewat",
+      "title": "Black and white studio portrait",
+      "source_url": "https://www.pexels.com/photo/31780282/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31780282/pexels-photo-31780282.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2140
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31780282/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait10.jpg",
+      "responsive_file": "assets/images/refined/r-portrait10-small.jpg",
+      "source_id": 28958831,
+      "photographer": "Tim Heckmann",
+      "title": "Moody urban portrait",
+      "source_url": "https://www.pexels.com/photo/28958831/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/28958831/pexels-photo-28958831.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/28958831/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait11.jpg",
+      "responsive_file": "assets/images/refined/r-portrait11-small.jpg",
+      "source_id": 30635288,
+      "photographer": "Christiyana Kr\u00fcger",
+      "title": "Natural-light window portrait",
+      "source_url": "https://www.pexels.com/photo/30635288/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/30635288/pexels-photo-30635288.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/30635288/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait12.jpg",
+      "responsive_file": "assets/images/refined/r-portrait12-small.jpg",
+      "source_id": 20439076,
+      "photographer": "Elisbeth K.",
+      "title": "Monochrome mirror portrait",
+      "source_url": "https://www.pexels.com/photo/20439076/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/20439076/pexels-photo-20439076.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/20439076/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait13.jpg",
+      "responsive_file": "assets/images/refined/r-portrait13-small.jpg",
+      "source_id": 34721621,
+      "photographer": "Shakir Mohamed",
+      "title": "Dramatic studio portrait",
+      "source_url": "https://www.pexels.com/photo/34721621/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/34721621/pexels-photo-34721621.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Stockholm, Sweden",
+        "source_url": "https://www.pexels.com/photo/34721621/"
+      },
+      "nationality_inferred": false,
+      "photographer_base_evidence": {
+        "text": "Photographer from Stockholm, Sweden",
+        "source_url": "https://www.pexels.com/photo/34721621/"
+      }
+    },
+    {
+      "file": "assets/images/refined/r-portrait14.jpg",
+      "responsive_file": "assets/images/refined/r-portrait14-small.jpg",
+      "source_id": 27333851,
+      "photographer": "George Frewat",
+      "title": "Urban outdoor portrait",
+      "source_url": "https://www.pexels.com/photo/27333851/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/27333851/pexels-photo-27333851.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/27333851/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait15.jpg",
+      "responsive_file": "assets/images/refined/r-portrait15-small.jpg",
+      "source_id": 31566374,
+      "photographer": "Manish Jain",
+      "title": "Curly-haired outdoor portrait",
+      "source_url": "https://www.pexels.com/photo/31566374/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31566374/pexels-photo-31566374.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31566374/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait16.jpg",
+      "responsive_file": "assets/images/refined/r-portrait16-small.jpg",
+      "source_id": 18077165,
+      "photographer": "Julia Kolchigina",
+      "title": "Monochrome man by architecture",
+      "source_url": "https://www.pexels.com/photo/18077165/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/18077165/pexels-photo-18077165.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/18077165/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait17.jpg",
+      "responsive_file": "assets/images/refined/r-portrait17-small.jpg",
+      "source_id": 31610834,
+      "photographer": "Sebastian Luna",
+      "title": "Thoughtful monochrome man",
+      "source_url": "https://www.pexels.com/photo/31610834/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31610834/pexels-photo-31610834.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31610834/"
+      },
+      "nationality_inferred": false,
+      "photographer_base_evidence": {
+        "text": "Colombian photographer in Berlin",
+        "source_url": "https://www.pexels.com/photo/31610834/"
+      }
+    },
+    {
+      "file": "assets/images/refined/r-portrait18.jpg",
+      "responsive_file": "assets/images/refined/r-portrait18-small.jpg",
+      "source_id": 31538898,
+      "photographer": "Silvio Pelegrin",
+      "title": "Contemplative studio man",
+      "source_url": "https://www.pexels.com/photo/31538898/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31538898/pexels-photo-31538898.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31538898/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait19.jpg",
+      "responsive_file": "assets/images/refined/r-portrait19-small.jpg",
+      "source_id": 20693260,
+      "photographer": "Emiliano Vittoriosi",
+      "title": "Man in directional window shadows",
+      "source_url": "https://www.pexels.com/photo/20693260/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/20693260/pexels-photo-20693260.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1065
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/20693260/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-portrait20.jpg",
+      "responsive_file": "assets/images/refined/r-portrait20-small.jpg",
+      "source_id": 31780135,
+      "photographer": "George Frewat",
+      "title": "Man in a moody studio",
+      "source_url": "https://www.pexels.com/photo/31780135/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/31780135/pexels-photo-31780135.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "photograph location shown on source page",
+        "text": "Berlin, Germany",
+        "source_url": "https://www.pexels.com/photo/31780135/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family01.jpg",
+      "responsive_file": "assets/images/refined/r-family01-small.jpg",
+      "source_id": 4609048,
+      "photographer": "Vlada Karpovich",
+      "title": "Family embracing beside a large window",
+      "source_url": "https://www.pexels.com/photo/4609048/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/4609048/pexels-photo-4609048.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/4609048/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family02.jpg",
+      "responsive_file": "assets/images/refined/r-family02-small.jpg",
+      "source_id": 8944287,
+      "photographer": "Anastasia Shuraeva",
+      "title": "Family portrait outdoors",
+      "source_url": "https://www.pexels.com/photo/8944287/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/8944287/pexels-photo-8944287.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/8944287/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family03.jpg",
+      "responsive_file": "assets/images/refined/r-family03-small.jpg",
+      "source_id": 7086015,
+      "photographer": "cottonbro studio",
+      "title": "Grandparents and grandchild embracing",
+      "source_url": "https://www.pexels.com/photo/7086015/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/7086015/pexels-photo-7086015.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/7086015/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family04.jpg",
+      "responsive_file": "assets/images/refined/r-family04-small.jpg",
+      "source_id": 9138179,
+      "photographer": "Anastasia Golubeva",
+      "title": "Mother with children outdoors",
+      "source_url": "https://www.pexels.com/photo/9138179/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/9138179/pexels-photo-9138179.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1065
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/9138179/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family05.jpg",
+      "responsive_file": "assets/images/refined/r-family05-small.jpg",
+      "source_id": 4609038,
+      "photographer": "Vlada Karpovich",
+      "title": "Family of four on sunlit floor",
+      "source_url": "https://www.pexels.com/photo/4609038/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/4609038/pexels-photo-4609038.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/4609038/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family06.jpg",
+      "responsive_file": "assets/images/refined/r-family06-small.jpg",
+      "source_id": 3806964,
+      "photographer": "Elina Fairytale",
+      "title": "Mother with children baking",
+      "source_url": "https://www.pexels.com/photo/3806964/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/3806964/pexels-photo-3806964.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "contributor profile statement shown on source page",
+        "text": "Photographer profile says based in Moscow",
+        "source_url": "https://www.pexels.com/photo/3806964/"
+      },
+      "nationality_inferred": false,
+      "photographer_base_evidence": {
+        "text": "Photographer based in Moscow",
+        "source_url": "https://www.pexels.com/@elly-fairytale/gallery/"
+      }
+    },
+    {
+      "file": "assets/images/refined/r-family07.jpg",
+      "responsive_file": "assets/images/refined/r-family07-small.jpg",
+      "source_id": 8848775,
+      "photographer": "cottonbro studio",
+      "title": "Family looking at album",
+      "source_url": "https://www.pexels.com/photo/8848775/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/8848775/pexels-photo-8848775.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/8848775/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family08.jpg",
+      "responsive_file": "assets/images/refined/r-family08-small.jpg",
+      "source_id": 5789776,
+      "photographer": "cottonbro studio",
+      "title": "Siblings crafting together",
+      "source_url": "https://www.pexels.com/photo/5789776/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/5789776/pexels-photo-5789776.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/5789776/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity01.jpg",
+      "responsive_file": "assets/images/refined/r-maternity01-small.jpg",
+      "source_id": 5853183,
+      "photographer": "cottonbro studio",
+      "title": "Maternity portrait beside window",
+      "source_url": "https://www.pexels.com/photo/5853183/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/5853183/pexels-photo-5853183.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/5853183/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity02.jpg",
+      "responsive_file": "assets/images/refined/r-maternity02-small.jpg",
+      "source_id": 7055813,
+      "photographer": "Pavel Danilyuk",
+      "title": "Maternity portrait sitting on bed",
+      "source_url": "https://www.pexels.com/photo/7055813/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/7055813/pexels-photo-7055813.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2397
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/7055813/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity03.jpg",
+      "responsive_file": "assets/images/refined/r-maternity03-small.jpg",
+      "source_id": 7155544,
+      "photographer": "Yan Krukau",
+      "title": "Smiling expectant mother",
+      "source_url": "https://www.pexels.com/photo/7155544/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/7155544/pexels-photo-7155544.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/7155544/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity04.jpg",
+      "responsive_file": "assets/images/refined/r-maternity04-small.jpg",
+      "source_id": 4522864,
+      "photographer": "Polina Tankilevitch",
+      "title": "Maternity portrait with flowers",
+      "source_url": "https://www.pexels.com/photo/4522864/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/4522864/pexels-photo-4522864.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/4522864/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity05.jpg",
+      "responsive_file": "assets/images/refined/r-maternity05-small.jpg",
+      "source_id": 7055955,
+      "photographer": "Pavel Danilyuk",
+      "title": "Maternity portrait in nursery",
+      "source_url": "https://www.pexels.com/photo/7055955/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/7055955/pexels-photo-7055955.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1068
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/7055955/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-session.jpg",
+      "responsive_file": "assets/images/refined/r-session-small.jpg",
+      "source_id": 36697540,
+      "photographer": "Vitaly Gariev",
+      "title": "Photographer and model studio session",
+      "source_url": "https://www.pexels.com/photo/36697540/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/36697540/pexels-photo-36697540.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/36697540/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-detail.jpg",
+      "responsive_file": "assets/images/refined/r-detail-small.jpg",
+      "source_id": 5853658,
+      "photographer": "cottonbro studio",
+      "title": "Maternity detail with white fabric",
+      "source_url": "https://www.pexels.com/photo/5853658/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/5853658/pexels-photo-5853658.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/5853658/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-milestone.jpg",
+      "responsive_file": "assets/images/refined/r-milestone-small.jpg",
+      "source_id": 15248452,
+      "photographer": "Jaycee300s",
+      "title": "Studio 29th birthday portrait",
+      "source_url": "https://www.pexels.com/photo/15248452/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/15248452/pexels-photo-15248452.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2328
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/15248452/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-couple.jpg",
+      "responsive_file": "assets/images/refined/r-couple-small.jpg",
+      "source_id": 5911047,
+      "photographer": "Katerina Holmes",
+      "title": "Couple holding hands at night",
+      "source_url": "https://www.pexels.com/photo/5911047/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/5911047/pexels-photo-5911047.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/5911047/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-headshot.jpg",
+      "responsive_file": "assets/images/refined/r-headshot-small.jpg",
+      "source_id": 36687799,
+      "photographer": "Travel with Lenses",
+      "title": "Professional man studio headshot",
+      "source_url": "https://www.pexels.com/photo/36687799/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/36687799/pexels-photo-36687799.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "contributor profile statement shown on source page",
+        "text": "Photographer profile says based in Berlin; photo location Berlin",
+        "source_url": "https://www.pexels.com/photo/36687799/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-family09.jpg",
+      "responsive_file": "assets/images/refined/r-family09-small.jpg",
+      "source_id": 4617293,
+      "photographer": "Vlada Karpovich",
+      "title": "Family together at window",
+      "source_url": "https://www.pexels.com/photo/4617293/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/4617293/pexels-photo-4617293.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/4617293/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity06.jpg",
+      "responsive_file": "assets/images/refined/r-maternity06-small.jpg",
+      "source_id": 5852476,
+      "photographer": "cottonbro studio",
+      "title": "Maternity reading with hands on belly",
+      "source_url": "https://www.pexels.com/photo/5852476/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/5852476/pexels-photo-5852476.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/5852476/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity07.jpg",
+      "responsive_file": "assets/images/refined/r-maternity07-small.jpg",
+      "source_id": 17930405,
+      "photographer": "\u0410\u043d\u043d\u0430 \u0420\u0430\u0432\u0435\u043a\u0430",
+      "title": "Studio maternity in a fitted dress",
+      "source_url": "https://www.pexels.com/photo/17930405/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/17930405/pexels-photo-17930405.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "not supplied",
+        "text": null,
+        "source_url": "https://www.pexels.com/photo/17930405/"
+      },
+      "nationality_inferred": false
+    },
+    {
+      "file": "assets/images/refined/r-maternity08.jpg",
+      "responsive_file": "assets/images/refined/r-maternity08-small.jpg",
+      "source_id": 17231392,
+      "photographer": "Caio Mantovani",
+      "title": "Monochrome maternity portrait seated on stool",
+      "source_url": "https://www.pexels.com/photo/17231392/",
+      "license_url": "https://www.pexels.com/license/",
+      "download_url": "https://images.pexels.com/photos/17231392/pexels-photo-17231392.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "location_evidence": {
+        "type": "contributor statement shown on source page",
+        "text": "Photographer profile says based in Brazil",
+        "source_url": "https://www.pexels.com/photo/17231392/"
+      },
+      "nationality_inferred": false
+    }
+  ]
+}

@@ -11,9 +11,6 @@ if ($(".hero")) {
       image = $(".hero-photo");
     image.removeAttribute("srcset");
     image.src = photoURL(file + (innerWidth <= 640 ? "-small" : ""));
-    $(".print-stack img").src = photoURL(
-      slides[(index + 1) % slides.length][0] + "-small",
-    );
     image.alt = caption;
     $("#hero-caption").textContent = caption;
     $(".hero-index").firstChild.textContent = "0" + (index + 1) + " ";

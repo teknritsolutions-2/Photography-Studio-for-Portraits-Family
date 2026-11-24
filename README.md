@@ -8,18 +8,20 @@ Run `python3 -m http.server 8000` from this directory and open `http://localhost
 
 ## Source layout
 
-- `index.html` and `pages/` contain the public pages, login and dashboard.
-- `assets/css/style.css` contains shared typography, navigation, forms and layout. Homepage, gallery, dashboard, authentication and inner-page styles have focused files. `refinement.css` covers the expanded photographic collections.
-- `assets/js/site-config.js` stores shared studio configuration and image mappings. `catalog.js` is the shared package catalogue used by package panels, the comparison table, homepage session discovery and enquiry/booking selectors.
-- Shared navigation, theme and interaction helpers live in `main.js`. Page behavior lives in `homepages.js`, `gallery.js`, `booking.js`, `auth.js`, `dashboard.js` and `print-orders.js`.
-- Photographs are grouped by subject. Small derivatives serve responsive thumbnails. [Credits](documentation/asset-credits.md) document the photographers and source licenses.
+The public pages are in `index.html` and `pages/`. Shared typography, navigation and forms live in `assets/css/style.css`, with focused CSS for homepages, gallery, authentication, dashboard, footer and refined page compositions.
 
-## Client demonstration
+`assets/js/site-config.js` centralizes the studio configuration and six service categories. `catalog.js` supplies the four established packages. New categories use a custom enquiry, with details confirmed separately. Shared behavior lives in `main.js`; gallery, booking, authentication and print-order behavior use focused modules.
 
-Use **Client portal → Open demo dashboard**, or enter a sample email and a demo password of at least four characters. Remember Me saves only the sample email. Session requests, favorites, print drafts, prepared requests and profile details persist on this browser. Existing records retain the same storage key and proof identifiers.
+[Photo credits](documentation/asset-credits.md), [source metadata](documentation/refined-asset-manifest.json) and the [placement audit](documentation/image-placement-audit.json) document licensing, geographic evidence and uniqueness by original source ID. The comparison intentionally uses two treatments of one image. Gallery viewers and dashboard favorites and prints reuse their corresponding source photograph.
+
+## Client and authentication behavior
+
+Login and Signup use matching compact forms. Passwords are validated, cleared after a valid submission and never saved. Account creation, sign in, password recovery and provider controls report that their backend service is unavailable. Remember Me retains only the entered email on this browser.
+
+**Dashboard** is a separate public navigation destination for the frontend demonstration. Session requests, favorites, print drafts, prepared requests and profile details persist locally. The existing storage key and proof identifiers are preserved.
 
 ## Production integrations
 
-Real client access requires backend authentication, password recovery, authorization and protected image storage. Studio scheduling must handle availability and conflicting requests. Enquiries and print requests require an inbox or CRM integration. Payment and fulfilment integrations are required for paid print ordering. The displayed INR prices are indicative and configurable.
+Real account access requires backend authentication, recovery, authorization and protected image storage. Studio scheduling must handle availability and conflicting requests. Enquiries and print requests require an inbox or CRM integration. Payment and fulfilment integrations are required for paid print ordering. Displayed package and print prices remain indicative.
 
-[Visual QA and regression report](documentation/qa-report.md)
+[QA and screenshot report](documentation/qa-report.md)

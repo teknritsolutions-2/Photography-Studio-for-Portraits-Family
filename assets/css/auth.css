@@ -1,62 +1,142 @@
-.login {
+.auth-shell {
   min-height: 100dvh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 32px 20px;
+  background: var(--bg);
 }
-.login-image {
-  position: relative;
+.auth-card {
+  width: min(100%, 460px);
+  padding: 28px 34px;
+  background: var(--paper);
+  border: 1px solid var(--line);
 }
-.login-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-}
-.login > section {
-  padding: clamp(28px, 6vw, 100px);
-  align-self: center;
-}
-.login .brand {
-  margin-bottom: 45px;
-}
-.login .eyebrow {
-  margin: 12px 0;
-}
-.login form {
-  margin-bottom: 12px;
-}
-.login > section > .button,
-.login > section > .textlink:last-child {
-  display: block;
+.auth-card .brand {
+  margin: 0 auto 28px;
+  display: flex;
   width: fit-content;
-  margin-top: 18px;
+  font-size: 30px;
 }
-.password {
-  position: relative;
+.auth-card h1 {
+  font-size: clamp(36px, 6vw, 48px);
+  text-align: center;
+  letter-spacing: -0.045em;
 }
-.password input {
-  padding-inline-end: 70px;
+.auth-intro {
+  text-align: center;
+  color: var(--muted);
+  margin: 12px 0 25px;
 }
-.password button {
-  position: absolute;
-  inset-inline-end: 4px;
-  top: 5px;
-  padding: 8px;
+.auth-card label {
+  margin: 16px 0 6px;
 }
-@media (max-width: 740px) {
-  .login {
-    grid-template-columns: 1fr;
+.auth-card input {
+  margin: 0;
+  padding: 12px 14px;
+}
+.auth-card .password-field {
+  display: flex;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 2px;
+}
+.password-field input {
+  border: 0;
+  flex: 1;
+  width: 100%;
+}
+.password-field button {
+  padding: 10px 13px;
+  display: grid;
+  place-items: center;
+}
+.password-field button svg {
+  width: 20px;
+  height: 20px;
+}
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0;
+  font-size: 14px;
+}
+.auth-options .check {
+  margin: 0;
+  gap: 8px;
+  font-size: 14px;
+}
+.auth-options input {
+  width: 16px;
+  height: 16px;
+}
+.auth-link {
+  padding: 0;
+  font-size: 14px;
+}
+.auth-submit {
+  width: 100%;
+  margin-top: 20px;
+}
+.auth-options + .auth-submit {
+  margin-top: 0;
+}
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0 18px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  height: 1px;
+  background: var(--line);
+  flex: 1;
+}
+.providers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.providers button {
+  border: 1px solid var(--line);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+}
+.provider-g {
+  font-weight: 700;
+  font-size: 20px;
+}
+.auth-switch {
+  text-align: center;
+  font-size: 15px;
+  margin: 18px 0 0;
+}
+.auth-switch a {
+  color: var(--accent);
+  font-weight: 600;
+}
+#auth-status {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 16px 0 0;
+}
+#auth-status:empty {
+  display: none;
+}
+@media (max-width: 480px) {
+  .auth-shell {
+    padding: 20px 16px;
   }
-  .login-image {
-    height: 190px;
-  }
-  .login-image img {
-    object-position: center 30%;
-  }
-  .login .brand {
-    margin-bottom: 15px;
-  }
-  .login > section {
-    padding: 26px var(--pad);
+  .auth-card {
+    padding: 25px 20px;
   }
 }

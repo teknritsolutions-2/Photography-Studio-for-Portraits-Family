@@ -9,11 +9,13 @@
       content="Portrait, family and maternity photography at Lumen &amp; Kin."
     />
     <link rel="icon" href="../assets/icons/mark.svg" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/homepages.css" />
-    <link rel="stylesheet" href="../assets/css/gallery.css" />
-    <link rel="stylesheet" href="../assets/css/refinement.css" />
-    <script src="../assets/js/prefs.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/homepages.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/gallery.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/refinement.css?v=20261124" />
+    <script src="../assets/js/prefs.js?v=20261124"></script>
+    <link rel="stylesheet" href="../assets/css/footer.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/corrections.css?v=20261124" />
   </head>
   <body data-page="home2">
     <header>
@@ -57,6 +59,7 @@
         ><a class="" href="../pages/packages.html">Packages</a
         ><a class="" href="../pages/gallery.html">Gallery</a
         ><a class="" href="../pages/contact.html">Contact</a>
+        <a href="../pages/dashboard.html">Dashboard</a>
       </nav>
       <div class="utilities">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -88,7 +91,7 @@
             <circle cx="12" cy="8" r="3" />
             <path d="M5 21v-2a7 7 0 0 1 14 0v2" />
           </svg>
-          Client portal</a
+          Login</a
         >
       </div>
       <button class="hamb icon" aria-label="Open navigation" data-menu>
@@ -142,7 +145,8 @@
         ><a class="" href="../pages/packages.html">Packages</a
         ><a class="" href="../pages/gallery.html">Gallery</a
         ><a class="" href="../pages/contact.html">Contact</a
-        ><a class="" href="../pages/login.html">Client portal</a>
+        ><a class="" href="../pages/login.html">Login</a>
+        <a href="../pages/dashboard.html">Dashboard</a>
       </div>
       <div class="tools">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -164,23 +168,33 @@
       </div>
     </dialog>
     <main>
-      <section class="alternate wrap">
-        <div class="eyebrow"><b></b>THE STUDIO JOURNAL</div>
-        <h1>Stories through<br /><em>the lens.</em></h1>
+      <section class="journal-banner">
         <img
-          src="../assets/images/family/family.jpg"
-          srcset="
-            ../assets/images/family/family-small.jpg  640w,
-            ../assets/images/family/family.jpg       1600w
-          "
-          sizes="(max-width: 740px) 100vw, 50vw"
-          alt="Family photography in natural light"
+          src="../assets/images/refined/r-family01.jpg"
+          alt="Family together beside a large window"
           class=""
           loading="eager"
           decoding="async"
+          srcset="
+            ../assets/images/refined/r-family01-small.jpg  640w,
+            ../assets/images/refined/r-family01.jpg       1600w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
           width="1600"
           height="1067"
         />
+        <div class="journal-banner-copy">
+          <div class="eyebrow"><b></b>STORIES THROUGH THE LENS</div>
+          <h1>Life, in<br /><em>good company.</em></h1>
+          <p>
+            A family portrait. A new beginning.<br />Photographs of the
+            connections that stay.
+          </p>
+          <div class="actions">
+            <a class="button" href="gallery.html">Explore the stories</a
+            ><a class="button outline" href="contact.html">Book a session</a>
+          </div>
+        </div>
       </section>
       <section class="wrap story">
         <div>
@@ -196,44 +210,65 @@
           >
         </div>
         <img
-          src="../assets/images/family/f-garden.jpg"
-          srcset="
-            ../assets/images/family/f-garden-small.jpg  640w,
-            ../assets/images/family/f-garden.jpg       1400w
-          "
-          sizes="(max-width:740px) 100vw, 45vw"
-          alt="Natural-light family portrait"
+          src="../assets/images/refined/r-family03.jpg"
+          alt="Family photographed in natural light"
+          class=""
           loading="lazy"
           decoding="async"
-          width="1400"
-          height="933"
+          srcset="
+            ../assets/images/refined/r-family03-small.jpg  640w,
+            ../assets/images/refined/r-family03.jpg       1600w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
+          width="1600"
+          height="2400"
         />
       </section>
-      <section class="wrap story">
-        <img
-          src="../assets/images/maternity/m-window.jpg"
-          srcset="
-            ../assets/images/maternity/m-window-small.jpg  640w,
-            ../assets/images/maternity/m-window.jpg       1400w
-          "
-          sizes="(max-width:740px) 100vw, 45vw"
-          alt="Maternity portrait in window light"
-          loading="lazy"
-          decoding="async"
-          width="1400"
-          height="2100"
-        />
-        <div>
+      <section class="wrap maternity-editorial">
+        <div class="maternity-heading">
           <div class="eyebrow"><b></b>MATERNITY</div>
           <h2>Before you <em>arrive.</em></h2>
           <p>
-            A solo portrait, a partner’s hand, a moment to breathe. Choose the
-            pace and the company that feel right for you.
+            A solo portrait, a partner’s hand, a moment to breathe. A thoughtful
+            record of the weeks before everything changes.
           </p>
-          <a class="button outline" href="../pages/packages.html"
-            >Discover packages</a
+          <a class="textlink" href="contact.html?service=Maternity"
+            >Plan a maternity session</a
           >
         </div>
+        <figure class="maternity-primary">
+          <img
+            src="../assets/images/refined/r-maternity01.jpg"
+            alt="Maternity portrait in soft light"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              ../assets/images/refined/r-maternity01-small.jpg  640w,
+              ../assets/images/refined/r-maternity01.jpg       1600w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1600"
+            height="2400"
+          />
+        </figure>
+        <figure class="maternity-detail">
+          <img
+            src="../assets/images/refined/r-detail.jpg"
+            alt="Fabric and gesture in a maternity photograph"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              ../assets/images/refined/r-detail-small.jpg  640w,
+              ../assets/images/refined/r-detail.jpg       1600w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1600"
+            height="1067"
+          />
+          <figcaption>Light, texture and a little anticipation.</figcaption>
+        </figure>
       </section>
       <section class="wrap family-chapters">
         <div class="collection-intro">
@@ -248,47 +283,50 @@
         <div class="chapter-sequence">
           <figure>
             <img
-              src="../assets/images/family/f-home.jpg"
-              srcset="
-                ../assets/images/family/f-home-small.jpg  640w,
-                ../assets/images/family/f-home.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Studio portrait of parents and children"
+              src="../assets/images/refined/r-family04.jpg"
+              alt="Family portrait showing connection"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="1866"
+              srcset="
+                ../assets/images/refined/r-family04-small.jpg  640w,
+                ../assets/images/refined/r-family04.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="1065"
             />
             <figcaption>Space to settle in</figcaption>
           </figure>
           <figure>
             <img
-              src="../assets/images/family/f-couch.jpg"
-              srcset="
-                ../assets/images/family/f-couch-small.jpg  640w,
-                ../assets/images/family/f-couch.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Family portrait on a sofa"
+              src="../assets/images/refined/r-family05.jpg"
+              alt="Family portrait showing connection"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2100"
+              srcset="
+                ../assets/images/refined/r-family05-small.jpg  640w,
+                ../assets/images/refined/r-family05.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="1067"
             />
             <figcaption>The everyday embrace</figcaption>
           </figure>
           <figure>
             <img
-              src="../assets/images/family/f-close.jpg"
-              srcset="
-                ../assets/images/family/f-close-small.jpg  640w,
-                ../assets/images/family/f-close.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="A close family interaction"
+              src="../assets/images/family/f-garden.jpg"
+              alt="Family portrait showing connection"
+              class=""
               loading="lazy"
               decoding="async"
+              srcset="
+                ../assets/images/family/f-garden-small.jpg  640w,
+                ../assets/images/family/f-garden.jpg       1400w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
               width="1400"
               height="933"
             />
@@ -312,49 +350,52 @@
         <div class="natural-sequence">
           <figure>
             <img
-              src="../assets/images/portraits/p-sun.jpg"
-              srcset="
-                ../assets/images/portraits/p-sun-small.jpg  640w,
-                ../assets/images/portraits/p-sun.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Portrait of a woman outdoors"
+              src="../assets/images/refined/r-portrait09.jpg"
+              alt="Portrait study in available light"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2194"
+              srcset="
+                ../assets/images/refined/r-portrait09-small.jpg  640w,
+                ../assets/images/refined/r-portrait09.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2140"
             />
             <figcaption>Out in the daylight</figcaption>
           </figure>
           <figure>
             <img
-              src="../assets/images/portraits/p-man.jpg"
-              srcset="
-                ../assets/images/portraits/p-man-small.jpg  640w,
-                ../assets/images/portraits/p-man.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Portrait of a man in a white shirt outdoors"
+              src="../assets/images/refined/r-portrait10.jpg"
+              alt="Portrait study in available light"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="933"
+              srcset="
+                ../assets/images/refined/r-portrait10-small.jpg  640w,
+                ../assets/images/refined/r-portrait10.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2400"
             />
             <figcaption>A moment, unhurried</figcaption>
           </figure>
           <figure>
             <img
-              src="../assets/images/portraits/p-age.jpg"
-              srcset="
-                ../assets/images/portraits/p-age-small.jpg  640w,
-                ../assets/images/portraits/p-age.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Portrait of an older woman"
+              src="../assets/images/refined/r-portrait11.jpg"
+              alt="Portrait study in available light"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2106"
+              srcset="
+                ../assets/images/refined/r-portrait11-small.jpg  640w,
+                ../assets/images/refined/r-portrait11.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2400"
             />
             <figcaption>A face with a story</figcaption>
           </figure>
@@ -393,32 +434,60 @@
         <a class="button" href="../pages/contact.html">Book a session</a>
       </section>
     </main>
-    <footer>
-      <a class="brand" href="../index.html"
-        ><svg
-          aria-hidden="true"
-          viewBox="0 0 25 25"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
-          <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
-        ><span>Lumen <i>&amp;</i> Kin</span></a
-      >
-      <nav>
-        <a class="" href="../index.html">Home 1</a
-        ><a class="" href="../pages/home2.html">Home 2</a
-        ><a class="" href="../pages/about.html">About</a
-        ><a class="" href="../pages/services.html">Services</a
-        ><a class="" href="../pages/packages.html">Packages</a
-        ><a class="" href="../pages/gallery.html">Gallery</a
-        ><a class="" href="../pages/contact.html">Contact</a
-        ><a class="" href="../pages/login.html">Client portal</a>
-      </nav>
-      <small>Portrait, family &amp; maternity photography</small>
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-studio">
+          <a class="brand" href="../index.html"
+            ><svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+            >
+              <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+              <path
+                d="m7 17 5-10 5 10Z"
+                fill="currentColor"
+                stroke="none"
+              /></svg
+            ><span>Lumen <i>&amp;</i> Kin</span></a
+          >
+          <p>
+            Portraits, families and the connections we carry. Photography with
+            room to be yourself.
+          </p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <nav>
+            <a href="../index.html">Home 1</a
+            ><a href="../pages/home2.html">Home 2</a
+            ><a href="../pages/about.html">About</a
+            ><a href="../pages/gallery.html">Gallery</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Photography</h2>
+          <nav>
+            <a href="../pages/services.html">Services</a
+            ><a href="../pages/packages.html">Packages</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Client Access</h2>
+          <nav>
+            <a href="../pages/contact.html">Contact</a
+            ><a href="../pages/login.html">Login</a
+            ><a href="../pages/dashboard.html">Dashboard</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-wordmark" aria-hidden="true">LUMEN &amp; KIN</div>
+      <div class="copyright">
+        <small>© <span data-year>2026</span> Lumen &amp; Kin</small
+        ><span>Portrait, family &amp; maternity photography</span>
+      </div>
     </footer>
     <button class="back icon" aria-label="Back to top">
       <svg
@@ -480,10 +549,10 @@
         </button>
       </div>
     </dialog>
-    <script defer src="../assets/js/site-config.js"></script>
-    <script defer src="../assets/js/catalog.js"></script>
-    <script defer src="../assets/js/main.js"></script>
-    <script defer src="../assets/js/gallery.js"></script>
-    <script defer src="../assets/js/session-discovery.js"></script>
+    <script defer src="../assets/js/site-config.js?v=20261124"></script>
+    <script defer src="../assets/js/catalog.js?v=20261124"></script>
+    <script defer src="../assets/js/main.js?v=20261124"></script>
+    <script defer src="../assets/js/gallery.js?v=20261124"></script>
+    <script defer src="../assets/js/session-discovery.js?v=20261124"></script>
   </body>
 </html>

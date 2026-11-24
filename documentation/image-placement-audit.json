@@ -1,0 +1,658 @@
+{
+  "scope": "Independent public photographic placements, including hero slides. Authentication uses no photographs.",
+  "public_static_originals": 62,
+  "public_unique_source_ids": 62,
+  "allowed_repetition": "One source in the Home 1 color and monochrome comparison. Gallery viewers and dashboard favorites/prints use functional representations.",
+  "hero_dynamic_only": [
+    "family/family.jpg",
+    "maternity/maternity.jpg"
+  ],
+  "placements": [
+    {
+      "file": "portraits/hero.jpg",
+      "source_id": "14524034",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Black-and-white portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait18.jpg",
+      "source_id": "31538898",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "An editorial portrait presented as a photographic print"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family02.jpg",
+      "source_id": "8944287",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "A family portrait in natural light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait01.jpg",
+      "source_id": "10220532",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Editorial portrait with expressive light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity02.jpg",
+      "source_id": "7055813",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "A considered maternity portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait03.jpg",
+      "source_id": "7289073",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Editorial portrait study"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait04.jpg",
+      "source_id": "4655004",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Editorial portrait study"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait05.jpg",
+      "source_id": "35404621",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Editorial portrait study"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait06.jpg",
+      "source_id": "6512422",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Editorial portrait study"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait12.jpg",
+      "source_id": "20439076",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "A monochrome editorial portrait shaped by directional light"
+        }
+      ]
+    },
+    {
+      "file": "portraits/portrait.jpg",
+      "source_id": "4094744",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Portrait in color"
+        },
+        {
+          "page": "index.html",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "file": "studio/session-wide.jpg",
+      "source_id": "15935628",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Photographer working with a model during a portrait session"
+        }
+      ]
+    },
+    {
+      "file": "studio/session-light.jpg",
+      "source_id": "16671736",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "A model during a studio photography session"
+        }
+      ]
+    },
+    {
+      "file": "studio/print-table.jpg",
+      "source_id": "7014869",
+      "placements": [
+        {
+          "page": "index.html",
+          "alt": "Hands reviewing photographic prints on a desk"
+        }
+      ]
+    },
+    {
+      "file": "portraits/p-about.jpg",
+      "source_id": "9769110",
+      "placements": [
+        {
+          "page": "about.html",
+          "alt": "A studio portrait in soft directional light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-session.jpg",
+      "source_id": "36697540",
+      "placements": [
+        {
+          "page": "about.html",
+          "alt": "A photographer shaping a portrait session"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait07.jpg",
+      "source_id": "31514715",
+      "placements": [
+        {
+          "page": "about.html",
+          "alt": "A seated portrait in studio light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity03.jpg",
+      "source_id": "7155544",
+      "placements": [
+        {
+          "page": "about.html",
+          "alt": "A maternity portrait study"
+        }
+      ]
+    },
+    {
+      "file": "portraits/p-contact.jpg",
+      "source_id": "36439572",
+      "placements": [
+        {
+          "page": "contact.html",
+          "alt": "A relaxed portrait in natural light"
+        }
+      ]
+    },
+    {
+      "file": "maternity/m-flowers.jpg",
+      "source_id": "9478035",
+      "placements": [
+        {
+          "page": "packages.html",
+          "alt": "Maternity portrait among flowers"
+        }
+      ]
+    },
+    {
+      "file": "maternity/m-studio.jpg",
+      "source_id": "30551504",
+      "placements": [
+        {
+          "page": "packages.html",
+          "alt": "Maternity portrait in the studio"
+        }
+      ]
+    },
+    {
+      "file": "maternity/m-waiting.jpg",
+      "source_id": "29619100",
+      "placements": [
+        {
+          "page": "packages.html",
+          "alt": "A quiet maternity portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family01.jpg",
+      "source_id": "4609048",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Family together beside a large window"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family03.jpg",
+      "source_id": "7086015",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Family photographed in natural light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity01.jpg",
+      "source_id": "5853183",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Maternity portrait in soft light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-detail.jpg",
+      "source_id": "5853658",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Fabric and gesture in a maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family04.jpg",
+      "source_id": "9138179",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Family portrait showing connection"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family05.jpg",
+      "source_id": "4609038",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Family portrait showing connection"
+        }
+      ]
+    },
+    {
+      "file": "family/f-garden.jpg",
+      "source_id": "4871817",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Family portrait showing connection"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait09.jpg",
+      "source_id": "31780282",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Portrait study in available light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait10.jpg",
+      "source_id": "28958831",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Portrait study in available light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait11.jpg",
+      "source_id": "30635288",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "Portrait study in available light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait13.jpg",
+      "source_id": "34721621",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family09.jpg",
+      "source_id": "4617293",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity05.jpg",
+      "source_id": "7055955",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "portraits/portrait-2.jpg",
+      "source_id": "12527423",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family07.jpg",
+      "source_id": "8848775",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "maternity/maternity-2.jpg",
+      "source_id": "18372413",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait17.jpg",
+      "source_id": "31610834",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait19.jpg",
+      "source_id": "20693260",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "portraits/p-sun.jpg",
+      "source_id": "36116888",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "portraits/p-man.jpg",
+      "source_id": "5029685",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait20.jpg",
+      "source_id": "31780135",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait14.jpg",
+      "source_id": "27333851",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait15.jpg",
+      "source_id": "31566374",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait16.jpg",
+      "source_id": "18077165",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated editorial portrait"
+        }
+      ]
+    },
+    {
+      "file": "family/f-home.jpg",
+      "source_id": "35858304",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "family/f-couch.jpg",
+      "source_id": "1648358",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "family/f-close.jpg",
+      "source_id": "7417125",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family06.jpg",
+      "source_id": "3806964",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "family/f-bench.jpg",
+      "source_id": "36679734",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated family photograph"
+        }
+      ]
+    },
+    {
+      "file": "maternity/m-window.jpg",
+      "source_id": "14070914",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity06.jpg",
+      "source_id": "5852476",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "maternity/m-dress.jpg",
+      "source_id": "20354813",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity04.jpg",
+      "source_id": "4522864",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity08.jpg",
+      "source_id": "17231392",
+      "placements": [
+        {
+          "page": "gallery.html",
+          "alt": "Curated maternity photograph"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-portrait02.jpg",
+      "source_id": "11105705",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Individual & Editorial Portraits"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family08.jpg",
+      "source_id": "5789776",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Family Photography"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-maternity07.jpg",
+      "source_id": "17930405",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Maternity Photography"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-couple.jpg",
+      "source_id": "5911047",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Couples & Engagement Photography"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-headshot.jpg",
+      "source_id": "36687799",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Professional Headshots"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-milestone.jpg",
+      "source_id": "15248452",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "Birthday & Milestone Photography"
+        }
+      ]
+    }
+  ],
+  "removed_obsolete_assets": [
+    "assets/images/family/family-2-small.jpg",
+    "assets/images/family/family-2.jpg",
+    "assets/images/portraits/p-age-small.jpg",
+    "assets/images/portraits/p-age.jpg",
+    "assets/images/portraits/p-character-small.jpg",
+    "assets/images/portraits/p-character.jpg",
+    "assets/images/portraits/p-gaze-small.jpg",
+    "assets/images/portraits/p-gaze.jpg",
+    "assets/images/portraits/p-heritage-small.jpg",
+    "assets/images/portraits/p-heritage.jpg",
+    "assets/images/portraits/p-light-small.jpg",
+    "assets/images/portraits/p-light.jpg",
+    "assets/images/portraits/p-mono-small.jpg",
+    "assets/images/portraits/p-mono.jpg",
+    "assets/images/portraits/p-print-small.jpg",
+    "assets/images/portraits/p-print.jpg",
+    "assets/images/studio/studio-small.jpg",
+    "assets/images/studio/studio.jpg"
+  ],
+  "reviewed_date": "2026-11-24",
+  "originals_retained": 67
+}

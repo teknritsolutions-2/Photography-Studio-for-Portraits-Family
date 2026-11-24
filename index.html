@@ -9,11 +9,13 @@
       content="Portrait, family and maternity photography at Lumen &amp; Kin."
     />
     <link rel="icon" href="assets/icons/mark.svg" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/homepages.css" />
-    <link rel="stylesheet" href="assets/css/gallery.css" />
-    <link rel="stylesheet" href="assets/css/refinement.css" />
-    <script src="assets/js/prefs.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/homepages.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/gallery.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/refinement.css?v=20261124" />
+    <script src="assets/js/prefs.js?v=20261124"></script>
+    <link rel="stylesheet" href="assets/css/footer.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/corrections.css?v=20261124" />
   </head>
   <body data-page="home">
     <header>
@@ -57,6 +59,7 @@
         ><a class="" href="pages/packages.html">Packages</a
         ><a class="" href="pages/gallery.html">Gallery</a
         ><a class="" href="pages/contact.html">Contact</a>
+        <a href="pages/dashboard.html">Dashboard</a>
       </nav>
       <div class="utilities">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -88,7 +91,7 @@
             <circle cx="12" cy="8" r="3" />
             <path d="M5 21v-2a7 7 0 0 1 14 0v2" />
           </svg>
-          Client portal</a
+          Login</a
         >
       </div>
       <button class="hamb icon" aria-label="Open navigation" data-menu>
@@ -142,7 +145,8 @@
         ><a class="" href="pages/packages.html">Packages</a
         ><a class="" href="pages/gallery.html">Gallery</a
         ><a class="" href="pages/contact.html">Contact</a
-        ><a class="" href="pages/login.html">Client portal</a>
+        ><a class="" href="pages/login.html">Login</a>
+        <a href="pages/dashboard.html">Dashboard</a>
       </div>
       <div class="tools">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -167,15 +171,15 @@
       <section class="hero">
         <img
           src="assets/images/portraits/hero.jpg"
-          srcset="
-            assets/images/portraits/hero-small.jpg  640w,
-            assets/images/portraits/hero.jpg       2000w
-          "
-          sizes="(max-width: 740px) 100vw, 76vw"
           alt="Black-and-white portrait"
           class="hero-photo"
           loading="eager"
           decoding="async"
+          srcset="
+            assets/images/portraits/hero-small.jpg  640w,
+            assets/images/portraits/hero.jpg       2000w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
           width="2000"
           height="1183"
         />
@@ -202,10 +206,18 @@
           aria-label="Focus next photographic print"
         >
           <img
-            src="assets/images/family/family-small.jpg"
-            alt=""
-            width="640"
-            height="427"
+            src="assets/images/refined/r-portrait18.jpg"
+            alt="An editorial portrait presented as a photographic print"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              assets/images/refined/r-portrait18-small.jpg  640w,
+              assets/images/refined/r-portrait18.jpg       1600w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1600"
+            height="2400"
           />
         </button>
         <div class="hero-bottom">
@@ -266,50 +278,50 @@
         <div class="film" tabindex="0" aria-label="Selected moments gallery">
           <a href="pages/gallery.html?category=Family"
             ><img
-              src="assets/images/family/family.jpg"
-              srcset="
-                assets/images/family/family-small.jpg  640w,
-                assets/images/family/family.jpg       1600w
-              "
-              sizes="(max-width: 740px) 100vw, 50vw"
-              alt="Held close"
+              src="assets/images/refined/r-family02.jpg"
+              alt="A family portrait in natural light"
               class=""
               loading="lazy"
               decoding="async"
+              srcset="
+                assets/images/refined/r-family02-small.jpg  640w,
+                assets/images/refined/r-family02.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
               width="1600"
-              height="1067"
+              height="2400"
             /><small>Family</small>
             <h3>Held close</h3></a
           ><a href="pages/gallery.html?category=Portraits"
             ><img
-              src="assets/images/portraits/p-character.jpg"
-              srcset="
-                assets/images/portraits/p-character-small.jpg  640w,
-                assets/images/portraits/p-character.jpg       1100w
-              "
-              sizes="(max-width: 740px) 100vw, 50vw"
-              alt="Character in light"
+              src="assets/images/refined/r-portrait01.jpg"
+              alt="Editorial portrait with expressive light"
               class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2100"
+              srcset="
+                assets/images/refined/r-portrait01-small.jpg  640w,
+                assets/images/refined/r-portrait01.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2142"
             /><small>Portraits</small>
-            <h3>Character in light</h3></a
+            <h3>Character in Light</h3></a
           ><a href="pages/gallery.html?category=Maternity"
             ><img
-              src="assets/images/maternity/maternity.jpg"
-              srcset="
-                assets/images/maternity/maternity-small.jpg  640w,
-                assets/images/maternity/maternity.jpg       1100w
-              "
-              sizes="(max-width: 740px) 100vw, 50vw"
-              alt="In anticipation"
+              src="assets/images/refined/r-maternity02.jpg"
+              alt="A considered maternity portrait"
               class=""
               loading="lazy"
               decoding="async"
-              width="1100"
-              height="1375"
+              srcset="
+                assets/images/refined/r-maternity02-small.jpg  640w,
+                assets/images/refined/r-maternity02.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2397"
             /><small>Maternity</small>
             <h3>In anticipation</h3></a
           >
@@ -354,65 +366,69 @@
         <div class="contact-sheet">
           <figure>
             <img
-              src="assets/images/portraits/p-light.jpg"
-              srcset="
-                assets/images/portraits/p-light-small.jpg  640w,
-                assets/images/portraits/p-light.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Woman framed in soft light"
+              src="assets/images/refined/r-portrait03.jpg"
+              alt="Editorial portrait study"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="1153"
+              srcset="
+                assets/images/refined/r-portrait03-small.jpg  640w,
+                assets/images/refined/r-portrait03.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2001"
             />
             <figcaption>Light, gently held</figcaption>
           </figure>
           <figure>
             <img
-              src="assets/images/portraits/p-gaze.jpg"
-              srcset="
-                assets/images/portraits/p-gaze-small.jpg  640w,
-                assets/images/portraits/p-gaze.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Portrait of a woman with long hair"
+              src="assets/images/refined/r-portrait04.jpg"
+              alt="Editorial portrait study"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="1742"
+              srcset="
+                assets/images/refined/r-portrait04-small.jpg  640w,
+                assets/images/refined/r-portrait04.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="1658"
             />
             <figcaption>A direct gaze</figcaption>
           </figure>
           <figure>
             <img
-              src="assets/images/portraits/p-mono.jpg"
-              srcset="
-                assets/images/portraits/p-mono-small.jpg  640w,
-                assets/images/portraits/p-mono.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Monochrome studio portrait of a man"
+              src="assets/images/refined/r-portrait05.jpg"
+              alt="Editorial portrait study"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2100"
+              srcset="
+                assets/images/refined/r-portrait05-small.jpg  640w,
+                assets/images/refined/r-portrait05.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2416"
             />
-            <figcaption>In monochrome</figcaption>
+            <figcaption>In movement</figcaption>
           </figure>
           <figure>
             <img
-              src="assets/images/portraits/p-heritage.jpg"
-              srcset="
-                assets/images/portraits/p-heritage-small.jpg  640w,
-                assets/images/portraits/p-heritage.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="Portrait of an older woman wearing a cap"
+              src="assets/images/refined/r-portrait06.jpg"
+              alt="Editorial portrait study"
+              class=""
               loading="lazy"
               decoding="async"
-              width="1400"
-              height="2179"
+              srcset="
+                assets/images/refined/r-portrait06-small.jpg  640w,
+                assets/images/refined/r-portrait06.jpg       1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1600"
+              height="2000"
             />
             <figcaption>Presence, in detail</figcaption>
           </figure>
@@ -467,18 +483,18 @@
       </section>
       <section class="wrap story featured-story">
         <img
-          src="assets/images/portraits/portrait-2.jpg"
-          srcset="
-            assets/images/portraits/portrait-2-small.jpg  640w,
-            assets/images/portraits/portrait-2.jpg       1100w
-          "
-          sizes="(max-width: 740px) 100vw, 50vw"
-          alt="A portrait study in available light"
+          src="assets/images/refined/r-portrait12.jpg"
+          alt="A monochrome editorial portrait shaped by directional light"
           class=""
           loading="lazy"
           decoding="async"
-          width="1100"
-          height="734"
+          srcset="
+            assets/images/refined/r-portrait12-small.jpg  640w,
+            assets/images/refined/r-portrait12.jpg       1600w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
+          width="1600"
+          height="1067"
         />
         <div>
           <div class="eyebrow"><b></b>FEATURED PORTRAIT STORY</div>
@@ -509,28 +525,28 @@
           <div class="compare">
             <img
               src="assets/images/portraits/portrait.jpg"
-              srcset="
-                assets/images/portraits/portrait-small.jpg  640w,
-                assets/images/portraits/portrait.jpg       1100w
-              "
-              sizes="(max-width: 740px) 100vw, 50vw"
               alt="Portrait in color"
               class=""
               loading="lazy"
               decoding="async"
-              width="1100"
-              height="734"
-            /><img
-              src="assets/images/portraits/portrait.jpg"
               srcset="
                 assets/images/portraits/portrait-small.jpg  640w,
                 assets/images/portraits/portrait.jpg       1100w
               "
-              sizes="(max-width: 740px) 100vw, 50vw"
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1100"
+              height="734"
+            /><img
+              src="assets/images/portraits/portrait.jpg"
               alt=""
               class="mono"
               loading="lazy"
               decoding="async"
+              srcset="
+                assets/images/portraits/portrait-small.jpg  640w,
+                assets/images/portraits/portrait.jpg       1100w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
               width="1100"
               height="734"
             /><i></i>
@@ -555,28 +571,30 @@
         <div class="craft-spread">
           <img
             src="assets/images/studio/session-wide.jpg"
+            alt="Photographer working with a model during a portrait session"
+            class=""
+            loading="lazy"
+            decoding="async"
             srcset="
               assets/images/studio/session-wide-small.jpg  640w,
               assets/images/studio/session-wide.jpg       1400w
             "
-            sizes="(max-width:740px) 100vw, 45vw"
-            alt="Photographer working with a model during a portrait session"
-            loading="lazy"
-            decoding="async"
+            sizes="(max-width:740px) 100vw, 50vw"
             width="1400"
             height="933"
           />
           <div>
             <img
               src="assets/images/studio/session-light.jpg"
+              alt="A model during a studio photography session"
+              class=""
+              loading="lazy"
+              decoding="async"
               srcset="
                 assets/images/studio/session-light-small.jpg  640w,
                 assets/images/studio/session-light.jpg       1400w
               "
-              sizes="(max-width:740px) 100vw, 45vw"
-              alt="A model during a studio photography session"
-              loading="lazy"
-              decoding="async"
+              sizes="(max-width:740px) 100vw, 50vw"
               width="1400"
               height="933"
             />
@@ -596,50 +614,40 @@
         </div>
       </section>
       <section class="wrap print-feature">
-        <div class="collection-intro">
+        <figure class="physical-print">
+          <img
+            src="assets/images/studio/print-table.jpg"
+            alt="Hands reviewing photographic prints on a desk"
+            class=""
+            loading="lazy"
+            decoding="async"
+            srcset="
+              assets/images/studio/print-table-small.jpg  640w,
+              assets/images/studio/print-table.jpg       1400w
+            "
+            sizes="(max-width:740px) 100vw, 50vw"
+            width="1400"
+            height="2100"
+          />
+          <figcaption>Taking time with a photographic print</figcaption>
+        </figure>
+        <div class="print-copy">
           <div class="eyebrow"><b></b>FROM PORTRAIT TO PRINT</div>
-          <h2>Something to <em>hold on to.</em></h2>
+          <h2>Something to<br /><em>hold on to.</em></h2>
           <p>
-            A photograph finds another life on paper. Start with a favorite
-            frame, then consider how its size and finish will feel in your
-            space.
+            A photograph finds another life on paper. Choose a favorite frame,
+            then consider its size, finish and the place it belongs.
           </p>
-        </div>
-        <div class="print-spread">
-          <figure class="physical-print">
-            <img
-              src="assets/images/studio/print-table.jpg"
-              alt="Hands reviewing photographic prints on a desk"
-              loading="lazy"
-              decoding="async"
-              srcset="
-                assets/images/studio/print-table-small.jpg  640w,
-                assets/images/studio/print-table.jpg       1400w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1400"
-              height="2100"
-            />
-            <figcaption>Taking time with a photographic print</figcaption>
-          </figure>
-          <div>
-            <h3>The frame, the paper,<br />the place it belongs.</h3>
-            <p>
-              Small prints invite a closer look. A larger format gives the light
-              and texture room to unfold. Matte and gloss options are available
-              in the client print selection.
-            </p>
-            <p>
-              Review indicative sizes and prices in the client portal, or
-              include your print ideas with a session enquiry.
-            </p>
-            <div class="actions">
-              <a class="button outline" href="pages/packages.html"
-                >Explore packages</a
-              ><a class="textlink" href="pages/login.html"
-                >Client print selections</a
-              >
-            </div>
+          <p>
+            Explore indicative print sizes in the client dashboard, or include
+            your print ideas with a session enquiry.
+          </p>
+          <div class="actions">
+            <a class="button outline" href="pages/packages.html"
+              >Explore packages</a
+            ><a class="textlink" href="pages/dashboard.html#prints"
+              >Print selections</a
+            >
           </div>
         </div>
       </section>
@@ -649,32 +657,59 @@
         <a class="button" href="pages/contact.html">Book a session</a>
       </section>
     </main>
-    <footer>
-      <a class="brand" href="index.html"
-        ><svg
-          aria-hidden="true"
-          viewBox="0 0 25 25"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
-          <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
-        ><span>Lumen <i>&amp;</i> Kin</span></a
-      >
-      <nav>
-        <a class="" href="index.html">Home 1</a
-        ><a class="" href="pages/home2.html">Home 2</a
-        ><a class="" href="pages/about.html">About</a
-        ><a class="" href="pages/services.html">Services</a
-        ><a class="" href="pages/packages.html">Packages</a
-        ><a class="" href="pages/gallery.html">Gallery</a
-        ><a class="" href="pages/contact.html">Contact</a
-        ><a class="" href="pages/login.html">Client portal</a>
-      </nav>
-      <small>Portrait, family &amp; maternity photography</small>
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-studio">
+          <a class="brand" href="index.html"
+            ><svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+            >
+              <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+              <path
+                d="m7 17 5-10 5 10Z"
+                fill="currentColor"
+                stroke="none"
+              /></svg
+            ><span>Lumen <i>&amp;</i> Kin</span></a
+          >
+          <p>
+            Portraits, families and the connections we carry. Photography with
+            room to be yourself.
+          </p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <nav>
+            <a href="index.html">Home 1</a><a href="pages/home2.html">Home 2</a
+            ><a href="pages/about.html">About</a
+            ><a href="pages/gallery.html">Gallery</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Photography</h2>
+          <nav>
+            <a href="pages/services.html">Services</a
+            ><a href="pages/packages.html">Packages</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Client Access</h2>
+          <nav>
+            <a href="pages/contact.html">Contact</a
+            ><a href="pages/login.html">Login</a
+            ><a href="pages/dashboard.html">Dashboard</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-wordmark" aria-hidden="true">LUMEN &amp; KIN</div>
+      <div class="copyright">
+        <small>© <span data-year>2026</span> Lumen &amp; Kin</small
+        ><span>Portrait, family &amp; maternity photography</span>
+      </div>
     </footer>
     <button class="back icon" aria-label="Back to top">
       <svg
@@ -736,10 +771,10 @@
         </button>
       </div>
     </dialog>
-    <script defer src="assets/js/site-config.js"></script>
-    <script defer src="assets/js/catalog.js"></script>
-    <script defer src="assets/js/main.js"></script>
-    <script defer src="assets/js/gallery.js"></script>
-    <script defer src="assets/js/homepages.js"></script>
+    <script defer src="assets/js/site-config.js?v=20261124"></script>
+    <script defer src="assets/js/catalog.js?v=20261124"></script>
+    <script defer src="assets/js/main.js?v=20261124"></script>
+    <script defer src="assets/js/gallery.js?v=20261124"></script>
+    <script defer src="assets/js/homepages.js?v=20261124"></script>
   </body>
 </html>

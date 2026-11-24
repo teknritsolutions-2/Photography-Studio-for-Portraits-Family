@@ -79,12 +79,6 @@ figcaption {
   background: var(--card);
   padding-block: 48px;
 }
-.print-spread {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
 .physical-print {
   padding: clamp(18px, 3vw, 46px);
   background: #fff;
@@ -100,9 +94,6 @@ figcaption {
 .physical-print figcaption {
   color: #636368;
   margin-top: 20px;
-}
-.print-spread h3 {
-  font-size: clamp(30px, 3vw, 46px);
 }
 .family-chapters {
   padding-block: 40px;
@@ -158,14 +149,6 @@ figcaption {
 .session-discovery > .actions {
   margin-top: 24px;
 }
-body[data-page="home2"] .alternate {
-  padding-bottom: 30px;
-}
-body[data-page="home2"] .alternate > img {
-  height: auto;
-  max-height: 570px;
-  object-fit: contain;
-}
 body[data-page="home2"] .story {
   padding-block: 36px;
   gap: 40px;
@@ -209,9 +192,6 @@ body[data-page="gallery"] main > .wrap:last-child {
   .craft-spread {
     gap: 24px;
   }
-  .print-spread {
-    gap: 28px;
-  }
   .contact-sheet {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -248,8 +228,7 @@ body[data-page="gallery"] main > .wrap:last-child {
     font-size: 14px;
     line-height: 1.4;
   }
-  .craft-spread,
-  .print-spread {
+  .craft-spread {
     grid-template-columns: 1fr;
     gap: 24px;
   }

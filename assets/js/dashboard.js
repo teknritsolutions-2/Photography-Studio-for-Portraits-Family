@@ -58,7 +58,11 @@ function sessionRow(s, edit = true) {
   const p = catalogue.find((p) => p.id === s.package);
   return (
     '<div class="orderrow"><div><strong>' +
-    escapeHTML(p?.name || s.service) +
+    escapeHTML(
+      p?.name ||
+        (services.find((item) => item.id === s.service)?.name || s.service) +
+          " · Custom enquiry",
+    ) +
     "</strong><br>" +
     escapeHTML(s.date) +
     " · " +
@@ -116,6 +120,7 @@ function bindBooking() {
   const form = $("#booking"),
     f = form.elements;
   const existing = state.sessions.find((s) => s.id === editing);
+  populateServices(f.service);
   f.service.value = existing?.service || "Portraits";
   packageOptions(form, existing?.package);
   if (existing) {

@@ -9,11 +9,13 @@
       content="Portrait, family and maternity photography at Lumen &amp; Kin."
     />
     <link rel="icon" href="../assets/icons/mark.svg" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/gallery.css" />
-    <link rel="stylesheet" href="../assets/css/inner-pages.css" />
-    <link rel="stylesheet" href="../assets/css/refinement.css" />
-    <script src="../assets/js/prefs.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/gallery.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/inner-pages.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/refinement.css?v=20261124" />
+    <script src="../assets/js/prefs.js?v=20261124"></script>
+    <link rel="stylesheet" href="../assets/css/footer.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/corrections.css?v=20261124" />
   </head>
   <body data-page="about">
     <header>
@@ -57,6 +59,7 @@
         ><a class="" href="../pages/packages.html">Packages</a
         ><a class="" href="../pages/gallery.html">Gallery</a
         ><a class="" href="../pages/contact.html">Contact</a>
+        <a href="../pages/dashboard.html">Dashboard</a>
       </nav>
       <div class="utilities">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -88,7 +91,7 @@
             <circle cx="12" cy="8" r="3" />
             <path d="M5 21v-2a7 7 0 0 1 14 0v2" />
           </svg>
-          Client portal</a
+          Login</a
         >
       </div>
       <button class="hamb icon" aria-label="Open navigation" data-menu>
@@ -142,7 +145,8 @@
         ><a class="" href="../pages/packages.html">Packages</a
         ><a class="" href="../pages/gallery.html">Gallery</a
         ><a class="" href="../pages/contact.html">Contact</a
-        ><a class="" href="../pages/login.html">Client portal</a>
+        ><a class="" href="../pages/login.html">Login</a>
+        <a href="../pages/dashboard.html">Dashboard</a>
       </div>
       <div class="tools">
         <button class="icon" data-theme aria-label="Switch theme">
@@ -175,9 +179,9 @@
       <section class="wrap story">
         <img
           src="../assets/images/portraits/p-about.jpg"
-          alt="A portrait in soft, directional light"
+          alt="A studio portrait in soft directional light"
           class=""
-          loading="lazy"
+          loading="eager"
           decoding="async"
           srcset="
             ../assets/images/portraits/p-about-small.jpg  640w,
@@ -214,18 +218,18 @@
         <div class="process-grid">
           <figure>
             <img
-              src="../assets/images/studio/session-light.jpg"
-              alt="A model being photographed during a portrait session"
+              src="../assets/images/refined/r-session.jpg"
+              alt="A photographer shaping a portrait session"
               class=""
               loading="lazy"
               decoding="async"
               srcset="
-                ../assets/images/studio/session-light-small.jpg  640w,
-                ../assets/images/studio/session-light.jpg       1400w
+                ../assets/images/refined/r-session-small.jpg  640w,
+                ../assets/images/refined/r-session.jpg       1600w
               "
               sizes="(max-width:740px) 100vw, 50vw"
-              width="1400"
-              height="933"
+              width="1600"
+              height="900"
             />
             <figcaption>Light shapes the frame.</figcaption>
           </figure>
@@ -263,37 +267,38 @@
         <div class="portrait-notes-grid">
           <figure>
             <img
-              src="../assets/images/family/family-2.jpg"
-              alt="Family embracing in outdoor light"
+              src="../assets/images/refined/r-portrait07.jpg"
+              alt="A seated portrait in studio light"
               class=""
               loading="lazy"
               decoding="async"
               srcset="
-                ../assets/images/family/family-2-small.jpg  640w,
-                ../assets/images/family/family-2.jpg       1100w
+                ../assets/images/refined/r-portrait07-small.jpg  640w,
+                ../assets/images/refined/r-portrait07.jpg       1600w
               "
               sizes="(max-width:740px) 100vw, 50vw"
-              width="1100"
-              height="1650"
+              width="1600"
+              height="2400"
             />
-            <figcaption>Connection in natural light.</figcaption>
+            <figcaption>Expression in considered light.</figcaption>
           </figure>
+
           <figure>
             <img
-              src="../assets/images/maternity/maternity-2.jpg"
-              alt="A family maternity portrait"
+              src="../assets/images/refined/r-maternity03.jpg"
+              alt="A maternity portrait study"
               class=""
               loading="lazy"
               decoding="async"
               srcset="
-                ../assets/images/maternity/maternity-2-small.jpg  640w,
-                ../assets/images/maternity/maternity-2.jpg       1100w
+                ../assets/images/refined/r-maternity03-small.jpg  640w,
+                ../assets/images/refined/r-maternity03.jpg       1600w
               "
               sizes="(max-width:740px) 100vw, 50vw"
-              width="1100"
-              height="1650"
+              width="1600"
+              height="2400"
             />
-            <figcaption>A shared moment in the studio.</figcaption>
+            <figcaption>A pause in natural light.</figcaption>
           </figure>
           <p>
             Some portraits feel open and spontaneous. Others are still and
@@ -318,32 +323,60 @@
         <a class="button" href="../pages/contact.html">Book a session</a>
       </section>
     </main>
-    <footer>
-      <a class="brand" href="../index.html"
-        ><svg
-          aria-hidden="true"
-          viewBox="0 0 25 25"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
-          <path d="m7 17 5-10 5 10Z" fill="currentColor" stroke="none" /></svg
-        ><span>Lumen <i>&amp;</i> Kin</span></a
-      >
-      <nav>
-        <a class="" href="../index.html">Home 1</a
-        ><a class="" href="../pages/home2.html">Home 2</a
-        ><a class="active" href="../pages/about.html">About</a
-        ><a class="" href="../pages/services.html">Services</a
-        ><a class="" href="../pages/packages.html">Packages</a
-        ><a class="" href="../pages/gallery.html">Gallery</a
-        ><a class="" href="../pages/contact.html">Contact</a
-        ><a class="" href="../pages/login.html">Client portal</a>
-      </nav>
-      <small>Portrait, family &amp; maternity photography</small>
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-studio">
+          <a class="brand" href="../index.html"
+            ><svg
+              aria-hidden="true"
+              viewBox="0 0 25 25"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+            >
+              <path d="M2 10V3h7m14 7V3h-7M2 16v7h7m14-7v7h-7" />
+              <path
+                d="m7 17 5-10 5 10Z"
+                fill="currentColor"
+                stroke="none"
+              /></svg
+            ><span>Lumen <i>&amp;</i> Kin</span></a
+          >
+          <p>
+            Portraits, families and the connections we carry. Photography with
+            room to be yourself.
+          </p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <nav>
+            <a href="../index.html">Home 1</a
+            ><a href="../pages/home2.html">Home 2</a
+            ><a href="../pages/about.html">About</a
+            ><a href="../pages/gallery.html">Gallery</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Photography</h2>
+          <nav>
+            <a href="../pages/services.html">Services</a
+            ><a href="../pages/packages.html">Packages</a>
+          </nav>
+        </div>
+        <div>
+          <h2>Client Access</h2>
+          <nav>
+            <a href="../pages/contact.html">Contact</a
+            ><a href="../pages/login.html">Login</a
+            ><a href="../pages/dashboard.html">Dashboard</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-wordmark" aria-hidden="true">LUMEN &amp; KIN</div>
+      <div class="copyright">
+        <small>© <span data-year>2026</span> Lumen &amp; Kin</small
+        ><span>Portrait, family &amp; maternity photography</span>
+      </div>
     </footer>
     <button class="back icon" aria-label="Back to top">
       <svg
@@ -405,9 +438,9 @@
         </button>
       </div>
     </dialog>
-    <script defer src="../assets/js/site-config.js"></script>
-    <script defer src="../assets/js/catalog.js"></script>
-    <script defer src="../assets/js/main.js"></script>
-    <script defer src="../assets/js/gallery.js"></script>
+    <script defer src="../assets/js/site-config.js?v=20261124"></script>
+    <script defer src="../assets/js/catalog.js?v=20261124"></script>
+    <script defer src="../assets/js/main.js?v=20261124"></script>
+    <script defer src="../assets/js/gallery.js?v=20261124"></script>
   </body>
 </html>

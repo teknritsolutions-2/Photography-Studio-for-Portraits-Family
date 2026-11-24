@@ -3,7 +3,9 @@ function packageOptions(form, preferred) {
     (p) => p.category === form.elements.service.value,
   );
   form.elements.package.replaceChildren(
-    ...choices.map((p) => new Option(p.name, p.id)),
+    ...(choices.length
+      ? choices.map((p) => new Option(p.name, p.id))
+      : [new Option("Custom session enquiry", "custom")]),
   );
   if (choices.some((p) => p.id === preferred))
     form.elements.package.value = preferred;
@@ -12,7 +14,8 @@ const enquiry = $("#enquiry");
 if (enquiry) {
   const review = $("#review");
   const f = enquiry.elements;
-  if (["Portraits", "Family", "Maternity"].includes(params.get("service")))
+  populateServices(f.service);
+  if (services.some((service) => service.id === params.get("service")))
     f.service.value = params.get("service");
   packageOptions(enquiry, params.get("package"));
   f.service.onchange = () => packageOptions(enquiry);

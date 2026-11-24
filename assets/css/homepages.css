@@ -166,12 +166,6 @@
 .editorial a svg {
   margin-inline-start: auto;
 }
-.alternate > img {
-  width: 100%;
-  height: clamp(310px, 36vw, 580px);
-  object-fit: cover;
-  object-position: center 30%;
-}
 .compare {
   position: relative;
   --split: 50%;
@@ -202,13 +196,6 @@
 }
 .range input {
   direction: ltr;
-}
-.alternate h1 {
-  margin: 16px 0;
-}
-.alternate > img {
-  height: clamp(260px, 42vw, 700px);
-  margin-top: 30px;
 }
 .range input {
   accent-color: var(--accent);

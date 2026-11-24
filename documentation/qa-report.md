@@ -1,50 +1,57 @@
-# Portfolio expansion and visual refinement
+# Page, photography and authentication correction report
 
-## Delivered changes
+Reviewed on 24 November 2026.
 
-Home 1 retains the layered hero, perspective carousel, portrait story, color comparison and session invitation. New sections introduce The Portrait Edit, Behind the Frame and From Portrait to Print. Four individual portraits form a contact sheet. Actual model sessions illustrate lighting and direction, and a photograph of hands reviewing prints grounds the print feature.
+## Changes completed
 
-Home 2 retains its journal identity. Family Chapters adds three family photographs, Portraits in Natural Light adds three individual portraits, and Choose Your Session draws its package names, durations and indicative prices from the shared catalogue. The maternity feature has a narrower image column suited to its portrait ratio.
+Home 1 has a new adult editorial portrait in Selected Moments and a distinct landscape portrait for A Quiet Gaze. Its print feature now integrates the heading, compact image, copy and actions within one balanced composition. The layered hero, perspective carousel and comparison remain interactive.
 
-About includes a model-session process feature and a small human-subject collection. Services have stronger descriptions, preparation guidance and different compositions. Packages add photography and a catalogue-driven comparison table. Contact adds preparation, follow-up guidance and four FAQs. The existing dashboard layout and local storage keys remain in use.
+Home 2 has an integrated photographic banner with portfolio and booking actions. Its maternity feature combines a primary portrait, supporting detail and editorial heading. Family Chapters uses compatible landscape compositions, consistent captions and complete family framing.
 
-## Image audit
+About's Working with Light section uses connected column proportions and a controlled portrait crop. The three process descriptions align with a landscape model-session photograph. The smaller collection uses separate original photographs.
 
-The library grew from 11 original photographs to 35, each with a smaller responsive version. The public gallery grew from 6 to 24 distinct photographs, comprising 10 portraits, 7 family photographs and 7 maternity photographs. Three separate proof photographs retain their original identifiers and coherent session grouping.
+Services now presents six offerings through varied editorial compositions. Individual & Editorial Portraits, Family Photography and Maternity Photography retain their existing package options. Couples & Engagement Photography, Professional Headshots and Birthday & Milestone Photography use custom enquiries. One service catalogue supplies Contact and dashboard request selectors.
 
-Home 1 now uses 14 distinct static photographs, Home 2 uses 9, About uses 4, Services uses 3, Packages uses 3, Contact uses 1 and Login uses 1. The comparison deliberately presents the same photograph in two treatments. Portfolio photographs also appear in the relevant public gallery. About, Contact and Login have dedicated new portraits, and the print section has a dedicated physical-print photograph. The original empty-studio asset remains in the source archive and has no public page reference.
+The shared public footer uses Studio, Explore, Photography and Client Access columns, a responsive LUMEN & KIN wordmark and a copyright row. Public navigation has separate Login and Dashboard destinations. Contact fields start at the heading's gutter and use logical alignment.
 
-All photographs are local assets with source credits. Responsive image dimensions match the downloaded files. The gallery preserves complete source compositions. Visual QA caught a cropped mother's head in the Services family panel, which now displays the full photograph.
+Login and Signup follow the compact structural pattern inspected in [UPBEAT's authentication files](https://github.com/teknritsolutions-2/Music-Classes-for-Kids-Adults/tree/main/pages), adapted to Lumen & Kin. Both include clickable branding, provider controls, accessible password visibility controls and form validation. Signup checks a meaningful name and matching passwords. Valid submission clears passwords and reports that the account service requires integration. Provider and recovery controls give concise unavailable-service feedback. Remember Me saves only the entered email. Dashboard access remains a separate public navigation destination.
 
-[Photographic sources and licenses](asset-credits.md)
+The existing package prices, deliverables, panel layouts and comparison structure are retained. Gallery layout, filtering and viewer behavior are retained with revised photographs. Dashboard storage keys, proof IDs and client workflows are preserved.
 
-## Color and architecture
+## Photography and source audit
 
-The light canvas is #FAFAFA with white surfaces, #171719 text and #636368 secondary text. Dark mode uses #0B0C0F, #18191D panels, #F5F5F6 text and #AEAFB7 secondary text. Borders are neutral, with restrained smoky-plum focus and active accents. Header, footer, favicon, dialogs and dashboard surfaces share the revised neutral palette.
+There are 67 retained original photographs and responsive derivatives. The 64 independent public sources comprise 62 static originals and two additional hero-slide originals. Three proof photographs serve the separate dashboard demonstration.
 
-CSS is organized into shared, homepage, gallery, dashboard, authentication, inner-page and photographic-expansion files. JavaScript separates shared controls, homepage interactions, gallery, booking, authentication and print orders. Studio configuration and package data are centralized. Images are organized into portraits, family, maternity, studio and proofs folders. Page URLs are preserved.
+The source-ID audit confirms no repeated original across independent public placements. The color/monochrome comparison intentionally presents one original twice. Gallery viewers and dashboard favorites and print selections use functional representations of their corresponding photograph. Authentication uses no supporting photograph, matching the compact reference structure.
 
-## Browser verification
+Forty-one new photographs remain in the final library. Ten obsolete originals and their derivatives were removed. Sources were selected for editorial portraiture and appropriate family, maternity, couples, headshot and milestone subjects. Geographic documentation distinguishes contributor base from photograph location. The source manifest includes documented Stockholm, Berlin and Moscow contributor information and other source-page location evidence. Subject nationality and exact age are not inferred.
 
-Tested in Brave with Playwright, including mobile viewport and touch emulation.
+[Photographic credits](asset-credits.md) · [Source and geographic metadata](refined-asset-manifest.json) · [Placement and removal audit](image-placement-audit.json)
 
-- Checked all nine pages at 320, 390, 430, 768, 820, 1024, 1280 and 1440 pixels in light and dark themes, in LTR and RTL.
-- Captured 54 full-page screenshots covering all pages at mobile, tablet and desktop sizes in light LTR and dark RTL. Inspected full-page views and corrected image cropping, maternity column balance and the contact form alignment.
-- Checked the dashboard's seven routes across the wider original responsive matrix. Verified desktop sidebar, mobile left drawer, theme persistence and direction persistence.
-- Exercised hero and print-stack controls, perspective carousel buttons and keyboard navigation, gallery filtering, keyboard and emulated touch lightbox navigation, and comparison range and pointer dragging.
-- Corrected native image dragging interfering with the comparison pointer gesture, then retested it.
-- Followed the Family service to its matching package and preselected enquiry. Tested required fields, review, editing, copying and downloading.
-- Tested demo login, password visibility, Remember Me, direct demo entry and reset explanation.
-- Created and edited a session request. Verified session history and overview.
-- Saved and removed favorites, including after reload. Tested the proof viewer in mobile dark RTL.
-- Tested print size and finish selection, quantity changes, item removal, consistent totals and prepared-request summaries. Three ₹450 prints total ₹1,350.
-- Edited the local profile and verified the updated greeting.
-- Verified every local HTML link, stylesheet, script, image and responsive image path resolves. JavaScript syntax and Git whitespace checks passed.
+## Verification performed
 
-## Full-page captures
+Tested in Brave through Playwright, including mobile viewport and touch emulation.
 
-[Home 1 desktop](screenshots/expanded/index-1440-light-ltr.jpg) · [Home 1 mobile dark RTL](screenshots/expanded/index-390-dark-rtl.jpg) · [Home 2 desktop](screenshots/expanded/home2-1440-light-ltr.jpg) · [Home 2 tablet dark RTL](screenshots/expanded/home2-820-dark-rtl.jpg) · [About](screenshots/expanded/about-1440-light-ltr.jpg) · [Services](screenshots/expanded/services-1440-light-ltr.jpg) · [Services mobile dark RTL](screenshots/expanded/services-390-dark-rtl.jpg) · [Packages](screenshots/expanded/packages-1440-light-ltr.jpg) · [Gallery](screenshots/expanded/gallery-1440-light-ltr.jpg) · [Contact](screenshots/expanded/contact-1440-light-ltr.jpg) · [Login](screenshots/expanded/login-1440-light-ltr.jpg) · [Dashboard](screenshots/expanded/dashboard-1440-light-ltr.jpg)
+- All ten pages passed overflow and asset-loading checks at 320, 390, 430, 768, 1024, 1180, 1280 and 1440 pixels in light/dark and LTR/RTL combinations.
+- Captured 60 full-page screenshots at mobile 390 × 844, tablet 768 × 1024 and desktop 1440 pixels in light LTR and dark RTL. Inspected desktop, tablet and mobile compositions and corrected cropped family framing, service image proportions and a narrow-screen heading.
+- Tested desktop Home dropdown, sticky navigation, left-opening mobile drawer, Escape dismissal, direction/theme persistence, public Login/Dashboard destinations, footer links and back-to-top.
+- Tested hero and photographic-stack controls, carousel keyboard navigation, comparison range and pointer drag, Gallery category filters, viewer keyboard controls and emulated touch swipe.
+- Followed every service's enquiry action and verified preselection. Checked custom package handling for all three added offerings.
+- Tested enquiry validation, review, editing, clipboard contents and download.
+- Tested Login password visibility, Remember Me, provider and reset feedback. Tested Signup whitespace-name rejection, mismatched-password validation, valid submission, cleared fields and absence of passwords in local storage.
+- Created and edited custom service requests, including the review dialog and session history.
+- Tested legacy saved Family requests, existing proof favorites and print drafts using the previous local storage format.
+- Checked every dashboard route at mobile, tablet and desktop widths in light LTR and dark RTL.
+- Tested proof favorites after reload, removal, dark RTL proof viewing, print sizes and finishes, quantity changes, item removal, prepared-request summaries and profile editing. Three ₹450 prints total ₹1,350.
+- Verified local links, stylesheets, scripts, original images and responsive derivatives resolve. JavaScript syntax and Git whitespace checks passed.
+- Removed obsolete page styles and versioned changed stylesheets and scripts for cache invalidation.
 
-## Verification limits
+## Rendered captures
 
-Checks used one browser engine and emulated mobile devices. Real-device Safari and Firefox verification remains outstanding. Session requests, proof selections and print orders remain frontend demonstrations. Production requires the integrations described in the [README](../README.md).
+[Home 1 desktop](screenshots/index-1440-light-ltr.jpg) · [Home 1 mobile dark RTL](screenshots/index-390-dark-rtl.jpg) · [Home 2 desktop](screenshots/home2-1440-light-ltr.jpg) · [Home 2 tablet](screenshots/home2-768-light-ltr.jpg) · [About desktop](screenshots/about-1440-light-ltr.jpg) · [About mobile dark RTL](screenshots/about-390-dark-rtl.jpg) · [Services desktop](screenshots/services-1440-light-ltr.jpg) · [Services tablet](screenshots/services-768-light-ltr.jpg) · [Packages](screenshots/packages-1440-light-ltr.jpg) · [Gallery](screenshots/gallery-1440-light-ltr.jpg) · [Contact](screenshots/contact-1440-light-ltr.jpg) · [Login](screenshots/login-1440-light-ltr.jpg) · [Signup](screenshots/signup-1440-light-ltr.jpg) · [Signup mobile dark RTL](screenshots/signup-390-dark-rtl.jpg) · [Dashboard](screenshots/dashboard-1440-light-ltr.jpg) · [Custom request review](screenshots/custom-booking-review.jpg) · [Proof viewer](screenshots/proof-mobile-dark-rtl.jpg) · [Print request](screenshots/print-request.jpg)
+
+## Remaining integration and verification limits
+
+The attachment supplied the written brief. The twelve referenced screenshots were absent from that attachment directory. Refinements were checked against the current rendered site and the written requirements.
+
+Testing used one browser engine and emulated mobile devices. Real-device Safari and Firefox checks remain outstanding. Account authentication, provider sign-in, recovery, studio availability, enquiry delivery and paid order processing require production backend integrations.
