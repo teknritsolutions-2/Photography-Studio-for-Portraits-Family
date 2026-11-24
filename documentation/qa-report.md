@@ -4,7 +4,7 @@ Reviewed on 24 November 2026.
 
 ## Completed compositions
 
-Home 2's Family Stories section now combines a landscape family photograph with an overlapping story card. Tablet uses a lower-edge overlap, while mobile puts the photograph above the card. The photograph retains complete family framing and the portfolio action filters to Family.
+Home 2's Family Stories section is a two-photograph journal spread. A large editorial headline introduces a full family portrait and a smaller supporting craft-table photograph with the copy and portfolio action. Tablet moves the supporting image and text into a row below the main portrait. Mobile puts the supporting image after the copy. Both photographs retain their complete source framing.
 
 About's Working with Light section combines a landscape editorial portrait and an integrated content panel. On tablet the panel overlaps the lower edge of the photograph, while mobile uses a readable stacked composition. A Few Ways of Seeing now has three unique, consistently aligned photographs. Its supporting paragraph sits beside the heading, and each caption sits directly beneath its photograph.
 
@@ -14,6 +14,8 @@ Login and Signup retain their form structure and have distinct genuine photograp
 
 ## Latest follow-up verification
 
+The Family Stories journal spread passed 320, 390, 430, 768, 1024, 1280 and 1440px widths in light/dark and LTR/RTL. Six full-page views were captured and desktop, tablet and mobile renders inspected. All images loaded, and the portfolio link correctly filtered to seven Family photographs. Its newly activated supporting photograph has a unique source ID among public placements.
+
 The dashboard sidebar label is now **Exit**, and the mobile/tablet drawer provides the same action. Both return to Home 1 and retain browser-local sessions, selections and profile data.
 
 The updated Home 2, Services and Dashboard passed seven widths in four theme/direction combinations. Eighteen full-page screenshots cover desktop 1440px, tablet 768 × 1024 and mobile 390 × 844 in light LTR and dark RTL. Inspected rendered views, tested the Family-filtered portfolio link, checked both Services banner actions and verified both Exit destinations while retaining an existing local record.
@@ -22,7 +24,7 @@ The updated Home 2, Services and Dashboard passed seven widths in four theme/dir
 
 ## Photography and typography
 
-Eight licensed photographs were added for the targeted placements. Sources and composition guidance are documented in the [targeted asset manifest](targeted-asset-manifest.json) and [photographic credits](asset-credits.md). The placement audit confirms 66 distinct static public originals and two additional hero-slide originals. The color/monochrome comparison intentionally presents the same original twice. Gallery viewers and dashboard favorites and prints use functional representations of their corresponding images.
+Eight licensed photographs were added for the targeted placements. Sources and composition guidance are documented in the [targeted asset manifest](targeted-asset-manifest.json) and [photographic credits](asset-credits.md). The placement audit confirms 67 distinct static public originals and two additional hero-slide originals. The color/monochrome comparison intentionally presents the same original twice. Gallery viewers and dashboard favorites and prints use functional representations of their corresponding images.
 
 Computed sizes were inspected before changes. Existing body copy was 16–18px, navigation and buttons 15px, form labels 15px, captions 15px and metadata 14.4px. Global typography was retained. The new service descriptions are 17px on desktop/mobile and 16px at tablet widths, with 1.65 line height. New service metadata is 15px. Remember Me and Forgot Password use 15px except at the narrowest 320px layout.
 

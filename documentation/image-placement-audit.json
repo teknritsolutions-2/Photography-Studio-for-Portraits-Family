@@ -1,7 +1,7 @@
 {
   "scope": "Independent public photographic placements including unique Login/Signup photographs and two additional hero slides.",
-  "public_static_originals": 66,
-  "public_unique_source_ids": 68,
+  "public_static_originals": 67,
+  "public_unique_source_ids": 69,
   "allowed_repetition": "One source in the Home 1 color and monochrome comparison. Gallery viewers and dashboard favorites/prints use functional representations.",
   "hero_dynamic_only": [
     "family/family.jpg",
@@ -269,6 +269,16 @@
         {
           "page": "home2.html",
           "alt": "A young family photographed together in natural light"
+        }
+      ]
+    },
+    {
+      "file": "refined/r-family08.jpg",
+      "source_id": "5789776",
+      "placements": [
+        {
+          "page": "home2.html",
+          "alt": "A quiet moment at a craft table"
         }
       ]
     },

@@ -74,3 +74,8 @@ Eight additional photographs were selected for their intended landscape or portr
 | auth-signup.jpg | Eyüpcan Timur | [Back View of Photographer Holding a Camera in Studio](https://www.pexels.com/photo/33868458/) |
 
 Each `-small.jpg` copy derives from its corresponding original and carries the same credit and [Pexels License](https://www.pexels.com/license/). Studio and family photographs illustrate the portfolio concept.
+
+
+## Family Stories supporting photograph
+
+`assets/images/refined/r-family08.jpg` and its responsive derivative are credited to cottonbro studio. The image is used once in the public Family Stories section. [Source photograph](https://www.pexels.com/photo/5789776/) · [Pexels License](https://www.pexels.com/license/)

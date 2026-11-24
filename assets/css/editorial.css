@@ -1,69 +1,72 @@
 .family-story-feature {
-  padding-block: 48px;
+  padding-block: 44px;
+  border-top: 1px solid var(--line);
+}
+.family-story-heading h2 {
+  font-size: clamp(44px, 5.8vw, 86px);
+  margin: 14px 0 28px;
+}
+.family-story-spread {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  align-items: center;
+  grid-template-columns: 1.7fr 1fr;
+  gap: clamp(24px, 3vw, 48px);
+  align-items: start;
 }
-.family-story-feature > figure {
-  grid-column: 1/9;
-  grid-row: 1;
-}
-.family-story-feature > figure img {
+.family-story-spread figure img {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
 }
-.family-story-intro {
-  grid-column: 8/-1;
-  grid-row: 1;
-  position: relative;
-  padding: clamp(25px, 3vw, 44px);
-  background: var(--paper);
-  border: 1px solid var(--line);
-}
-.family-story-intro h2 {
-  font-size: clamp(42px, 4vw, 64px);
-  margin: 16px 0 22px;
+.family-story-aside > figure {
+  margin-bottom: 24px;
 }
 .family-story-intro p {
   font-size: 17px;
-  line-height: 1.65;
-  margin: 0 0 20px;
+  line-height: 1.7;
+  margin: 0 0 22px;
 }
 @media (max-width: 1024px) {
-  .family-story-feature > figure {
-    grid-column: 1/-1;
-    grid-row: 1;
+  .family-story-spread {
+    grid-template-columns: 1fr;
+    gap: 26px;
   }
-  .family-story-intro {
-    grid-column: 3/-1;
-    grid-row: 2;
-    margin-top: -34px;
+  .family-story-aside {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 26px;
+    align-items: center;
   }
-  .family-story-intro h2 {
-    font-size: 44px;
+  .family-story-aside > figure {
+    margin: 0;
+  }
+  .family-story-heading h2 {
+    font-size: clamp(44px, 6vw, 64px);
   }
 }
 @media (max-width: 740px) {
   .family-story-feature {
-    display: flex;
-    flex-direction: column;
     padding-block: 30px;
   }
-  .family-story-feature > figure {
-    order: -1;
+  .family-story-spread {
+    gap: 22px;
   }
-  .family-story-intro {
-    margin: 0;
-    padding: 25px;
-    border-top: 0;
-    width: 100%;
+  .family-story-heading h2 {
+    font-size: 44px;
+    margin-bottom: 24px;
   }
-  .family-story-intro h2 {
-    font-size: 40px;
+  .family-story-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+  }
+  .family-story-aside > figure {
+    order: 1;
+  }
+  .family-story-intro p {
+    margin-bottom: 18px;
   }
 }
-
 .seeing-intro {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
