@@ -4,13 +4,21 @@ Reviewed on 24 November 2026.
 
 ## Completed compositions
 
-Home 2's Family Stories section is now a full-width photographic spread. Its heading and supporting copy introduce a new young-family photograph above a single broad frame. This replaces the narrow portrait/text split.
+Home 2's Family Stories section now combines a landscape family photograph with an overlapping story card. Tablet uses a lower-edge overlap, while mobile puts the photograph above the card. The photograph retains complete family framing and the portfolio action filters to Family.
 
 About's Working with Light section combines a landscape editorial portrait and an integrated content panel. On tablet the panel overlaps the lower edge of the photograph, while mobile uses a readable stacked composition. A Few Ways of Seeing now has three unique, consistently aligned photographs. Its supporting paragraph sits beside the heading, and each caption sits directly beneath its photograph.
 
-Services has a photographic introduction followed by two coordinated collections. Portraits, Family and Maternity form the core collection, with suitable portrait frames and package actions. Couples, Headshots and Milestones use aligned specialist panels. Image areas, headings, descriptions, metadata and enquiry actions share a consistent rhythm. All six categories and the custom-session handling remain functional. The banner preserves the full source composition, with its editorial heading on the right. Small screens use the photograph above a dedicated text area. Subtle image hover motion respects reduced-motion settings.
+Services has a photographic introduction followed by two coordinated collections. Portraits, Family and Maternity form the core collection, with suitable portrait frames and package actions. Couples, Headshots and Milestones use aligned specialist panels. Image areas, headings, descriptions, metadata and enquiry actions share a consistent rhythm. All six categories and the custom-session handling remain functional. The banner uses a light editorial composition with the heading and session actions on the left and the complete photograph on the right. Tablet and mobile reflow the photograph above the content. Subtle image hover motion respects reduced-motion settings.
 
 Login and Signup retain their form structure and have distinct genuine photography backgrounds. Desktop uses a dedicated side photograph and a proportionate form area. Tablet and mobile use a controlled photographic background and opaque form card. Branding, password visibility, Remember Me/Forgot Password alignment, provider feedback, validation and crosslinks are preserved. Account submissions continue to report the integration requirement and clear passwords.
+
+## Latest follow-up verification
+
+The dashboard sidebar label is now **Exit**, and the mobile/tablet drawer provides the same action. Both return to Home 1 and retain browser-local sessions, selections and profile data.
+
+The updated Home 2, Services and Dashboard passed seven widths in four theme/direction combinations. Eighteen full-page screenshots cover desktop 1440px, tablet 768 × 1024 and mobile 390 × 844 in light LTR and dark RTL. Inspected rendered views, tested the Family-filtered portfolio link, checked both Services banner actions and verified both Exit destinations while retaining an existing local record.
+
+[Dashboard Exit drawer](screenshots/dashboard-exit-drawer.jpg) · [Updated dashboard](screenshots/dashboard-1440-light-ltr.jpg)
 
 ## Photography and typography
 
@@ -20,7 +28,7 @@ Computed sizes were inspected before changes. Existing body copy was 16–18px, 
 
 ## Scope preservation
 
-Home 1, Packages, Gallery and Dashboard HTML files and every JavaScript module are unchanged. Their interaction and data handling behavior was exercised during regression checks. Shared stylesheet changes remove obsolete rules scoped to replaced About/Home 2/Services markup. The consolidated repository root, static page URLs, package data and localStorage keys are preserved. No nested project directory was introduced.
+Home 1, Packages and Gallery HTML files and every JavaScript module are unchanged. Dashboard markup changes are limited to the Exit label and matching mobile drawer link. Their interaction and data handling behavior was exercised during regression checks. Shared stylesheet changes remove obsolete rules scoped to replaced About/Home 2/Services markup. The consolidated repository root, static page URLs, package data and localStorage keys are preserved. No nested project directory was introduced.
 
 ## Browser verification
 

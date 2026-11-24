@@ -1,7 +1,69 @@
 .family-story-feature {
   padding-block: 48px;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: center;
 }
-.family-story-intro,
+.family-story-feature > figure {
+  grid-column: 1/9;
+  grid-row: 1;
+}
+.family-story-feature > figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.family-story-intro {
+  grid-column: 8/-1;
+  grid-row: 1;
+  position: relative;
+  padding: clamp(25px, 3vw, 44px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.family-story-intro h2 {
+  font-size: clamp(42px, 4vw, 64px);
+  margin: 16px 0 22px;
+}
+.family-story-intro p {
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0 0 20px;
+}
+@media (max-width: 1024px) {
+  .family-story-feature > figure {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+  .family-story-intro {
+    grid-column: 3/-1;
+    grid-row: 2;
+    margin-top: -34px;
+  }
+  .family-story-intro h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 740px) {
+  .family-story-feature {
+    display: flex;
+    flex-direction: column;
+    padding-block: 30px;
+  }
+  .family-story-feature > figure {
+    order: -1;
+  }
+  .family-story-intro {
+    margin: 0;
+    padding: 25px;
+    border-top: 0;
+    width: 100%;
+  }
+  .family-story-intro h2 {
+    font-size: 40px;
+  }
+}
+
 .seeing-intro {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
@@ -9,19 +71,13 @@
   align-items: end;
   margin-bottom: 28px;
 }
-.family-story-intro h2,
 .seeing-intro h2 {
   margin-top: 14px;
 }
-.family-story-intro p,
 .seeing-intro > p {
   margin: 0 0 18px;
   font-size: 17px;
   line-height: 1.65;
-}
-.family-story-feature figure img {
-  width: 100%;
-  height: auto;
 }
 .light-study {
   display: grid;
@@ -81,12 +137,10 @@
   line-height: 1.5;
 }
 @media (max-width: 1024px) {
-  .family-story-intro,
   .seeing-intro {
     gap: 28px;
     grid-template-columns: 1fr 1fr;
   }
-  .family-story-intro h2,
   .seeing-intro h2 {
     font-size: clamp(36px, 4.8vw, 52px);
   }
@@ -104,17 +158,10 @@
   }
 }
 @media (max-width: 740px) {
-  .family-story-feature {
-    padding-block: 32px;
-  }
-  .family-story-intro,
   .seeing-intro {
     grid-template-columns: 1fr;
     gap: 20px;
     margin-bottom: 24px;
-  }
-  .family-story-intro p {
-    margin-bottom: 16px;
   }
   .light-study {
     display: block;
