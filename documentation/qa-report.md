@@ -2,6 +2,14 @@
 
 Reviewed on 24 November 2026.
 
+## Brand logo refresh
+
+The shared identity now uses a custom LK monogram and an uppercase serif wordmark. All 26 linked logo placements across the ten pages use `assets/icons/brand-mark.svg`. A matching favicon is supplied in `assets/icons/mark.svg`. The mark inherits the current text color, and its left-to-right orientation is preserved in RTL.
+
+Verified the shared SVG resource, logo home links, light/dark contrast and overflow at 320, 390, 768, 1024, 1280 and 1440px on all ten pages in both text directions. Mobile/tablet drawers fit their logo and close controls. Authentication and sidebar logo sizes are adjusted to their available space. JavaScript and page content behavior are preserved.
+
+[Rendered light logo](screenshots/logo-light.png) · [Rendered dark logo](screenshots/logo-dark.png)
+
 ## Completed compositions
 
 Home 2's Family Stories section is a two-photograph journal spread. A large editorial headline introduces a full family portrait and a smaller supporting craft-table photograph with the copy and portfolio action. Tablet moves the supporting image and text into a row below the main portrait. Mobile puts the supporting image after the copy. Both photographs retain their complete source framing.
@@ -30,7 +38,7 @@ Computed sizes were inspected before changes. Existing body copy was 16–18px, 
 
 ## Scope preservation
 
-Home 1, Packages and Gallery HTML files and every JavaScript module are unchanged. Dashboard markup changes are limited to the Exit label and matching mobile drawer link. Their interaction and data handling behavior was exercised during regression checks. Shared stylesheet changes remove obsolete rules scoped to replaced About/Home 2/Services markup. The consolidated repository root, static page URLs, package data and localStorage keys are preserved. No nested project directory was introduced.
+The shared brand markup has been updated across all ten pages. Page content, photographic compositions and every JavaScript module are preserved. Dashboard includes the previously verified Exit label and matching mobile drawer link. Their interaction and data handling behavior was exercised during regression checks. Shared stylesheet changes remove obsolete rules scoped to replaced About/Home 2/Services markup. The consolidated repository root, static page URLs, package data and localStorage keys are preserved. No nested project directory was introduced.
 
 ## Browser verification
 

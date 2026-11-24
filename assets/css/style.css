@@ -147,14 +147,14 @@ header nav,
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
-  font-size: clamp(25px, 2.3vw, 38px);
+  gap: 12px;
+  font-size: clamp(22px, 1.8vw, 28px);
   white-space: nowrap;
   direction: ltr;
 }
 .brand svg {
-  width: 31px;
-  height: 31px;
+  width: 38px;
+  height: 38px;
   color: var(--brand-mark);
 }
 .brand i {
@@ -162,7 +162,7 @@ header nav,
   font-size: 0.93em;
 }
 .brand span {
-  letter-spacing: -0.055em;
+  letter-spacing: 0.035em;
 }
 header nav {
   gap: clamp(15px, 1.8vw, 32px);
@@ -454,7 +454,7 @@ body:has(dialog[open]) {
 }
 .drawer .brand svg,
 .drawer .brand i {
-  color: var(--accent);
+  color: var(--brand-mark);
 }
 .viewerbar {
   padding: 6px;
@@ -538,7 +538,7 @@ pre {
     height: 64px;
   }
   .brand {
-    font-size: 27px;
+    font-size: 22px;
   }
   .wide {
     display: none;
