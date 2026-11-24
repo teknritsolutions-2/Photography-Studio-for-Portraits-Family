@@ -57,3 +57,20 @@ Two further unique maternity originals complete the placement audit.
 
 | File under assets/images/refined | Photographer | Source |
 | --- | --- | --- |
+
+## Targeted layout photographs
+
+Eight additional photographs were selected for their intended landscape or portrait containers and checked against prior source IDs. They retain the original compositions at 1,600 pixels wide, with corresponding 640-pixel responsive copies. All eight were visually inspected in a rendered contact sheet. [Source and composition manifest](targeted-asset-manifest.json)
+
+| File under assets/images/targeted | Photographer | Source |
+| --- | --- | --- |
+| h2-family.jpg | Eric Moura | [Happy Family Portrait with Parents and Children](https://www.pexels.com/photo/35858303/) |
+| about-light.jpg | Jonas Baumann | [Elegant Portrait of Brunette Woman in Hamburg Studio](https://www.pexels.com/photo/32545914/) |
+| about-third.jpg | Mohammadreza Babaei | [Portrait of Woman with White Hair](https://www.pexels.com/photo/15783142/) |
+| services-banner.jpg | Vitaly Gariev | [Photographer and Model Reviewing Images in Studio](https://www.pexels.com/photo/36697258/) |
+| service-family.jpg | Krishna Kids Photography | [Happy Family Portrait in Minimalist Setting](https://www.pexels.com/photo/37453857/) |
+| service-couple.jpg | Jonathan Borba | [Portrait of Couple in a Studio](https://www.pexels.com/photo/20029579/) |
+| auth-login.jpg | Davide Comunian | [Photographer with Camera in Studio Setting](https://www.pexels.com/photo/35888640/) |
+| auth-signup.jpg | Eyüpcan Timur | [Back View of Photographer Holding a Camera in Studio](https://www.pexels.com/photo/33868458/) |
+
+Each `-small.jpg` copy derives from its corresponding original and carries the same credit and [Pexels License](https://www.pexels.com/license/). Studio and family photographs illustrate the portfolio concept.

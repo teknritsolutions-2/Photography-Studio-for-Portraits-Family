@@ -1,5 +1,4 @@
 .process-feature,
-.portrait-notes,
 .package-comparison,
 .photo-faq {
   border-top: 1px solid var(--line);
@@ -20,8 +19,7 @@
   align-items: start;
   gap: clamp(24px, 5vw, 70px);
 }
-.process-grid figure,
-.portrait-notes figure {
+.process-grid figure {
   margin: 0;
 }
 .process-grid img {
@@ -42,32 +40,14 @@
 .process-grid article p {
   margin: 10px 0 18px;
 }
-.process-grid figcaption,
-.portrait-notes figcaption {
+.process-grid figcaption {
   font-size: 15px;
   color: var(--muted);
   margin-top: 9px;
 }
-.portrait-notes h2,
 .package-comparison h2,
 .photo-faq h2 {
   margin: 14px 0 26px;
-}
-.portrait-notes-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 0.9fr;
-  gap: 24px;
-  align-items: center;
-}
-.portrait-notes-grid img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: center 28%;
-}
-.portrait-notes-grid p {
-  margin: 0;
 }
 .package-context {
   display: grid;
@@ -157,13 +137,6 @@
   .process-grid {
     gap: 26px;
   }
-  .portrait-notes-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  .portrait-notes-grid p {
-    grid-column: 1 / -1;
-    max-width: none;
-  }
   .package-context {
     grid-template-columns: 1fr;
   }
@@ -181,14 +154,6 @@
   .enquiry-guide {
     grid-template-columns: 1fr;
     gap: 22px;
-  }
-  .portrait-notes-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-  }
-  .portrait-notes-grid p {
-    grid-column: 1 / -1;
-    margin-top: 10px;
   }
   .package-photo-strip {
     gap: 8px;

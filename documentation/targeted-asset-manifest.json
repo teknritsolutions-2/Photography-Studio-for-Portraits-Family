@@ -1,0 +1,158 @@
+{
+  "reviewed_date": "2026-11-24",
+  "license": "Pexels License",
+  "assets": [
+    {
+      "file": "assets/images/targeted/h2-family.jpg",
+      "responsive_file": "assets/images/targeted/h2-family-small.jpg",
+      "source_id": 35858303,
+      "photographer": "Eric Moura",
+      "title": "Happy Family Portrait with Parents and Children",
+      "source_url": "https://www.pexels.com/photo/35858303/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 6240,
+        "height": 4160
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "composition_notes": "Landscape composition. Keep natural 3:2 ratio to show parents and both children.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/about-light.jpg",
+      "responsive_file": "assets/images/targeted/about-light-small.jpg",
+      "source_id": 32545914,
+      "photographer": "Jonas Baumann",
+      "title": "Elegant Portrait of Brunette Woman in Hamburg Studio",
+      "source_url": "https://www.pexels.com/photo/32545914/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 1067
+      },
+      "composition_notes": "Landscape composition. Face sits near x55%, y40%; keep content panel at or below the lower edge.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/about-third.jpg",
+      "responsive_file": "assets/images/targeted/about-third-small.jpg",
+      "source_id": 15783142,
+      "photographer": "Mohammadreza Babaei",
+      "title": "Portrait of Woman with White Hair",
+      "source_url": "https://www.pexels.com/photo/15783142/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 4160,
+        "height": 6240
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "composition_notes": "Close-up beauty portrait with pale hair and controlled studio makeup lighting. Preserve entire original composition.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/services-banner.jpg",
+      "responsive_file": "assets/images/targeted/services-banner-small.jpg",
+      "source_id": 36697258,
+      "photographer": "Vitaly Gariev",
+      "title": "Photographer and Model Reviewing Images in Studio",
+      "source_url": "https://www.pexels.com/photo/36697258/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 3840,
+        "height": 2160
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "composition_notes": "16:9 composition. Photographer and model left, softbox right; protect their heads when overlaying text.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/service-family.jpg",
+      "responsive_file": "assets/images/targeted/service-family-small.jpg",
+      "source_id": 37453857,
+      "photographer": "Krishna Kids Photography",
+      "title": "Happy Family Portrait in Minimalist Setting",
+      "source_url": "https://www.pexels.com/photo/37453857/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 3072,
+        "height": 4608
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "composition_notes": "Full-length portrait. If cropped to 3:4, align toward the top to retain all three faces.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/service-couple.jpg",
+      "responsive_file": "assets/images/targeted/service-couple-small.jpg",
+      "source_id": 20029579,
+      "photographer": "Jonathan Borba",
+      "title": "Portrait of Couple in a Studio",
+      "source_url": "https://www.pexels.com/photo/20029579/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 5211,
+        "height": 7813
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 2399
+      },
+      "composition_notes": "Portrait composition. For a 3:4 image area, use object-position:center top to retain the man’s head.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/auth-login.jpg",
+      "responsive_file": "assets/images/targeted/auth-login-small.jpg",
+      "source_id": 35888640,
+      "photographer": "Davide Comunian",
+      "title": "Photographer with Camera in Studio Setting",
+      "source_url": "https://www.pexels.com/photo/35888640/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 3145,
+        "height": 4716
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 2399
+      },
+      "composition_notes": "Portrait composition. Photographer holding camera, colored studio background.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    },
+    {
+      "file": "assets/images/targeted/auth-signup.jpg",
+      "responsive_file": "assets/images/targeted/auth-signup-small.jpg",
+      "source_id": 33868458,
+      "photographer": "Eyüpcan Timur",
+      "title": "Back View of Photographer Holding a Camera in Studio",
+      "source_url": "https://www.pexels.com/photo/33868458/",
+      "license_url": "https://www.pexels.com/license/",
+      "original_dimensions": {
+        "width": 4160,
+        "height": 6240
+      },
+      "dimensions": {
+        "width": 1600,
+        "height": 2400
+      },
+      "composition_notes": "Portrait composition. Photographer seen from behind holding a camera near window light.",
+      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+    }
+  ]
+}

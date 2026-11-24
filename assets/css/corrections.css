@@ -83,19 +83,6 @@
   object-fit: contain;
   object-position: center 30%;
 }
-body[data-page="about"] .story {
-  grid-template-columns: minmax(240px, 390px) minmax(0, 590px);
-  justify-content: center;
-  align-items: center;
-  gap: 48px;
-  padding-top: 22px;
-}
-body[data-page="about"] .story > img {
-  width: 100%;
-  height: 420px;
-  object-fit: cover;
-  object-position: center 72%;
-}
 body[data-page="about"] .process-grid {
   align-items: center;
   gap: 36px;
@@ -117,123 +104,6 @@ body[data-page="contact"] input,
 body[data-page="contact"] select,
 body[data-page="contact"] textarea {
   text-align: start;
-}
-.service-collection {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 42px 30px;
-  padding-top: 20px;
-}
-.service-piece {
-  min-width: 0;
-  grid-column: span 6;
-}
-.service-piece figure {
-  background: var(--card);
-}
-.service-piece img {
-  width: 100%;
-  height: 440px;
-  object-fit: contain;
-}
-.service-copy {
-  padding: 24px 0 0;
-}
-.service-copy h2 {
-  font-size: clamp(34px, 3.5vw, 55px);
-  margin: 10px 0 16px;
-}
-.service-copy p {
-  margin-block: 12px 20px;
-}
-.service-note {
-  color: var(--muted);
-  font-size: 16px;
-}
-.service-piece-1 {
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 42px;
-  align-items: center;
-}
-.service-piece-1 .service-copy {
-  padding: 0;
-}
-.service-piece-1 img {
-  height: 480px;
-  object-fit: cover;
-  object-position: center 25%;
-}
-.service-piece-2 {
-  grid-column: span 7;
-}
-.service-piece-3 {
-  grid-column: span 5;
-}
-.service-piece-2 figure {
-  padding: 20px;
-}
-.service-piece-4 {
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 36px;
-  background: var(--card);
-  padding: 30px;
-  align-items: center;
-}
-.service-piece-4 figure {
-  order: 1;
-}
-.service-piece-4 .service-copy {
-  padding: 0;
-}
-.service-piece-5,
-.service-piece-6 {
-  display: flex;
-  flex-direction: column;
-}
-.service-piece-5 .service-copy,
-.service-piece-6 .service-copy {
-  order: -1;
-  padding-top: 0;
-  margin-bottom: 24px;
-}
-.service-piece-5 img,
-.service-piece-6 img {
-  height: 420px;
-  object-fit: cover;
-  object-position: center 25%;
-}
-.service-invitation {
-  padding-top: 20px;
-  border-top: 1px solid var(--line);
-}
-.service-invitation h2 {
-  margin-top: 15px;
-}
-body[data-page="services"] .pagehead h1 {
-  font-size: clamp(40px, 6.7vw, 7rem);
-}
-body[data-page="about"] .portrait-notes-grid {
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  align-items: start;
-}
-body[data-page="about"] .portrait-notes-grid > p {
-  grid-column: 1/-1;
-  max-width: 70ch;
-}
-.service-piece-1 figure {
-  width: 100%;
-  max-width: 460px;
-  justify-self: center;
-}
-.service-piece-5 figure,
-.service-piece-6 figure {
-  width: 100%;
-  max-width: 380px;
 }
 @media (min-width: 1181px) and (max-width: 1380px) {
   header {
@@ -273,24 +143,8 @@ body[data-page="about"] .portrait-notes-grid > p {
   .maternity-detail img {
     height: 250px;
   }
-  body[data-page="about"] .story {
-    grid-template-columns: 0.85fr 1fr;
-    gap: 26px;
-  }
   body[data-page="about"] .process-grid img {
     height: 330px;
-  }
-  .service-piece-1,
-  .service-piece-4 {
-    gap: 25px;
-  }
-  .service-piece-2,
-  .service-piece-3 {
-    grid-column: span 6;
-  }
-  .service-piece-1 img,
-  .service-piece img {
-    height: 360px;
   }
 }
 @media (max-width: 740px) {
@@ -339,56 +193,8 @@ body[data-page="about"] .portrait-notes-grid > p {
     max-height: none;
     object-fit: contain;
   }
-  body[data-page="about"] .story {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  body[data-page="about"] .story > img {
-    height: 370px;
-  }
   body[data-page="about"] .process-grid img {
     height: auto;
     max-height: 340px;
   }
-  .service-collection {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-  .service-piece,
-  .service-piece-1,
-  .service-piece-2,
-  .service-piece-3,
-  .service-piece-4 {
-    grid-column: auto;
-    display: block;
-  }
-  .service-piece-4 {
-    padding: 20px;
-    margin-inline: -5px;
-  }
-  .service-piece img,
-  .service-piece-1 img,
-  .service-piece-5 img,
-  .service-piece-6 img {
-    height: auto;
-    max-height: 430px;
-    object-fit: contain;
-  }
-  .service-piece-1 .service-copy,
-  .service-piece-4 .service-copy {
-    padding-top: 22px;
-  }
-  .service-piece-5 .service-copy,
-  .service-piece-6 .service-copy {
-    margin: 0;
-    padding-top: 22px;
-  }
-}
-.service-piece.service-piece-2 img {
-  height: auto;
-}
-.service-piece.service-piece-6 img {
-  height: auto;
-  max-height: min(520px, 125vw);
-  object-fit: contain;
 }

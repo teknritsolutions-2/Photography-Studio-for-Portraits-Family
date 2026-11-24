@@ -1,7 +1,7 @@
 {
-  "scope": "Independent public photographic placements, including hero slides. Authentication uses no photographs.",
-  "public_static_originals": 62,
-  "public_unique_source_ids": 62,
+  "scope": "Independent public photographic placements including unique Login/Signup photographs and two additional hero slides.",
+  "public_static_originals": 66,
+  "public_unique_source_ids": 68,
   "allowed_repetition": "One source in the Home 1 color and monochrome comparison. Gallery viewers and dashboard favorites/prints use functional representations.",
   "hero_dynamic_only": [
     "family/family.jpg",
@@ -153,12 +153,12 @@
       ]
     },
     {
-      "file": "portraits/p-about.jpg",
-      "source_id": "9769110",
+      "file": "targeted/about-light.jpg",
+      "source_id": "32545914",
       "placements": [
         {
           "page": "about.html",
-          "alt": "A studio portrait in soft directional light"
+          "alt": "Editorial portrait showing light and expression"
         }
       ]
     },
@@ -188,7 +188,17 @@
       "placements": [
         {
           "page": "about.html",
-          "alt": "A maternity portrait study"
+          "alt": "A maternity portrait in natural light"
+        }
+      ]
+    },
+    {
+      "file": "targeted/about-third.jpg",
+      "source_id": "15783142",
+      "placements": [
+        {
+          "page": "about.html",
+          "alt": "A portrait with a different expression and lighting treatment"
         }
       ]
     },
@@ -233,6 +243,16 @@
       ]
     },
     {
+      "file": "targeted/auth-login.jpg",
+      "source_id": "35888640",
+      "placements": [
+        {
+          "page": "login.html",
+          "alt": "Photographic studio and professional camera work"
+        }
+      ]
+    },
+    {
       "file": "refined/r-family01.jpg",
       "source_id": "4609048",
       "placements": [
@@ -243,12 +263,12 @@
       ]
     },
     {
-      "file": "refined/r-family03.jpg",
-      "source_id": "7086015",
+      "file": "targeted/h2-family.jpg",
+      "source_id": "35858303",
       "placements": [
         {
           "page": "home2.html",
-          "alt": "Family photographed in natural light"
+          "alt": "A young family photographed together in natural light"
         }
       ]
     },
@@ -573,6 +593,16 @@
       ]
     },
     {
+      "file": "targeted/services-banner.jpg",
+      "source_id": "36697258",
+      "placements": [
+        {
+          "page": "services.html",
+          "alt": "A professional photography session in progress"
+        }
+      ]
+    },
+    {
       "file": "refined/r-portrait02.jpg",
       "source_id": "11105705",
       "placements": [
@@ -583,8 +613,8 @@
       ]
     },
     {
-      "file": "refined/r-family08.jpg",
-      "source_id": "5789776",
+      "file": "targeted/service-family.jpg",
+      "source_id": "37453857",
       "placements": [
         {
           "page": "services.html",
@@ -603,8 +633,8 @@
       ]
     },
     {
-      "file": "refined/r-couple.jpg",
-      "source_id": "5911047",
+      "file": "targeted/service-couple.jpg",
+      "source_id": "20029579",
       "placements": [
         {
           "page": "services.html",
@@ -631,6 +661,16 @@
           "alt": "Birthday & Milestone Photography"
         }
       ]
+    },
+    {
+      "file": "targeted/auth-signup.jpg",
+      "source_id": "33868458",
+      "placements": [
+        {
+          "page": "signup.html",
+          "alt": "Photographic studio and professional camera work"
+        }
+      ]
     }
   ],
   "removed_obsolete_assets": [
@@ -654,5 +694,5 @@
     "assets/images/studio/studio.jpg"
   ],
   "reviewed_date": "2026-11-24",
-  "originals_retained": 67
+  "originals_retained": 75
 }

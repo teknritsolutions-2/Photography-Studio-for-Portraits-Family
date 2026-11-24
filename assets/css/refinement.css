@@ -149,15 +149,6 @@ figcaption {
 .session-discovery > .actions {
   margin-top: 24px;
 }
-body[data-page="home2"] .story {
-  padding-block: 36px;
-  gap: 40px;
-}
-body[data-page="home2"] .story > img {
-  height: auto;
-  max-height: 460px;
-  object-fit: contain;
-}
 body[data-page="home2"] .textblock {
   padding-block: 36px;
 }
@@ -265,9 +256,6 @@ body[data-page="gallery"] main > .wrap:last-child {
   .session-discovery article > a {
     grid-column: auto;
   }
-  body[data-page="home2"] .story {
-    gap: 24px;
-  }
   .gallery-grid button span {
     font-size: 20px;
   }
@@ -283,15 +271,6 @@ body[data-page="gallery"] .gallery-grid > button {
   margin-bottom: 26px;
   vertical-align: top;
 }
-body[data-page="about"] .story {
-  padding-block: 32px;
-  gap: 40px;
-}
-body[data-page="about"] .story > img {
-  height: auto;
-  max-height: 490px;
-  object-fit: contain;
-}
 @media (max-width: 740px) {
   body[data-page="gallery"] .gallery-grid {
     columns: 2;
@@ -299,12 +278,5 @@ body[data-page="about"] .story > img {
   }
   body[data-page="gallery"] .gallery-grid > button {
     margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 1025px) {
-  body[data-page="home2"] .story:has(img[src*="m-window"]) {
-    grid-template-columns: minmax(240px, 380px) minmax(0, 600px);
-    justify-content: center;
   }
 }

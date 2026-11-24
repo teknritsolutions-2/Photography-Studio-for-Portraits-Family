@@ -11,11 +11,12 @@
     <link rel="icon" href="../assets/icons/mark.svg" />
     <link rel="stylesheet" href="../assets/css/style.css?v=20261124" />
     <link rel="stylesheet" href="../assets/css/gallery.css?v=20261124" />
-    <link rel="stylesheet" href="../assets/css/inner-pages.css?v=20261124" />
-    <link rel="stylesheet" href="../assets/css/refinement.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/inner-pages.css?v=20261124b" />
+    <link rel="stylesheet" href="../assets/css/refinement.css?v=20261124b" />
     <script src="../assets/js/prefs.js?v=20261124"></script>
     <link rel="stylesheet" href="../assets/css/footer.css?v=20261124" />
-    <link rel="stylesheet" href="../assets/css/corrections.css?v=20261124" />
+    <link rel="stylesheet" href="../assets/css/corrections.css?v=20261124b" />
+    <link rel="stylesheet" href="../assets/css/services.css?v=20261124b" />
   </head>
   <body data-page="services">
     <header>
@@ -168,245 +169,258 @@
       </div>
     </dialog>
     <main>
-      <section class="pagehead wrap">
-        <div class="eyebrow"><b></b>THE SERVICE COLLECTION</div>
-        <h1>Every reason<br />to be <em>photographed.</em></h1>
-        <p>
-          Six ways to make a portrait, shaped around the people and the moment
-          in front of the lens.
-        </p>
+      <section class="service-banner">
+        <img
+          src="../assets/images/targeted/services-banner.jpg"
+          alt="A professional photography session in progress"
+          loading="eager"
+          decoding="async"
+          srcset="
+            ../assets/images/targeted/services-banner-small.jpg  640w,
+            ../assets/images/targeted/services-banner.jpg       1600w
+          "
+          sizes="(max-width:740px) 100vw, 50vw"
+          width="1600"
+          height="900"
+        />
+        <div class="service-banner-copy">
+          <div class="eyebrow"><b></b>PHOTOGRAPHY SERVICES</div>
+          <h1>A session for<br /><em>your story.</em></h1>
+          <p>Portraits, connections and the moments worth keeping.</p>
+        </div>
       </section>
-      <section class="wrap service-collection">
-        <article id="Portraits" class="service-piece service-piece-1">
-          <figure>
-            <img
-              src="../assets/images/refined/r-portrait02.jpg"
-              alt="Individual &amp; Editorial Portraits"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-portrait02-small.jpg  640w,
-                ../assets/images/refined/r-portrait02.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="2000"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">30–60 minute package options</div>
-            <h2>Individual &amp; Editorial Portraits</h2>
-            <p>
-              A portrait with a point of view. Choose a clean personal
-              photograph, an expressive editorial study or a change of look and
-              light.
-            </p>
-            <p class="service-note">
-              Bring one or two outfits that feel like you. We guide posture and
-              expression at a comfortable pace.
-            </p>
-            <div class="actions">
-              <a
-                class="button"
-                href="contact.html?service=Portraits&package=essential"
-                >Prepare an enquiry</a
-              ><a class="textlink" href="packages.html#essential"
-                >View packages</a
-              >
-            </div>
+      <section class="wrap service-group" aria-labelledby="core-heading">
+        <div class="service-group-heading">
+          <div>
+            <div class="eyebrow"><b></b>CORE PHOTOGRAPHY</div>
+            <h2 id="core-heading">People, in <em>focus.</em></h2>
           </div>
-        </article>
-        <article id="Family" class="service-piece service-piece-2">
-          <figure>
-            <img
-              src="../assets/images/refined/r-family08.jpg"
-              alt="Family Photography"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-family08-small.jpg  640w,
-                ../assets/images/refined/r-family08.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="1067"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">About 60 minutes</div>
-            <h2>Family Photography</h2>
-            <p>
-              Time together, framed with care. Start with the whole family, then
-              move into smaller pairings and space for children to be
-              themselves.
+          <p>
+            Choose a portrait session, time with your family or a record of this
+            season. Each begins with a conversation.
+          </p>
+        </div>
+        <div class="service-panels core-panels">
+          <article class="service-panel" id="Portraits">
+            <figure>
+              <img
+                src="../assets/images/refined/r-portrait02.jpg"
+                alt="Individual &amp; Editorial Portraits"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/refined/r-portrait02-small.jpg  640w,
+                  ../assets/images/refined/r-portrait02.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2000"
+              />
+            </figure>
+            <h3>Individual &amp; Editorial Portraits</h3>
+            <p class="service-description">
+              A portrait with a point of view. Explore personal expression, a
+              professional introduction or a change of look and light.
             </p>
-            <p class="service-note">
-              Bring a familiar toy and let us know which family combinations
-              matter to you.
-            </p>
-            <div class="actions">
-              <a
-                class="button"
-                href="contact.html?service=Family&package=family"
-                >Prepare an enquiry</a
-              ><a class="textlink" href="packages.html#family">View packages</a>
+            <div class="service-panel-actions">
+              <p class="service-meta">30–60 minute package options</p>
+              <div class="actions">
+                <a
+                  class="button"
+                  href="contact.html?service=Portraits&package=essential"
+                  >Prepare an enquiry</a
+                ><a class="textlink" href="packages.html#essential"
+                  >View packages</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
-        <article id="Maternity" class="service-piece service-piece-3">
-          <figure>
-            <img
-              src="../assets/images/refined/r-maternity07.jpg"
-              alt="Maternity Photography"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-maternity07-small.jpg  640w,
-                ../assets/images/refined/r-maternity07.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="2400"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">About 60 minutes</div>
-            <h2>Maternity Photography</h2>
-            <p>
-              Portraits shaped around this season. Gentle direction, seated
-              options and room for a partner to join.
+          </article>
+          <article class="service-panel" id="Family">
+            <figure>
+              <img
+                src="../assets/images/targeted/service-family.jpg"
+                alt="Family Photography"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/targeted/service-family-small.jpg  640w,
+                  ../assets/images/targeted/service-family.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2400"
+              />
+            </figure>
+            <h3>Family Photography</h3>
+            <p class="service-description">
+              Whole-family portraits, smaller pairings and space for children to
+              be themselves. Bring a familiar toy and the people you want beside
+              you.
             </p>
-            <p class="service-note">
-              Choose comfortable clothing and share any movement or access needs
-              when you enquire.
-            </p>
-            <div class="actions">
-              <a
-                class="button"
-                href="contact.html?service=Maternity&package=maternity"
-                >Prepare an enquiry</a
-              ><a class="textlink" href="packages.html#maternity"
-                >View packages</a
-              >
+            <div class="service-panel-actions">
+              <p class="service-meta">About 60 minutes</p>
+              <div class="actions">
+                <a
+                  class="button"
+                  href="contact.html?service=Family&package=family"
+                  >Prepare an enquiry</a
+                ><a class="textlink" href="packages.html#family"
+                  >View packages</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
-        <article id="Couples" class="service-piece service-piece-4">
-          <figure>
-            <img
-              src="../assets/images/refined/r-couple.jpg"
-              alt="Couples &amp; Engagement Photography"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-couple-small.jpg  640w,
-                ../assets/images/refined/r-couple.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="1067"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">Custom session enquiry</div>
-            <h2>Couples &amp; Engagement Photography</h2>
-            <p>
-              A conversation between two people. Relaxed direction makes room
-              for shared gestures, movement and a few quiet frames.
+          </article>
+          <article class="service-panel" id="Maternity">
+            <figure>
+              <img
+                src="../assets/images/refined/r-maternity07.jpg"
+                alt="Maternity Photography"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/refined/r-maternity07-small.jpg  640w,
+                  ../assets/images/refined/r-maternity07.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2400"
+              />
+            </figure>
+            <h3>Maternity Photography</h3>
+            <p class="service-description">
+              Thoughtful portraits of this season. Gentle direction, seated
+              options and room for a partner keep the session comfortable.
             </p>
-            <p class="service-note">
-              Tell us about a setting that feels meaningful. Clothing and
-              session scope can be discussed together.
-            </p>
-            <div class="actions">
-              <a class="button" href="contact.html?service=Couples"
-                >Prepare an enquiry</a
-              >
+            <div class="service-panel-actions">
+              <p class="service-meta">About 60 minutes</p>
+              <div class="actions">
+                <a
+                  class="button"
+                  href="contact.html?service=Maternity&package=maternity"
+                  >Prepare an enquiry</a
+                ><a class="textlink" href="packages.html#maternity"
+                  >View packages</a
+                >
+              </div>
             </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="wrap service-group specialist-group"
+        aria-labelledby="specialist-heading"
+      >
+        <div class="service-group-heading">
+          <div>
+            <div class="eyebrow">
+              <b></b>OCCASIONS &amp; SPECIALIST SESSIONS
+            </div>
+            <h2 id="specialist-heading">A reason to <em>remember.</em></h2>
           </div>
-        </article>
-        <article id="Headshots" class="service-piece service-piece-5">
-          <figure>
-            <img
-              src="../assets/images/refined/r-headshot.jpg"
-              alt="Professional Headshots"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-headshot-small.jpg  640w,
-                ../assets/images/refined/r-headshot.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="2400"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">Custom session enquiry</div>
-            <h2>Professional Headshots</h2>
-            <p>
+          <p>
+            For shared milestones, a new chapter or the way you introduce
+            yourself. Tell us what you have in mind.
+          </p>
+        </div>
+        <div class="service-panels specialist-panels">
+          <article class="service-panel" id="Couples">
+            <figure>
+              <img
+                src="../assets/images/targeted/service-couple.jpg"
+                alt="Couples &amp; Engagement Photography"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/targeted/service-couple-small.jpg  640w,
+                  ../assets/images/targeted/service-couple.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2399"
+              />
+            </figure>
+            <h3>Couples &amp; Engagement Photography</h3>
+            <p class="service-description">
+              Relaxed portraits built around your connection. Shared gestures, a
+              little movement and a setting that feels like you.
+            </p>
+            <div class="service-panel-actions">
+              <p class="service-meta">Custom session enquiry</p>
+              <div class="actions">
+                <a class="button" href="contact.html?service=Couples"
+                  >Prepare an enquiry</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="service-panel" id="Headshots">
+            <figure>
+              <img
+                src="../assets/images/refined/r-headshot.jpg"
+                alt="Professional Headshots"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/refined/r-headshot-small.jpg  640w,
+                  ../assets/images/refined/r-headshot.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2400"
+              />
+            </figure>
+            <h3>Professional Headshots</h3>
+            <p class="service-description">
               A clear, contemporary introduction. Considered light and a simple
               background keep attention on your face and expression.
             </p>
-            <p class="service-note">
-              Bring the looks you use professionally and tell us where the
-              photographs will appear.
-            </p>
-            <div class="actions">
-              <a class="button" href="contact.html?service=Headshots"
-                >Prepare an enquiry</a
-              >
+            <div class="service-panel-actions">
+              <p class="service-meta">Custom session enquiry</p>
+              <div class="actions">
+                <a class="button" href="contact.html?service=Headshots"
+                  >Prepare an enquiry</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
-        <article id="Milestones" class="service-piece service-piece-6">
-          <figure>
-            <img
-              src="../assets/images/refined/r-milestone.jpg"
-              alt="Birthday &amp; Milestone Photography"
-              class=""
-              loading="lazy"
-              decoding="async"
-              srcset="
-                ../assets/images/refined/r-milestone-small.jpg  640w,
-                ../assets/images/refined/r-milestone.jpg       1600w
-              "
-              sizes="(max-width:740px) 100vw, 50vw"
-              width="1600"
-              height="2328"
-            />
-          </figure>
-          <div class="service-copy">
-            <div class="meta">Custom session enquiry</div>
-            <h2>Birthday &amp; Milestone Photography</h2>
-            <p>
-              A portrait to mark the moment. A birthday, a graduation or a
-              personal turning point, photographed with the people or details
-              you choose.
+          </article>
+          <article class="service-panel" id="Milestones">
+            <figure>
+              <img
+                src="../assets/images/refined/r-milestone.jpg"
+                alt="Birthday &amp; Milestone Photography"
+                loading="lazy"
+                decoding="async"
+                srcset="
+                  ../assets/images/refined/r-milestone-small.jpg  640w,
+                  ../assets/images/refined/r-milestone.jpg       1600w
+                "
+                sizes="(max-width:740px) 100vw, 50vw"
+                width="1600"
+                height="2328"
+              />
+            </figure>
+            <h3>Birthday &amp; Milestone Photography</h3>
+            <p class="service-description">
+              Mark a birthday, graduation or personal turning point with a
+              portrait shaped around the occasion and the people you choose.
             </p>
-            <p class="service-note">
-              Share the occasion, participants and any small objects you would
-              like to include.
-            </p>
-            <div class="actions">
-              <a class="button" href="contact.html?service=Milestones"
-                >Prepare an enquiry</a
-              >
+            <div class="service-panel-actions">
+              <p class="service-meta">Custom session enquiry</p>
+              <div class="actions">
+                <a class="button" href="contact.html?service=Milestones"
+                  >Prepare an enquiry</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </section>
-      <section class="wrap service-invitation">
+      <section class="wrap service-enquiry">
         <h2>Start with an <em>idea.</em></h2>
         <p>
           Tell us who will be in the frame and how you would like the
-          photographs to feel. A session enquiry is the starting point for
-          discussing scope and availability.
+          photographs to feel. We can discuss preparation, scope and
+          availability through your session enquiry.
         </p>
         <a class="textlink" href="contact.html">Prepare your enquiry</a>
       </section>
