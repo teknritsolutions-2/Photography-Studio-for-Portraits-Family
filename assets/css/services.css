@@ -126,8 +126,10 @@
   object-position: center 24%;
   transition: transform 0.3s ease;
 }
-.service-panel figure:hover img {
-  transform: scale(1.025);
+@media (hover: hover) and (pointer: fine) {
+  .service-panel figure:hover img {
+    transform: scale(1.025);
+  }
 }
 .service-panel h3 {
   font-size: clamp(27px, 2.5vw, 36px);

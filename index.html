@@ -10,12 +10,12 @@
     />
     <link rel="icon" href="assets/icons/mark.svg?v=20261124logo" />
     <link rel="stylesheet" href="assets/css/style.css?v=20261124logo" />
-    <link rel="stylesheet" href="assets/css/homepages.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/homepages.css?v=20261124sharp" />
     <link rel="stylesheet" href="assets/css/gallery.css?v=20261124" />
-    <link rel="stylesheet" href="assets/css/refinement.css?v=20261124" />
+    <link rel="stylesheet" href="assets/css/refinement.css?v=20261124sharp" />
     <script src="assets/js/prefs.js?v=20261124"></script>
     <link rel="stylesheet" href="assets/css/footer.css?v=20261124" />
-    <link rel="stylesheet" href="assets/css/corrections.css?v=20261124logo" />
+    <link rel="stylesheet" href="assets/css/corrections.css?v=20261124sharp" />
   </head>
   <body data-page="home">
     <header>
@@ -159,9 +159,10 @@
           decoding="async"
           srcset="
             assets/images/portraits/hero-small.jpg  640w,
-            assets/images/portraits/hero.jpg       2000w
+            assets/images/portraits/hero.jpg       2000w,
+            assets/images/portraits/hero-large.jpg 3200w
           "
-          sizes="(max-width:740px) 100vw, 50vw"
+          sizes="(max-width:380px) 800px, (max-width:740px) 780px, max(76vw, 915px)"
           width="2000"
           height="1183"
         />
@@ -197,7 +198,7 @@
               assets/images/refined/r-portrait18-small.jpg  640w,
               assets/images/refined/r-portrait18.jpg       1600w
             "
-            sizes="(max-width:740px) 100vw, 50vw"
+            sizes="150px"
             width="1600"
             height="2400"
           />
@@ -269,7 +270,7 @@
                 assets/images/refined/r-family02-small.jpg  640w,
                 assets/images/refined/r-family02.jpg       1600w
               "
-              sizes="(max-width:740px) 100vw, 50vw"
+              sizes="(max-width:740px) max(100vw, 500px), 50vw"
               width="1600"
               height="2400"
             /><small>Family</small>
@@ -285,7 +286,7 @@
                 assets/images/refined/r-portrait01-small.jpg  640w,
                 assets/images/refined/r-portrait01.jpg       1600w
               "
-              sizes="(max-width:740px) 100vw, 50vw"
+              sizes="(max-width:740px) max(100vw, 500px), 50vw"
               width="1600"
               height="2142"
             /><small>Portraits</small>
@@ -301,7 +302,7 @@
                 assets/images/refined/r-maternity02-small.jpg  640w,
                 assets/images/refined/r-maternity02.jpg       1600w
               "
-              sizes="(max-width:740px) 100vw, 50vw"
+              sizes="(max-width:740px) max(100vw, 500px), 50vw"
               width="1600"
               height="2397"
             /><small>Maternity</small>
@@ -513,7 +514,8 @@
               decoding="async"
               srcset="
                 assets/images/portraits/portrait-small.jpg  640w,
-                assets/images/portraits/portrait.jpg       1100w
+                assets/images/portraits/portrait.jpg       1100w,
+                assets/images/portraits/portrait-large.jpg 2400w
               "
               sizes="(max-width:740px) 100vw, 50vw"
               width="1100"
@@ -526,7 +528,8 @@
               decoding="async"
               srcset="
                 assets/images/portraits/portrait-small.jpg  640w,
-                assets/images/portraits/portrait.jpg       1100w
+                assets/images/portraits/portrait.jpg       1100w,
+                assets/images/portraits/portrait-large.jpg 2400w
               "
               sizes="(max-width:740px) 100vw, 50vw"
               width="1100"
@@ -559,7 +562,8 @@
             decoding="async"
             srcset="
               assets/images/studio/session-wide-small.jpg  640w,
-              assets/images/studio/session-wide.jpg       1400w
+              assets/images/studio/session-wide.jpg       1400w,
+              assets/images/studio/session-wide-large.jpg 2400w
             "
             sizes="(max-width:740px) 100vw, 50vw"
             width="1400"
@@ -574,7 +578,8 @@
               decoding="async"
               srcset="
                 assets/images/studio/session-light-small.jpg  640w,
-                assets/images/studio/session-light.jpg       1400w
+                assets/images/studio/session-light.jpg       1400w,
+                assets/images/studio/session-light-large.jpg 2400w
               "
               sizes="(max-width:740px) 100vw, 50vw"
               width="1400"
@@ -597,20 +602,23 @@
       </section>
       <section class="wrap print-feature">
         <figure class="physical-print">
-          <img
-            src="assets/images/studio/print-table.jpg"
-            alt="Hands reviewing photographic prints on a desk"
-            class=""
-            loading="lazy"
-            decoding="async"
-            srcset="
-              assets/images/studio/print-table-small.jpg  640w,
-              assets/images/studio/print-table.jpg       1400w
-            "
-            sizes="(max-width:740px) 100vw, 50vw"
-            width="1400"
-            height="2100"
-          />
+          <div class="print-paper">
+            <img
+              src="assets/images/studio/print-table.jpg"
+              alt="Hands reviewing photographic prints on a desk"
+              class=""
+              loading="lazy"
+              decoding="async"
+              srcset="
+                assets/images/studio/print-table-small.jpg  640w,
+                assets/images/studio/print-table.jpg       1400w,
+                assets/images/studio/print-table-large.jpg 1600w
+              "
+              sizes="(max-width:740px) 100vw, 50vw"
+              width="1400"
+              height="2100"
+            />
+          </div>
           <figcaption>Taking time with a photographic print</figcaption>
         </figure>
         <div class="print-copy">
@@ -742,10 +750,10 @@
         </button>
       </div>
     </dialog>
-    <script defer src="assets/js/site-config.js?v=20261124"></script>
+    <script defer src="assets/js/site-config.js?v=20261124sharp"></script>
     <script defer src="assets/js/catalog.js?v=20261124"></script>
     <script defer src="assets/js/main.js?v=20261124"></script>
-    <script defer src="assets/js/gallery.js?v=20261124"></script>
-    <script defer src="assets/js/homepages.js?v=20261124"></script>
+    <script defer src="assets/js/gallery.js?v=20261124sharp"></script>
+    <script defer src="assets/js/homepages.js?v=20261124sharp"></script>
   </body>
 </html>

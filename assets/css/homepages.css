@@ -116,7 +116,6 @@
   grid-template-columns: 1fr 1.24fr 1fr;
   align-items: center;
   gap: 20px;
-  perspective: 1300px;
   touch-action: pan-y;
 }
 .film a {
@@ -129,11 +128,11 @@
   object-position: center 33%;
   background: var(--card);
 }
-.film a:first-child {
-  transform: rotateY(3deg);
+.film a:first-child img {
+  transform: perspective(1300px) rotateY(3deg);
 }
-.film a:last-child {
-  transform: rotateY(-3deg);
+.film a:last-child img {
+  transform: perspective(1300px) rotateY(-3deg);
 }
 .film a:nth-child(2) img {
   height: clamp(245px, 27vw, 450px);
@@ -279,7 +278,6 @@
   }
   .film a {
     display: none !important;
-    transform: none !important;
   }
   .film a:nth-child(2) {
     display: block !important;
@@ -388,5 +386,12 @@
   [dir="rtl"] .hero-photo {
     height: 76%;
     mask-image: linear-gradient(0deg, transparent, #000 25%);
+  }
+}
+
+@media (max-width: 1180px) {
+  .film a:first-child img,
+  .film a:last-child img {
+    transform: none;
   }
 }

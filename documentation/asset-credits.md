@@ -79,3 +79,8 @@ Each `-small.jpg` copy derives from its corresponding original and carries the s
 ## Family Stories supporting photograph
 
 `assets/images/refined/r-family08.jpg` and its responsive derivative are credited to cottonbro studio. The image is used once in the public Family Stories section. [Source photograph](https://www.pexels.com/photo/5789776/) · [Pexels License](https://www.pexels.com/license/)
+
+
+## High-density derivatives
+
+The 28 `-large.jpg` derivatives use the same original source photographs and licenses as their corresponding standard files. Native dimensions were verified before downloading. Quality 88 JPEGs provide 2400px or 3200px versions where the measured display requirements need them, plus a 1600px print-table variant. [Resolution and source manifest](image-resolution-manifest.json)

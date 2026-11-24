@@ -33,7 +33,7 @@ const escapeHTML = (value) =>
   );
 const proofs = [1, 2, 3].map((n) => ({
   id: "AM-00" + n,
-  src: photoURL("proof-" + n),
+  ...photoSources("proof-" + n),
   title: "A morning at home · AM-00" + n,
 }));
 const titles = {
@@ -104,6 +104,12 @@ function overview() {
       "Recent proof gallery",
       '<img class="bannerphoto" src="' +
         proofs[0].src +
+        '" srcset="' +
+        proofs[0].srcset +
+        '" sizes="(max-width:1180px) max(100vw, 450px), calc(100vw - 380px)" width="' +
+        proofs[0].width +
+        '" height="' +
+        proofs[0].height +
         '" alt="Mother and daughter by a window"><h3>A morning at home</h3><p>Family session · 3 proofs</p>' +
         action("proofs", "View proof gallery"),
     )
@@ -168,6 +174,12 @@ function proofSection(onlyFav) {
         p.id +
         '"><img src="' +
         p.src.replace(".jpg", "-small.jpg") +
+        '" srcset="' +
+        p.srcset +
+        '" sizes="(max-width:380px) 100vw, (max-width:740px) 50vw, 30vw" width="' +
+        p.width +
+        '" height="' +
+        p.height +
         '" alt="' +
         p.title +
         '"></button><div class="proof-actions"><strong>' +

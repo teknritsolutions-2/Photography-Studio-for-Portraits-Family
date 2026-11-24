@@ -1,0 +1,13 @@
+{
+  "reviewed_date": "2026-11-24",
+  "page_view_configurations": 200,
+  "density_coverage": "1x and 2x at 320,390,768,820,1024,1180,1280,1440,1920px. 3x at 390 and 768px.",
+  "method": "Compare physical JPEG dimensions of currentSrc against rendered width, object-fit crop/contain scale and device pixel ratio.",
+  "before_under_85_percent": 58,
+  "after_under_85_percent": 0,
+  "after_under_98_percent": 0,
+  "before_transformed_tablet_text": 5,
+  "after_transformed_tablet_text": 0,
+  "high_density_variants": 28,
+  "dynamic_checks": "24 portfolio images, 3 proofs and 3 hero slides at 390px/3x, 768px/2x, 768px/3x, 1440px/2x passed pixel-coverage checks."
+}

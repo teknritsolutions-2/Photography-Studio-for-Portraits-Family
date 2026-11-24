@@ -2,6 +2,22 @@
 
 Reviewed on 24 November 2026.
 
+## Sitewide image and text sharpness audit
+
+The tablet portfolio captions were included in the carousel's perspective transforms. Captions now stay flat and fully opaque while the photographic frames transition. Tablet image perspective is disabled. Desktop perspective applies only to photographs. The print caption also sits outside its rotated paper frame, and hover scaling is restricted to devices with a precise pointer.
+
+Responsive image slot sizes now account for full-width tablet layouts and cover crops. The hero uses responsive source selection when advancing photographs and resizing. Proof thumbnails, the dashboard preview and gallery/proof viewers carry suitable source sets.
+
+Twenty-eight higher-density JPEG derivatives were downloaded from the same licensed originals at quality 88. Each requested width was checked against the native source dimensions and capped accordingly. Browser source selection preserves the existing small and standard versions for appropriately sized displays. Sources and dimensions are recorded in the [resolution manifest](image-resolution-manifest.json).
+
+The physical-pixel audit covered 200 page/view configurations across all ten pages, including 1x/2x mobile, tablet and desktop displays through 1920px and 3x checks at 390px and 768px. It found 58 samples below 85% of their required source width before correction. The final run found zero below 98% coverage. Five transformed tablet text elements became zero. [Machine-readable audit](sharpness-audit.json)
+
+All 24 public lightbox images, three proof images and three hero slides also passed high-density pixel checks. Rendered layout checks passed all ten pages at eight widths in light/dark and LTR/RTL. Existing carousel controls, comparison dragging, filtering, touch/keyboard viewing, authentication, session requests, favorites, print totals and saved dashboard records passed regression checks.
+
+Inspected high-density tablet renders of the portfolio, plus full-page mobile/tablet/desktop captures. The selected portrait's source photograph includes visible grain.
+
+[Tablet portfolio at 2x](screenshots/tablet-selected-moments.png) · [Tablet portfolio in dark RTL at 2x](screenshots/tablet-selected-moments-dark-rtl.png)
+
 ## Brand logo refresh
 
 The shared identity now uses a custom LK monogram and an uppercase serif wordmark. All 26 linked logo placements across the ten pages use `assets/icons/brand-mark.svg`. A matching favicon is supplied in `assets/icons/mark.svg`. The mark inherits the current text color, and its left-to-right orientation is preserved in RTL.

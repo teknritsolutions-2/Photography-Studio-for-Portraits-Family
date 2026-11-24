@@ -5,17 +5,34 @@ if ($(".hero")) {
     ["maternity", "Maternity study"],
   ];
   let index = 0;
-  const advance = (delta) => {
-    index = (index + delta + slides.length) % slides.length;
-    const [file, caption] = slides[index],
-      image = $(".hero-photo");
-    image.removeAttribute("srcset");
-    image.src = photoURL(file + (innerWidth <= 640 ? "-small" : ""));
+  const image = $(".hero-photo");
+  function sizeHeroPhoto() {
+    const details = responsivePhotos[slides[index][0]];
+    const sourceWidth = Math.max(
+      image.clientWidth,
+      (image.clientHeight * details.width) / details.height,
+    );
+    image.sizes = Math.ceil(sourceWidth) + "px";
+  }
+  function showHeroPhoto() {
+    const [file, caption] = slides[index];
+    const source = photoSources(file);
+    image.width = source.width;
+    image.height = source.height;
+    sizeHeroPhoto();
+    image.srcset = source.srcset;
+    image.src = source.src;
     image.alt = caption;
     $("#hero-caption").textContent = caption;
     $(".hero-index").firstChild.textContent = "0" + (index + 1) + " ";
+  }
+  const advance = (delta) => {
+    index = (index + delta + slides.length) % slides.length;
+    showHeroPhoto();
     develop(image);
   };
+  showHeroPhoto();
+  addEventListener("resize", sizeHeroPhoto, { passive: true });
   $$("[data-hero]").forEach(
     (b) => (b.onclick = () => advance(Number(b.dataset.hero))),
   );
@@ -23,7 +40,7 @@ if ($(".hero")) {
   const move = (delta) => {
     if (delta > 0) film.append(film.firstElementChild);
     else film.prepend(film.lastElementChild);
-    develop(film);
+    $$("img", film).forEach(develop);
   };
   swipe(film, move);
   $$("[data-film]").forEach(

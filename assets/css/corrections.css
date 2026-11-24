@@ -5,7 +5,7 @@
   gap: clamp(30px, 5vw, 80px);
   align-items: center;
 }
-.print-feature .physical-print {
+.print-feature .physical-print .print-paper {
   margin: 8px;
   padding: 18px;
   transform: rotate(-1.5deg);
