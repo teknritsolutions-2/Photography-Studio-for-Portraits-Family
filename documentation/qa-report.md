@@ -55,3 +55,14 @@ Tested in Brave through Playwright, including mobile viewport and touch emulatio
 The attachment supplied the written brief. The twelve referenced screenshots were absent from that attachment directory. Refinements were checked against the current rendered site and the written requirements.
 
 Testing used one browser engine and emulated mobile devices. Real-device Safari and Firefox checks remain outstanding. Account authentication, provider sign-in, recovery, studio availability, enquiry delivery and paid order processing require production backend integrations.
+
+
+## Repository consolidation verification
+
+The latest deployed source was moved to the original workspace root. All 194 authoritative files matched their pre-move SHA-256 checksums. No HTML, CSS, JavaScript, image or brand behavior was modified during consolidation. Older image paths were matched by content hash to the current categorized assets. Previously retired assets and older documentation remain recoverable in Git history.
+
+A pre-consolidation checkpoint is retained as `checkpoint-before-consolidation-20261124`. The older repository history is retained locally on `archive/pre-consolidation-legacy`. Both Git histories were also exported to verified recovery bundles, and a complete pre-move workspace archive was created before restructuring.
+
+Before removing redundant directories, tests from the authoritative root passed for all ten pages at eight widths in light/dark and LTR/RTL, gallery transitions and touch navigation, authentication forms, session requests, legacy saved records, favorites, print totals and profile editing. The runs captured 60 full-page screenshots. Current project files have no dependency on the removed directories. The existing GitHub remote, static publishing root, relative page URLs and localStorage keys are preserved.
+
+Only this verification note, the root workflow instruction and the reserved fonts directory marker were added after the move.

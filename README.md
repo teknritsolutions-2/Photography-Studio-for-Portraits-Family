@@ -8,6 +8,8 @@ Run `python3 -m http.server 8000` from this directory and open `http://localhost
 
 ## Source layout
 
+This repository root is the authoritative project directory. Implement all future changes directly here. The GitHub Pages publishing root and page URLs are preserved.
+
 The public pages are in `index.html` and `pages/`. Shared typography, navigation and forms live in `assets/css/style.css`, with focused CSS for homepages, gallery, authentication, dashboard, footer and refined page compositions.
 
 `assets/js/site-config.js` centralizes the studio configuration and six service categories. `catalog.js` supplies the four established packages. New categories use a custom enquiry, with details confirmed separately. Shared behavior lives in `main.js`; gallery, booking, authentication and print-order behavior use focused modules.
