@@ -585,3 +585,78 @@ pre {
     scroll-behavior: auto !important;
   }
 }
+
+/* Shared form menus stay attached to their field at every screen size. */
+.formgrid > *,
+.formgrid label {
+  min-width: 0;
+}
+.select-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 6px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  text-align: start;
+  line-height: 1.5;
+}
+.select-trigger::after {
+  content: "";
+  flex: 0 0 8px;
+  height: 8px;
+  border-inline-end: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.select-menu {
+  position: fixed;
+  z-index: 3000;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 8px 24px #0003;
+  font:
+    16px/1.5 "Helvetica Neue",
+    Arial,
+    sans-serif;
+  text-align: start;
+}
+.select-option {
+  min-height: 44px;
+  padding: 10px 12px;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.select-option[aria-selected="true"] {
+  font-weight: 600;
+}
+.select-option.is-active,
+.select-option:not([aria-disabled="true"]):hover {
+  background: var(--card);
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+.select-option[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: default;
+}
+@media (max-width: 1180px) {
+  input,
+  select,
+  textarea,
+  .select-trigger {
+    font-size: 16px;
+  }
+}

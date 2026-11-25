@@ -116,3 +116,11 @@ Reduced comparison cell horizontal padding from 18px to 10px between 741px and 1
 Verified 390, 741, 768, 820, 960, 1024, 1180 and 1440px in light/dark and LTR/RTL. All tablet price cells fit within the table without horizontal scrolling. Catalogue values and page overflow checks passed. Inspected the rendered 768px table.
 
 [Tablet comparison preview](screenshots/package-comparison-tablet.png)
+
+## Responsive form dropdowns — 25 November 2026
+
+Added a shared progressively enhanced select control across all pages. Menus use 16px text and at least 44px option rows, anchor to their fields, flip above when needed, stay within the viewport and reposition on scrolling/resizing. Native select values, names, form serialization, dependent service/package choices and dashboard persistence remain in use. JavaScript-free pages retain native selects. Mobile/tablet form inputs and placeholders now inherit a minimum 16px font size.
+
+Verified 256 dropdown geometry cases in Chromium at 320, 390, 740, 768, 820, 1024, 1180 and 1440px across Contact, dashboard booking and print orders in light/dark and LTR/RTL. Verified another 128 menu cases with touch selection in WebKit at 320, 390, 768 and 1024px. Checked keyboard navigation, typeahead, Escape/Tab dismissal, scrolling alignment, enquiry review/edit, linked package updates, dashboard booking save and print draft submission. Confirmed existing session data survives print changes. All ten pages passed mobile overflow checks and produced no JavaScript errors during the regression run. Inspected tablet enquiry and mobile dashboard screenshots.
+
+[Tablet enquiry menu](screenshots/form-dropdown-tablet.png) · [Mobile dashboard menu](screenshots/dashboard-dropdown-mobile.png)
