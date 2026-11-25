@@ -83,3 +83,12 @@ Tested in Brave using Playwright, including mobile viewport and touch emulation.
 The attachment directory supplied the written brief, with no six reference screenshots. Refinements followed those instructions and were inspected in new rendered screenshots.
 
 Testing used one browser engine and mobile emulation. Physical-device Safari and Firefox verification remains outstanding. Authentication, OAuth providers, recovery and real studio booking/order delivery require production integrations.
+
+
+## Behind the Frame tablet correction — 25 November 2026
+
+At tablet widths from 741px through 1180px, Watch the Light and its paragraph now appear directly beneath the first photograph. Leave Room to Move and its paragraph appear beneath the second photograph, with aligned headings. Mobile pairs each image with its own copy in a single column. Desktop retains the original right-column text grouping.
+
+Verified placement and overflow at 320, 390, 740, 768, 820, 1024, 1180, 1280 and 1440px in light/dark and LTR/RTL. Inspected the 768px rendered section. Photograph sources, responsive high-density candidates and text content are preserved.
+
+[Tablet light view](screenshots/craft-tablet-light-ltr.png) · [Tablet dark RTL view](screenshots/craft-tablet-dark-rtl.png)
