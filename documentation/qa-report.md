@@ -1,6 +1,6 @@
 # Targeted layout and authentication refinement report
 
-Reviewed on 24 November 2026.
+Reviewed on 25 November 2026.
 
 ## Sitewide image and text sharpness audit
 
@@ -30,7 +30,7 @@ Verified the shared SVG resource, logo home links, light/dark contrast and overf
 
 Home 2's Family Stories section is a two-photograph journal spread. A large editorial headline introduces a full family portrait and a smaller supporting craft-table photograph with the copy and portfolio action. Tablet moves the supporting image and text into a row below the main portrait. Mobile puts the supporting image after the copy. Both photographs retain their complete source framing.
 
-About's Working with Light section combines a landscape editorial portrait and an integrated content panel. On tablet the panel overlaps the lower edge of the photograph, while mobile uses a readable stacked composition. A Few Ways of Seeing now has three unique, consistently aligned photographs. Its supporting paragraph sits beside the heading, and each caption sits directly beneath its photograph.
+About's Working with Light section combines a landscape editorial portrait and an integrated content panel. On tablet the image and content form a compact, aligned two-column panel, while mobile uses a readable stacked composition. A Few Ways of Seeing now has three unique, consistently aligned photographs. Its supporting paragraph sits beside the heading, and each caption sits directly beneath its photograph.
 
 Services has a photographic introduction followed by two coordinated collections. Portraits, Family and Maternity form the core collection, with suitable portrait frames and package actions. Couples, Headshots and Milestones use aligned specialist panels. Image areas, headings, descriptions, metadata and enquiry actions share a consistent rhythm. All six categories and the custom-session handling remain functional. The banner uses a light editorial composition with the heading and session actions on the left and the complete photograph on the right. Tablet and mobile reflow the photograph above the content. Subtle image hover motion respects reduced-motion settings.
 
@@ -76,7 +76,7 @@ Tested in Brave using Playwright, including mobile viewport and touch emulation.
 
 ## Rendered evidence
 
-[Home 2 desktop](screenshots/home2-1440-light-ltr.jpg) · [Home 2 tablet](screenshots/home2-768-light-ltr.jpg) · [Home 2 mobile dark RTL](screenshots/home2-390-dark-rtl.jpg) · [About desktop](screenshots/about-1440-light-ltr.jpg) · [About tablet](screenshots/about-768-light-ltr.jpg) · [About mobile dark RTL](screenshots/about-390-dark-rtl.jpg) · [Services desktop](screenshots/services-1440-light-ltr.jpg) · [Services tablet](screenshots/services-768-light-ltr.jpg) · [Services mobile dark RTL](screenshots/services-390-dark-rtl.jpg) · [Login desktop](screenshots/login-1440-light-ltr.jpg) · [Login tablet](screenshots/login-768-light-ltr.jpg) · [Login mobile dark RTL](screenshots/login-390-dark-rtl.jpg) · [Signup desktop](screenshots/signup-1440-light-ltr.jpg) · [Signup tablet](screenshots/signup-768-light-ltr.jpg) · [Signup mobile dark RTL](screenshots/signup-390-dark-rtl.jpg)
+[Home 2 desktop](screenshots/home2-1440-light-ltr.jpg) · [Home 2 tablet](screenshots/home2-768-light-ltr.jpg) · [Home 2 mobile dark RTL](screenshots/home2-390-dark-rtl.jpg) · [About desktop](screenshots/about-1440-light-ltr.jpg) · [About tablet](screenshots/about-tablet-banner-light.png) · [About mobile dark RTL](screenshots/about-390-dark-rtl.jpg) · [Services desktop](screenshots/services-1440-light-ltr.jpg) · [Services tablet](screenshots/services-768-light-ltr.jpg) · [Services mobile dark RTL](screenshots/services-390-dark-rtl.jpg) · [Login desktop](screenshots/login-1440-light-ltr.jpg) · [Login tablet](screenshots/login-768-light-ltr.jpg) · [Login mobile dark RTL](screenshots/login-390-dark-rtl.jpg) · [Signup desktop](screenshots/signup-1440-light-ltr.jpg) · [Signup tablet](screenshots/signup-768-light-ltr.jpg) · [Signup mobile dark RTL](screenshots/signup-390-dark-rtl.jpg)
 
 ## Verification limits
 
@@ -92,3 +92,12 @@ At tablet widths from 741px through 1180px, Watch the Light and its paragraph no
 Verified placement and overflow at 320, 390, 740, 768, 820, 1024, 1180, 1280 and 1440px in light/dark and LTR/RTL. Inspected the 768px rendered section. Photograph sources, responsive high-density candidates and text content are preserved.
 
 [Tablet light view](screenshots/craft-tablet-light-ltr.png) · [Tablet dark RTL view](screenshots/craft-tablet-dark-rtl.png)
+
+
+## About tablet banner correction — 25 November 2026
+
+Tablet widths from 741px through 1180px use an aligned portrait-and-content panel with equal-height columns. Reduced introductory padding removes the large gap above the photograph. The portrait crop preserves the full face and head, while the heading, both paragraphs and Gallery action fit together in the first view at the tested tablet sizes. Tablet body copy is 16px with 1.6 line height.
+
+Verified 320, 390, 740, 768, 820, 1024, 1180, 1280 and 1440px in light/dark and LTR/RTL. Inspected the rendered 768px banner and tested the Gallery action.
+
+[Tablet banner light](screenshots/about-tablet-banner-light.png) · [Tablet banner dark RTL](screenshots/about-tablet-banner-dark.png)

@@ -147,15 +147,6 @@
   .seeing-intro h2 {
     font-size: clamp(36px, 4.8vw, 52px);
   }
-  .light-study > figure {
-    grid-column: 1/-1;
-    grid-row: 1;
-  }
-  .light-study-copy {
-    grid-column: 3/-1;
-    grid-row: 2;
-    margin-top: -40px;
-  }
   .seeing-grid {
     gap: 18px;
   }
@@ -184,5 +175,52 @@
   }
   .seeing-grid img {
     aspect-ratio: 4/5;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1180px) {
+  body[data-page="about"] .pagehead {
+    padding-block: 32px 20px;
+  }
+  body[data-page="about"] .pagehead p {
+    margin-bottom: 0;
+  }
+  .light-study {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 0;
+    align-items: stretch;
+    padding-block: 0 36px;
+  }
+  .light-study > figure {
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 360px;
+  }
+  .light-study > figure img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 55% center;
+  }
+  .light-study-copy {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+  }
+  .light-study-copy h2 {
+    font-size: clamp(34px, 4.4vw, 46px);
+    margin: 14px 0 18px;
+  }
+  .light-study-copy p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 18px;
+  }
+  .light-study-copy .textlink {
+    align-self: flex-start;
   }
 }
