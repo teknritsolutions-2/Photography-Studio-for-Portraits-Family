@@ -101,3 +101,10 @@ Tablet widths from 741px through 1180px use an aligned portrait-and-content pane
 Verified 320, 390, 740, 768, 820, 1024, 1180, 1280 and 1440px in light/dark and LTR/RTL. Inspected the rendered 768px banner and tested the Gallery action.
 
 [Tablet banner light](screenshots/about-tablet-banner-light.png) · [Tablet banner dark RTL](screenshots/about-tablet-banner-dark.png)
+
+
+## Package price typography — 25 November 2026
+
+Package amounts use the body sans-serif font at regular weight, with lining and tabular numerals for consistent digit heights and widths. Verified the computed font, numeral settings and four catalogue values at 390, 768 and 1440px in light/dark and LTR/RTL.
+
+[Price typography preview](screenshots/package-price-typography.png)
