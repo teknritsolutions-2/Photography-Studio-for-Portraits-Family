@@ -70,8 +70,8 @@ Eight additional photographs were selected for their intended landscape or portr
 | services-banner.jpg | Vitaly Gariev | [Photographer and Model Reviewing Images in Studio](https://www.pexels.com/photo/36697258/) |
 | service-family.jpg | Krishna Kids Photography | [Happy Family Portrait in Minimalist Setting](https://www.pexels.com/photo/37453857/) |
 | service-couple.jpg | Jonathan Borba | [Portrait of Couple in a Studio](https://www.pexels.com/photo/20029579/) |
-| auth-login.jpg | Davide Comunian | [Photographer with Camera in Studio Setting](https://www.pexels.com/photo/35888640/) |
-| auth-signup.jpg | Eyüpcan Timur | [Back View of Photographer Holding a Camera in Studio](https://www.pexels.com/photo/33868458/) |
+| auth-login.jpg | Tima Miroshnichenko | [A Photographer and Model Inside the Studio](https://www.pexels.com/photo/7205895/) |
+| auth-signup.jpg | Guto Macedo | [Photographer Taking Pictures of a Woman in a Studio](https://www.pexels.com/photo/19222066/) |
 
 Each `-small.jpg` copy derives from its corresponding original and carries the same credit and [Pexels License](https://www.pexels.com/license/). Studio and family photographs illustrate the portfolio concept.
 

@@ -244,11 +244,11 @@
     },
     {
       "file": "targeted/auth-login.jpg",
-      "source_id": "35888640",
+      "source_id": "7205895",
       "placements": [
         {
           "page": "login.html",
-          "alt": "Photographic studio and professional camera work"
+          "alt": "Photographer directing a seated model during a portrait photoshoot in a bright studio"
         }
       ]
     },
@@ -674,11 +674,11 @@
     },
     {
       "file": "targeted/auth-signup.jpg",
-      "source_id": "33868458",
+      "source_id": "19222066",
       "placements": [
         {
           "page": "signup.html",
-          "alt": "Photographic studio and professional camera work"
+          "alt": "Photographer filming a model in a studio with softbox lights and a backdrop"
         }
       ]
     }

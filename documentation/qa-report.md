@@ -148,3 +148,11 @@ Removed the 70% width limit from the final portrait in Home 2's natural-light se
 Verified 320, 390, 430, 740, 768, 1024 and 1440px in light/dark and LTR/RTL. The third portrait fills its row through 740px; tablet and desktop retain three equal columns. No horizontal overflow occurred. Inspected the mobile image crop.
 
 [Full-width mobile portrait](screenshots/natural-light-mobile-fullwidth.png)
+
+## Studio photoshoot account images — 25 November 2026
+
+Replaced the Login and Signup photographs with distinct studio sessions. Login shows a photographer directing a seated model in a bright studio. Signup shows a model and camera operator under softbox lighting. Updated all 640px, 1600px and 2400px assets, alt text, dimensions, source credits and placement/resolution manifests. Versioned image URLs refresh cached copies.
+
+Verified 48 account-page layout combinations at 320, 390, 768, 1024, 1280 and 1440px at 2x density in light/dark and LTR/RTL. Both images decode successfully, select sharp responsive sources and preserve their aspect ratio. No horizontal overflow or JavaScript errors occurred. Inspected both desktop compositions and mobile backgrounds.
+
+[Login desktop](screenshots/login-studio-desktop.png) · [Signup desktop](screenshots/signup-studio-desktop.png) · [Login mobile](screenshots/login-studio-mobile.png) · [Signup mobile](screenshots/signup-studio-mobile.png)

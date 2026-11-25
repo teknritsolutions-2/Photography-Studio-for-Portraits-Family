@@ -119,29 +119,29 @@
     {
       "file": "assets/images/targeted/auth-login.jpg",
       "responsive_file": "assets/images/targeted/auth-login-small.jpg",
-      "source_id": 35888640,
-      "photographer": "Davide Comunian",
-      "title": "Photographer with Camera in Studio Setting",
-      "source_url": "https://www.pexels.com/photo/35888640/",
+      "source_id": 7205895,
+      "photographer": "Tima Miroshnichenko",
+      "title": "A Photographer and Model Inside the Studio",
+      "source_url": "https://www.pexels.com/photo/7205895/",
       "license_url": "https://www.pexels.com/license/",
       "original_dimensions": {
-        "width": 3145,
-        "height": 4716
+        "width": 3918,
+        "height": 5877
       },
       "dimensions": {
         "width": 1600,
-        "height": 2399
+        "height": 2400
       },
-      "composition_notes": "Portrait composition. Photographer holding camera, colored studio background.",
-      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+      "composition_notes": "Portrait composition with photographer, model on a stool and studio windows visible. Centered crop retains both people.",
+      "reviewed": "Source page and downloaded preview inspected; distinct source originals checked against existing credits. Responsive authentication layouts inspected."
     },
     {
       "file": "assets/images/targeted/auth-signup.jpg",
       "responsive_file": "assets/images/targeted/auth-signup-small.jpg",
-      "source_id": 33868458,
-      "photographer": "Eyüpcan Timur",
-      "title": "Back View of Photographer Holding a Camera in Studio",
-      "source_url": "https://www.pexels.com/photo/33868458/",
+      "source_id": 19222066,
+      "photographer": "Guto Macedo",
+      "title": "Photographer Taking Pictures of a Woman in a Studio",
+      "source_url": "https://www.pexels.com/photo/19222066/",
       "license_url": "https://www.pexels.com/license/",
       "original_dimensions": {
         "width": 4160,
@@ -151,8 +151,8 @@
         "width": 1600,
         "height": 2400
       },
-      "composition_notes": "Portrait composition. Photographer seen from behind holding a camera near window light.",
-      "reviewed": "Rendered contact sheet inspected; source IDs checked against prior manifests and credits."
+      "composition_notes": "Portrait composition with model, camera operator and softbox lighting visible. Centered crop retains the subjects and studio equipment.",
+      "reviewed": "Source page and downloaded preview inspected; distinct source originals checked against existing credits. Responsive authentication layouts inspected."
     }
   ]
 }
