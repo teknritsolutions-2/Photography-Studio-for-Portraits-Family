@@ -108,3 +108,11 @@ Verified 320, 390, 740, 768, 820, 1024, 1180, 1280 and 1440px in light/dark and 
 Package amounts use the body sans-serif font at regular weight, with lining and tabular numerals for consistent digit heights and widths. Verified the computed font, numeral settings and four catalogue values at 390, 768 and 1440px in light/dark and LTR/RTL.
 
 [Price typography preview](screenshots/package-price-typography.png)
+
+## Package comparison tablet spacing — 25 November 2026
+
+Reduced comparison cell horizontal padding from 18px to 10px between 741px and 1180px and allowed the table to fit its available width. Price cells retain unbroken amounts with lining and tabular numerals.
+
+Verified 390, 741, 768, 820, 960, 1024, 1180 and 1440px in light/dark and LTR/RTL. All tablet price cells fit within the table without horizontal scrolling. Catalogue values and page overflow checks passed. Inspected the rendered 768px table.
+
+[Tablet comparison preview](screenshots/package-comparison-tablet.png)

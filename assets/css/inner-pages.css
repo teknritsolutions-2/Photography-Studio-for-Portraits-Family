@@ -171,3 +171,18 @@ body[data-page="contact"] .formwrap {
 body[data-page="about"] .story > img {
   object-position: center 65%;
 }
+
+@media (min-width: 741px) and (max-width: 1180px) {
+  .comparison-scroll table {
+    min-width: 0;
+  }
+  .comparison-scroll th,
+  .comparison-scroll td {
+    padding-inline: 10px;
+  }
+  .comparison-scroll th:last-child,
+  .comparison-scroll td:last-child {
+    white-space: nowrap;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+}
