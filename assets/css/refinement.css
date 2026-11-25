@@ -249,7 +249,6 @@ body[data-page="gallery"] main > .wrap:last-child {
   }
   .natural-sequence figure:last-child {
     grid-column: 1/-1;
-    max-width: 70%;
   }
   .session-discovery article {
     grid-template-columns: 1fr;

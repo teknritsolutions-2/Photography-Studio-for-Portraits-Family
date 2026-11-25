@@ -140,3 +140,11 @@ Replaced development labels in the client portal, profile, booking review, proof
 Verified 192 copy/layout combinations across ten pages and all seven dashboard routes at 390, 768 and 1440px in light/dark and LTR/RTL. Checked populated and empty views, booking review/save, profile save, password clearing, provider feedback and password-reset feedback. No development labels, horizontal overflow or JavaScript errors appeared in the audited views. Seeded sessions, favorites, print drafts and profile records survived the content update. Account authentication and request delivery still require the integrations documented in README.
 
 [Updated profile content](screenshots/client-profile-copy.png)
+
+## Natural-light mobile portrait width — 25 November 2026
+
+Removed the 70% width limit from the final portrait in Home 2's natural-light section. The third image and caption span the full available mobile row, preserving the existing portrait aspect ratio and first two image columns.
+
+Verified 320, 390, 430, 740, 768, 1024 and 1440px in light/dark and LTR/RTL. The third portrait fills its row through 740px; tablet and desktop retain three equal columns. No horizontal overflow occurred. Inspected the mobile image crop.
+
+[Full-width mobile portrait](screenshots/natural-light-mobile-fullwidth.png)
