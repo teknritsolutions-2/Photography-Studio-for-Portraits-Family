@@ -124,3 +124,11 @@ Added a shared progressively enhanced select control across all pages. Menus use
 Verified 256 dropdown geometry cases in Chromium at 320, 390, 740, 768, 820, 1024, 1180 and 1440px across Contact, dashboard booking and print orders in light/dark and LTR/RTL. Verified another 128 menu cases with touch selection in WebKit at 320, 390, 768 and 1024px. Checked keyboard navigation, typeahead, Escape/Tab dismissal, scrolling alignment, enquiry review/edit, linked package updates, dashboard booking save and print draft submission. Confirmed existing session data survives print changes. All ten pages passed mobile overflow checks and produced no JavaScript errors during the regression run. Inspected tablet enquiry and mobile dashboard screenshots.
 
 [Tablet enquiry menu](screenshots/form-dropdown-tablet.png) · [Mobile dashboard menu](screenshots/dashboard-dropdown-mobile.png)
+
+## Aperture brand logo — 25 November 2026
+
+Replaced the LK monogram with a custom six-blade aperture symbol paired with the existing Lumen & Kin wordmark. Updated all 26 logo references and the matching favicon across all ten pages, including navigation drawers, footers, authentication cards and dashboard navigation. Versioned SVG references refresh cached assets. The symbol inherits the surrounding text color and retains its orientation in RTL.
+
+Verified 204 visible logo instances at 320, 768 and 1440px in both themes and directions. SVG bounds render correctly, all ten pages retain their home links and no horizontal overflow or JavaScript errors occurred. Inspected desktop header and mobile navigation previews.
+
+[Desktop logo](screenshots/brand-aperture-desktop.png) · [Mobile navigation logo](screenshots/brand-aperture-mobile.png)
