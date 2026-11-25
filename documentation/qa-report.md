@@ -132,3 +132,11 @@ Replaced the LK monogram with a custom six-blade aperture symbol paired with the
 Verified 204 visible logo instances at 320, 768 and 1440px in both themes and directions. SVG bounds render correctly, all ten pages retain their home links and no horizontal overflow or JavaScript errors occurred. Inspected desktop header and mobile navigation previews.
 
 [Desktop logo](screenshots/brand-aperture-desktop.png) · [Mobile navigation logo](screenshots/brand-aperture-mobile.png)
+
+## Client-facing content cleanup — 25 November 2026
+
+Replaced development labels in the client portal, profile, booking review, proof gallery and JavaScript-disabled message with client-facing wording. Updated Contact introduction and print-selection guidance. Account feedback now uses plain service-availability messages and directs clients to the studio for assistance. Saved enquiries remain identified as drafts, with availability confirmed by the studio. Existing data keys, records and authentication behavior are preserved.
+
+Verified 192 copy/layout combinations across ten pages and all seven dashboard routes at 390, 768 and 1440px in light/dark and LTR/RTL. Checked populated and empty views, booking review/save, profile save, password clearing, provider feedback and password-reset feedback. No development labels, horizontal overflow or JavaScript errors appeared in the audited views. Seeded sessions, favorites, print drafts and profile records survived the content update. Account authentication and request delivery still require the integrations documented in README.
+
+[Updated profile content](screenshots/client-profile-copy.png)

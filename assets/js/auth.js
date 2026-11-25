@@ -43,18 +43,19 @@ authForm.onsubmit = (event) => {
   authForm.elements.password.value = "";
   if (signup) authForm.elements.confirm.value = "";
   authStatus.textContent =
-    (signup ? "Account creation" : "Sign in") +
-    " requires a connected account service. Your password has been cleared.";
+    (signup ? "Online registration" : "Online sign-in") +
+    " is currently unavailable. Please contact the studio for account assistance.";
 };
 $$("[data-provider]").forEach(
   (button) =>
     (button.onclick = () => {
       authStatus.textContent =
-        button.dataset.provider + " sign-in is not connected.";
+        button.dataset.provider +
+        " sign-in is currently unavailable. Please contact the studio for account assistance.";
     }),
 );
 if ($("[data-reset]"))
   $("[data-reset]").onclick = () => {
     authStatus.textContent =
-      "Password reset requires a connected account service.";
+      "Online password reset is currently unavailable. Please contact the studio for help accessing your account.";
   };

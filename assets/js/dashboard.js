@@ -67,11 +67,11 @@ function sessionRow(s, edit = true) {
     escapeHTML(s.date) +
     " · " +
     escapeHTML(s.time) +
-    " · Requested locally</div>" +
+    " · Draft enquiry</div>" +
     (edit
       ? '<button class="textlink" data-session="' +
         escapeHTML(s.id) +
-        '">Edit request</button>'
+        '">Edit enquiry</button>'
       : "") +
     "</div>"
   );
@@ -85,19 +85,19 @@ function overview() {
     escapeHTML(state.profile.name) +
     '.</p><div class="stats"><a href="#sessions"><strong>' +
     upcoming.length +
-    '</strong>Upcoming requests</a><a href="#favorites"><strong>' +
+    '</strong>Session enquiries</a><a href="#favorites"><strong>' +
     state.favorites.length +
     '</strong>Favorites</a><a href="#prints"><strong>' +
     state.orders.length +
     "</strong>Prepared print requests</a></div>" +
     panel(
-      "Upcoming sessions",
+      "Session enquiries",
       upcoming.length
         ? upcoming
             .slice(0, 3)
             .map((s) => sessionRow(s))
             .join("")
-        : "<p>Your upcoming session requests will appear here.</p>" +
+        : "<p>Your saved session enquiries will appear here.</p>" +
             action("book", "Book a session"),
     ) +
     panel(
@@ -117,9 +117,9 @@ function overview() {
 }
 function booking() {
   return (
-    '<p>Choose an illustrative slot and review your request. Studio availability requires separate confirmation.</p><form id="booking"><div class="formgrid"><label>Photography category<select name="service"><option>Portraits</option><option>Family</option><option>Maternity</option></select></label><label>Package<select name="package"></select></label><label>Session date<input name="date" type="date" required min="' +
+    '<p>Choose your preferred date and time to prepare a session enquiry. Contact the studio to confirm availability.</p><form id="booking"><div class="formgrid"><label>Photography category<select name="service"><option>Portraits</option><option>Family</option><option>Maternity</option></select></label><label>Package<select name="package"></select></label><label>Session date<input name="date" type="date" required min="' +
     localDay() +
-    '"></label><label>Session time<select name="time"><option>09:00</option><option>11:00</option><option>14:00</option><option>16:00</option></select></label></div><button class="button">Review request</button></form><dialog id="booking-review"><h2>Review session request</h2><p></p><div class="actions"><button class="button" id="save-session">Save local request</button><button class="button outline" data-close>Edit details</button></div></dialog>'
+    '"></label><label>Session time<select name="time"><option>09:00</option><option>11:00</option><option>14:00</option><option>16:00</option></select></label></div><button class="button">Review enquiry</button></form><dialog id="booking-review"><h2>Review session enquiry</h2><p></p><div class="actions"><button class="button" id="save-session">Save enquiry</button><button class="button outline" data-close>Edit details</button></div></dialog>'
   );
 }
 function bindBooking() {
@@ -140,7 +140,7 @@ function bindBooking() {
       f.package.selectedOptions[0].text,
       f.date.value,
       f.time.value,
-      "Illustrative slot",
+      "Preferred time",
     ].join(" · ");
     $("#booking-review").showModal();
   };
@@ -196,7 +196,7 @@ function proofSection(onlyFav) {
   return (
     (onlyFav
       ? "<p>Your selected proof photographs.</p>"
-      : "<h2>A morning at home</h2><p>Family session · 3 proofs. This example collection is publicly accessible demo photography.</p>") +
+      : "<h2>A morning at home</h2><p>Family session · 3 photographs. Choose your favorites and explore print options.</p>") +
     (body
       ? '<div class="proof-grid">' +
         body +
@@ -209,9 +209,9 @@ function proofSection(onlyFav) {
 }
 function profile() {
   return (
-    '<p>Use sample details for this browser-local profile.</p><form id="profile"><label>Display name<input name="name" required maxlength="80" value="' +
+    '<p>Manage your display name and contact details.</p><form id="profile"><label>Display name<input name="name" required maxlength="80" value="' +
     escapeHTML(state.profile.name) +
-    '"></label><label>Demo email (optional)<input name="email" type="email" value="' +
+    '"></label><label>Email (optional)<input name="email" type="email" value="' +
     escapeHTML(state.profile.email) +
     '"></label><button class="button">Save profile</button><p role="status"></p></form>'
   );
@@ -226,7 +226,7 @@ function render() {
     sessions: () =>
       state.sessions.length
         ? state.sessions.map((s) => sessionRow(s)).join("")
-        : "<p>You have no session requests yet.</p>" +
+        : "<p>You have no saved session enquiries yet.</p>" +
           action("book", "Book a session"),
     proofs: () => proofSection(false),
     favorites: () => proofSection(true),
@@ -234,7 +234,7 @@ function render() {
     profile,
   };
   dash.innerHTML =
-    '<div class="eyebrow"><b></b>LOCAL CLIENT DEMO</div><h1>' +
+    '<div class="eyebrow"><b></b>CLIENT PORTAL</div><h1>' +
     titles[r] +
     "</h1>" +
     sections[r]();
@@ -254,7 +254,7 @@ function render() {
     $("#profile").onsubmit = (e) => {
       e.preventDefault();
       change((s) => (s.profile = Object.fromEntries(new FormData(e.target))));
-      $("[role=status]", dash).textContent = "Profile saved on this browser.";
+      $("[role=status]", dash).textContent = "Profile updated.";
     };
   $$("[data-fav]").forEach(
     (b) =>

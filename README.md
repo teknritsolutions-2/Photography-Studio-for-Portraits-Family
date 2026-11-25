@@ -1,6 +1,6 @@
 # Lumen & Kin
 
-A portrait, family and maternity photography portfolio with a browser-local client dashboard. Built with HTML5, CSS3 and vanilla JavaScript.
+A portrait, family and maternity photography portfolio with a client dashboard. Built with HTML5, CSS3 and vanilla JavaScript.
 
 ## Run and publish
 
@@ -20,7 +20,7 @@ The public pages are in `index.html` and `pages/`. Shared typography, navigation
 
 Login and Signup use matching compact forms. Passwords are validated, cleared after a valid submission and never saved. Account creation, sign in, password recovery and provider controls report that their backend service is unavailable. Remember Me retains only the entered email on this browser.
 
-**Dashboard** is a separate public navigation destination for the frontend demonstration. Session requests, favorites, print drafts, prepared requests and profile details persist locally. The existing storage key and proof identifiers are preserved.
+**Dashboard** is a separate public navigation destination with enquiries, photographs, favorites and print-request tools. Session requests, favorites, print drafts, prepared requests and profile details persist locally. The existing storage key and proof identifiers are preserved.
 
 ## Production integrations
 
